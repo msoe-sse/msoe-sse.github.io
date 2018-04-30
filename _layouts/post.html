@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+
+{% include post.html post=page %}
+
+<span style="margin:0;padding:0"><span style="font-weight:bold;">Post by</span>: {{ post.author }}</span>
+
+{% if site.author.disqus %}
+    {% include externals/disqus.html %}
+{% endif %}
+
+{% include post/related.html %}
