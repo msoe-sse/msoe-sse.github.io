@@ -1,5 +1,5 @@
 # Base Blog Settings
-baseurl: "/msoe-sse-jekyll/" # Subpath of the site, "" for Github Pages
+baseurl: "" # Subpath of the site, "" for Github Pages
 url: "https://msoe-sse.github.io" # Base site hostname and protocol
 
 blog:
