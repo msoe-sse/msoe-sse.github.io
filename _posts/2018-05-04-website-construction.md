@@ -19,7 +19,5 @@ Originally, the offical SSE website was going to be created using [Angular](http
 
 > To make a better website. How, you ask?
 
-We want a website that helps explain what our org does, and gets our members involved! This isn't a difficult thing to acheive, and we hope our website construction doesn't last long.
+We want a website that helps explain what our organization does and gets our members involved! This is not a difficult thing to acheive, and we hope our website construction does not last long.
 So we thank you for your patience as we push forward! To infinity... and beyond!
-
-Photo Credit: [Finn Hackshaw](https://unsplash.com/@finnhackshaw)
