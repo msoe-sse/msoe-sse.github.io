@@ -9,16 +9,16 @@ hero: https://source.unsplash.com/collection/145103/
 overlay: orange
 published: true
 ---
-I'm glad you're here! We have some amazing stuff going on!
+I'm glad you're here! We have some amazing stuff going on!git log
 {: .lead}
 <!–-break-–>
 Originally, the offical SSE website was going to be created using [Angular](https://angular.io/). As time went on, it was clear that the open source blogging platform [Jekyll](https://jekyllrb.com/) might be a better choice for SSE.
 
-# What is Jekyll?
+# What is SSE?
 
-> Jekyll is a simple, blog-aware, static site generator.
+> SSE, or Society of Software Engineers, is the destination organization for software engineers.
 
-In other terms, Jekyll is a blogging platform that can be levereged to accomplish many different site goals - and it is open source! This means that SSE can use the platform to build and engaging, informative, and custom website that can be easily programmed by the students of SSE.
+We help companies in search of MSOE SE's to take advantage of MSOE's students, and we help students to connect with future employers. SSE sponsers and organizes numerous events throughout the year, and even helps find prospective students for MSOE. Finally, the Society of Software Engineers helps students in the SE, CS and CE majors to connect and collaborate with one another.
 
 # What is in it for me?
 
