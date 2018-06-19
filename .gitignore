@@ -1,5 +1,6 @@
 # Generated Site
 /_site
+/sass_cache/
 
 # Local Packages
 /.bundle/ruby/
