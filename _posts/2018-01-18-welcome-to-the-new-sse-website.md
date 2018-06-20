@@ -9,7 +9,7 @@ hero: https://source.unsplash.com/collection/145103/
 overlay: orange
 published: true
 ---
-I'm glad you're here! We have some amazing stuff going on!git log
+I'm glad you're here! We have some amazing stuff going on!
 {: .lead}
 <!–-break-–>
 Originally, the offical SSE website was going to be created using [Angular](https://angular.io/). As time went on, it was clear that the open source blogging platform [Jekyll](https://jekyllrb.com/) might be a better choice for SSE.
