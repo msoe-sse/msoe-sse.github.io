@@ -114,3 +114,6 @@ compress_html:
   profile                 : false
   ignore:
   envs                    : [local]
+include:
+  - "msoe-sse-img1.jpg"
+  - "msoe-see-img2.jpg"
