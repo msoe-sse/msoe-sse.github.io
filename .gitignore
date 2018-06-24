@@ -5,8 +5,11 @@
 /.bundle/ruby/
 
 # Temporary Files
-.sass_cache*
+
 .jekyll-metadata
 
 # System Files
 .DS_Store
+
+# cached scss
+/.sass_cache/
