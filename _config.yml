@@ -1,7 +1,6 @@
 # Base Blog Settings
 baseurl: "" # Subpath of the site, "" for Github Pages
 url: "https://msoe-sse.github.io" # Base site hostname and protocol
-
 blog:
   title: SSE
   description: >
@@ -62,6 +61,8 @@ collections:
   my_tags:
     output: true
     permalink: /tag/:slug/
+  repositories:
+    output: true
 defaults:
   -
     scope:
