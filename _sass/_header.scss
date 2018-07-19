@@ -1,5 +1,54 @@
-// Header
-//-------------------------------
+
+.navigation {
+    min-height: 70px !important;
+    padding-top: 10px;
+}
+.navigation .navbar-brand {
+    padding-right: 28px;
+    width: 280px;
+    border-right: 3px solid rgba(255, 255, 255, 0.1);
+    font-family: "hobo-std", sans-serif;
+    font-style: italic;
+    font-size: 26px !important;
+    color: #5fcf80 !important;
+}
+.navigation .navbar-brand .site-logo {
+    float: left;
+    margin-top: -10px;
+    margin-right: 1rem;
+    width: 250px;
+}
+.navigation #navbar {
+    float: right !important;
+    margin-right: -15px;
+    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
+}
+@media (max-width: 768px) {
+    #navigation #navbar {
+        float: none !important;
+        margin-right: 0;
+    }
+}
+.navigation #navbar .navbar-nav li a {
+    color: #b2bbbd !important;
+}
+.navigation #navbar .navbar-nav li a:hover,
+.navigation #navbar .navbar-nav li a:focus {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+.navigation #navbar .navbar-nav .active a {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+.navigation #navbar .navbar-nav .dropdown-menu li a {
+    color: #515151 !important;
+    text-shadow: none !important;
+}
 
 header {
     overflow: hidden;
@@ -43,6 +92,71 @@ header {
           }
         }
 	  }
+}
+.site-navigation {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.site-navigation ul {
+background: white;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.site-navigation li {
+  color: black;
+background:white;
+  display: block;
+  float: left;
+  margin: 0 2px 0 0;
+  position: relative;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.site-navigation li a {
+color: black;
+text-decoration: none;
+display: block;
+}
+
+.site-navigation li:hover {
+  transition: background 0.2s ease-in-out;
+  background:white;
+  cursor: pointer;
+  
+}
+
+.site-navigation ul li ul {
+  font-size: 12px;
+  background:white;
+  visibility: hidden;
+  float: left;
+min-width: 150px;
+  position: absolute;
+transition: visibility 0.65s ease-in;
+margin-top:12px;
+  left: 0;
+  z-index: 999;
+}
+
+.site-navigation ul li:hover > ul,
+.site-navigation ul li ul:hover {
+ visibility: visible;
+}
+
+.site-navigation ul li ul li {
+  clear: both;
+  padding: 5px 0 5px 18px;
+width: 100%;
+}
+
+.site-navigation ul li ul li:hover {
+  background: white;
 }
 
 // Social icons
