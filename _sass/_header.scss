@@ -101,7 +101,7 @@ header {
 }
 
 .site-navigation ul {
-background: white;
+  color: var(--link-color);
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -109,7 +109,7 @@ background: white;
 
 .site-navigation li {
   color: black;
-background:white;
+  color: var(--link-color);
   display: block;
   float: left;
   margin: 0 2px 0 0;
@@ -119,7 +119,7 @@ background:white;
 }
 
 .site-navigation li a {
-color: black;
+color: var(--text-color-dark);
 text-decoration: none;
 display: block;
 }
