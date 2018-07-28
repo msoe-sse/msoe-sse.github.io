@@ -1,7 +1,6 @@
 # Base Blog Settings
 baseurl: "" # Subpath of the site, "" for Github Pages
 url: "https://msoe-sse.github.io" # Base site hostname and protocol
-
 blog:
   title: SSE
   description: >
@@ -33,8 +32,8 @@ author:
   stackoverflow             : #stackoverflow-user-name # Add Stack Overflow username to add header logo
   disqus                    : #disqus-site-name # Add Disqus site name to add comments
   google_analytics          : #'UA-XXXXXXXX-X' # Add Google Analytics token to add GA support
-  photo                     : "uploads/me2.png"
-  photo2x                   : "uploads/me.png"
+  photo                     : "uploads/SSE_LOGO.png"
+  photo2x                   : "uploads/SSE_LOGO.png"
 
 
 
@@ -66,6 +65,8 @@ collections:
     output: true
   events:
     output: true
+    permalink: /events/:path
+    title: events
   constitution:
     output: true
 defaults:

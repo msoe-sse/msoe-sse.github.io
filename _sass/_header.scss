@@ -51,7 +51,7 @@
 }
 
 header {
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 5rem;
 }
 
@@ -66,7 +66,8 @@ header {
         -webkit-filter: var(--invert-logo-color);
     }
 }
-
+// Currently not being used
+// in favor of a drop-down site navigation
 .menu {
     float: left;
 
@@ -98,6 +99,7 @@ header {
   font-size: 18px;
   font-weight: bold;
   margin: 40px;
+  overflow: visible;
 }
 
 .site-navigation ul {
@@ -126,14 +128,14 @@ display: block;
 
 .site-navigation li:hover {
   transition: background 0.2s ease-in-out;
-  background:white;
+  background:var(--text-color-dark);
   cursor: pointer;
   
 }
 
 .site-navigation ul li ul {
-  font-size: 12px;
-  background:white;
+  font-size: 16px;
+  background:var(--text-color-dark);
   visibility: hidden;
   float: left;
 min-width: 150px;
@@ -147,6 +149,7 @@ margin-top:12px;
 .site-navigation ul li:hover > ul,
 .site-navigation ul li ul:hover {
  visibility: visible;
+ color: var(--text-color-dark);
 }
 
 .site-navigation ul li ul li {
@@ -156,7 +159,7 @@ width: 100%;
 }
 
 .site-navigation ul li ul li:hover {
-  background: white;
+  background: var(--text-color-dark);
 }
 
 // Social icons

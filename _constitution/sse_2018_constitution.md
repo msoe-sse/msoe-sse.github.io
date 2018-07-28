@@ -2,7 +2,7 @@
 layout: page
 author: SSE Executive Board
 title: SSE Constitution
-permalink: /constitution/
+permalink: about/constitution
 ---
 # Society of Software Engineers Constitution
 _Ratified: July 26, 2016_

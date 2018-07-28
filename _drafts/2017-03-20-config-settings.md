@@ -48,8 +48,8 @@ author:
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/me2.png"
-  photo2x                   : "uploads/me.png"
+  photo                     : "uploads/SSE_LOGO.png"
+  photo2x                   : "uploads/SSE_LOGO.png"
 
 baseurl                      : "/dactl/" # the subpath of your site, e.g. /blog/, set to '' in case of hosting on GitHub pages
                                   # i.e. `http://<username>.github.io`
