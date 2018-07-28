@@ -14,9 +14,9 @@ The SSE Eboard is committed to bringing you the best SSE experience possible. Fr
 * Sabrina Stangler - President (Junior)
 * Noe Gonzalez - Vice President (Junior)
 * Sydney Park - Communications Coordinator (Junior)
-* Nicholas Scharrer - Administrative Coordinator (?)
+* Nicholas Scharrer - Administrative Coordinator
 * Naomi Yonekura - Events Coordinator (Senior)
 * Connor Hibbs - Programming Competition Team Capt.(Senior)
 * Grace Fleming - Webmaster (Sophomore)
 * Seth Fenske - Game Design Club (Sophomore)
-* Lyzzi - Alumni 
+* Lyzzi Brooks - MSOE Alumni
