@@ -6,7 +6,7 @@ tags:
   - announcement
   - info
 hero: https://source.unsplash.com/collection/145103/
-overlay: orange
+overlay: green
 published: true
 ---
 I'm glad you're here! We have some amazing stuff going on!
