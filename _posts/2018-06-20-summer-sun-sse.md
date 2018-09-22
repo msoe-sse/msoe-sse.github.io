@@ -6,7 +6,7 @@ tags:
   - announcement
   - info
 hero: https://source.unsplash.com/collection/145103/
-overlay: purple
+overlay: blue
 published: true
 ---
 Just because it’s summer doesn’t mean we’ve stopped working!
