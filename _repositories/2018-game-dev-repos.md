@@ -16,4 +16,4 @@ permalink: /repositories/home
 
 ## [This web site's home](https://github.com/msoe-sse/msoe-sse.github.io)
 
->This is the source code for the website that you are currently on. To contribute, create a new fork, do your development & submit a pull request with an intelligent message. Your request will be evaluated by our webmaster and (if necessary) the rest of the SSE eBoard. If you're eager to contribute but not sure what to work on, check out our [Trello](https://trello.com/invite/b/FPyttYCD/72aac99f95ee9ba203675eeddfa9acbd/website-re-design) board (you will need a trello account for this!).
+>This is the source code for the website that you are currently on. To contribute, create a new fork, do your development & submit a pull request with an intelligent message. Your request will be evaluated by our webmaster and (if necessary) the rest of the SSE eBoard. If you're eager to contribute but not sure what to work on, check out our [Trello](https://trello.com/invite/b/FPyttYCD/5e1f48aaf0da9e29edd412c5c48129ba/website-re-design) board (you will need a trello account for this!).
