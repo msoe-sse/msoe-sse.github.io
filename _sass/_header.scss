@@ -1,99 +1,20 @@
-
-.navigation {
-    min-height: 70px !important;
-    padding-top: 10px;
-}
-.navigation .navbar-brand {
-    padding-right: 28px;
-    width: 280px;
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-    font-family: "hobo-std", sans-serif;
-    font-style: italic;
-    font-size: 26px !important;
-    color: #5fcf80 !important;
-}
-.navigation .navbar-brand .site-logo {
-    float: left;
-    margin-top: -10px;
-    margin-right: 1rem;
-    width: 250px;
-}
-.navigation #navbar {
-    float: right !important;
-    margin-right: -15px;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
-}
-@media (max-width: 768px) {
-    #navigation #navbar {
-        float: none !important;
-        margin-right: 0;
-    }
-}
-.navigation #navbar .navbar-nav li a {
-    color: #b2bbbd !important;
-}
-.navigation #navbar .navbar-nav li a:hover,
-.navigation #navbar .navbar-nav li a:focus {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-.navigation #navbar .navbar-nav .active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-.navigation #navbar .navbar-nav .dropdown-menu li a {
-    color: #515151 !important;
-    text-shadow: none !important;
-}
-
 header {
-    overflow: visible;
-    margin-bottom: 5rem;
+  overflow: auto;
+  margin-bottom: 5rem;
 }
 
 .logo {
-    font-size: 3.5rem;
-    font-weight: $base-font-weight-bold;
-    color: var(--link-color);
+  font-size: 3.5rem;
+  font-weight: $base-font-weight-bold;
+  color: var(--link-color);
 
-    .logosvg {
-        margin-bottom: -1.0rem;
-    	  height: 4.7rem; /* 2.7rem;*/
-        -webkit-filter: var(--invert-logo-color);
-    }
-}
-// Currently not being used
-// in favor of a drop-down site navigation
-.menu {
-    float: left;
+  .logosvg {
+    margin-bottom: -1.0rem;
+    height: 4.7rem; /* 2.7rem;*/
 
-	  ul {
-	    list-style-type: none;
-	    margin-bottom: 0rem;
-	    padding: 0rem;
-	  }
-	  li {
-	    display: inline-block;
-	    margin-right: 1rem;
-	      &:last-child {
-	        margin-right: 0px;
-	      }
-        a {
-          color: var(--text-color-light);
-    	    font-size: $base-font-size;
-    	    font-weight: $base-font-weight;
-    	    display: block;
-          height: 2rem; // reset
-          .smaller {
-            font-size: 0.85em;
-          }
-        }
-	  }
+  }
 }
+
 .site-navigation {
   display: block;
   font-size: 18px;
@@ -121,41 +42,41 @@ header {
 }
 
 .site-navigation li a {
-color: var(--text-color-dark);
-text-decoration: none;
-display: block;
+  color: var(--text-color-dark);
+  text-decoration: none;
+  display: block;
 }
 
 .site-navigation li:hover {
   transition: background 0.2s ease-in-out;
-  background:var(--text-color-dark);
+  background: var(--text-color-dark);
   cursor: pointer;
-  
+
 }
 
 .site-navigation ul li ul {
   font-size: 16px;
-  background:var(--text-color-dark);
+  background: var(--text-color-dark);
   visibility: hidden;
   float: left;
-min-width: 150px;
+  min-width: 150px;
   position: absolute;
-transition: visibility 0.65s ease-in;
-margin-top:12px;
+  transition: visibility 0.65s ease-in;
+  margin-top: 12px;
   left: 0;
   z-index: 999;
 }
 
 .site-navigation ul li:hover > ul,
 .site-navigation ul li ul:hover {
- visibility: visible;
- color: var(--text-color-dark);
+  visibility: visible;
+  color: var(--text-color-dark);
 }
 
 .site-navigation ul li ul li {
   clear: both;
   padding: 5px 0 5px 18px;
-width: 100%;
+  width: 100%;
 }
 
 .site-navigation ul li ul li:hover {
@@ -164,48 +85,43 @@ width: 100%;
 
 // Social icons
 .social {
-    float: right;
-    margin-top: 1.75rem;
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    li {
-      display: inline-block;
-    }
-    li a {
-      display: block;
-      color: var(--text-color-light);
-      text-align: center;
-      font-size: 1.5rem;
-      width: 2.5rem;
+  float: right;
+  margin-top: 1.75rem;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    color: var(--text-color-light);
+    text-align: center;
+    font-size: 1.5rem;
+    width: 2.5rem;
 
-      // ugly fix needed for theme switcher icon
-    	&:focus {
-    	  border: none;
-        &:focus:hover {
-          border-bottom: 0.15em solid;
-        }
-  	  }
+    // ugly fix needed for theme switcher icon
+    &:focus {
+      border: none;
+      &:focus:hover {
+        border-bottom: 0.3em solid;
+      }
+    }
   }
 }
 
 @media (max-width: 48rem) {
-    header {
-        margin-bottom: 2rem;
-    }
-    .menu,
-    .social {
-        @include centered-block();
-    }
-    // fake it till you make it
-    .logo {
-      margin-top: 5rem;
-      .logosvg {
-        display: block;
-        margin: -9rem auto 5rem auto;
-        height: 3rem;
-      }
-    }
+  header {
+    margin-bottom: 2rem;
+  }
+  .menu,
+  .social {
+    @include centered-block();
+  }
+  // fake it till you make it
+  .logo {
+    margin-top: 5rem;
+  }
 }
