@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Repositories
-permalink: /repositories
+permalink: /repositories/home
 ---
 
 
