@@ -14,10 +14,14 @@ Just because it’s summer doesn’t mean we’ve stopped working!
 <!–-break-–>
 You can catch tons of activity on our slack channel dispersed throughout the channels, so be sure to browse through the all of the channels that we and other students have created to find the ones that match your interests! Here are a few in particular that are pretty active:
 
-* articles (Dr. Taylor is especially active here)
-* events (like Dev Fest 2018 on June 21st!)
-* website (help with the SSE website, or just stay tuned for tools and tips!)
-* gamedesign (current projects in Lua & Unity)
+* #[articles](https://msoe-sse.slack.com/messages/CA7R6BTB8/) 
+  * (Dr. Taylor is especially active here)
+* #[events](https://msoe-sse.slack.com/messages/CBCCXCSCF/) 
+  * (like Dev Fest 2018 on June 21st!)
+* #[website](https://msoe-sse.slack.com/messages/C783RJ5LL/) 
+  * (help with the SSE website, or just stay tuned for tools and tips!)
+* #[gamedesign](https://msoe-sse.slack.com/messages/C75HLMNAZ/) 
+  * (current projects in Lua & Unity)
 
 
 # What else to expect from us:
