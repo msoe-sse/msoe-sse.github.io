@@ -18,28 +18,17 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
+ The Society of Software Engineers is a club for anyone majoring in, interested in, or just curious about software engineering.
+
+We hold a variety of both social and professional events all year long. Some of the more prominent ones are our Resume Blitz and Mock Whiteboard Interviews in the fall, and several company tours throughout the Winter and Spring quarters. These give students an opportunity to first perfect their resumes, then practice interviewing (with the potential to be selected to move forward), and finally use those skills to network with local companies.
+
+For those with more specific interests related to programming, we have even more clubs to suit your needs! Seth Fenske is in charge of the Game Development Club, where students join together and build their own games. Connor Hibbs leads the Competitive Programming Team, where members practice answering logic puzzles and programming-related questions, then go compete against other schools' teams. Grace Fleming leads the Website Development club, where students can contribute to building and maintaining SSE's very own website.
+
+Whether you're looking to find new friends in your major, do some networking with local companies, or develop your skills, SSE has something for you. Our meetings are Friday at 12pm on Weeks 3, 6, and 9 of every quarter, so stop by and see what is happening in the world of SSE!
 ## About SSE
 Basic Meeting Info:
 * When: Fridays 12-1pm, Weeks 3, 6, & 9 
 * Where: CC03 (The Johnson Controls Software Development Lab in the Ground Floor of the CC)
 * Why? Read on!
-
-SSE is a professional organization that provides resources for software students with networking, professional development, skill building, and socializing! We are comprised of an 8 person eboard along with all of our dedicated students who help with and attend our meetings, events, and activities. Our current eboard is made of the following exceptional students:
-
-* Sabrina Stangler - President
-* Noe Gonzalez - Vice President
-* Sydney Park - Communications Coordinator
-* Nicholas Scharrer - Administrative Coordinator
-* Naomi Yonekura - Events Coordinator
-* Connor Hibbs - Programming Competition Team Capt.
-* Grace Fleming - Webmaster
-* Seth Fenske - Game Design Club
-
-You might be wondering how we do this. We take pride in our LEAN approach to running the organization. We firmly believe that how we’re working today is the best we can do today, but it is not the same “best” we will do tomorrow. We are constantly improving ourselves by subjecting ourselves to feedback and criticism from our fellow students, the professors we work with, companies with whom we partner, and especially our members!
-
-Another tenet of our organization that we pride ourselves on is providing value to our stakeholders. Value ties into our practice of continuous improvement because our organization is able to provide more value by receiving constructive feedback.   Turning that feedback into useful process and behavior changes requires a tremendous amount of effort, so we’re vigilant about collaborating with both professors and industry mentors to bounce around new ideas and iron out solutions to the problems that our feedback brings to our attention -- all in order to create the best possible solution. 
-
-At the end of the day, we’re striving to provide programming and software industry- specific guidance and resources for the SE, CS, and CE students  so that they may thrive during and beyond their time at MSOE. We hope to see you at one of our general meetings soon!
-
 
 </div>
