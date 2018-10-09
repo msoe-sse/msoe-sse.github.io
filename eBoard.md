@@ -30,9 +30,9 @@ Naomi is a senior software engineering student. Her main skill set falls under w
 Connor is a senior software engineering student. His favorite part of programming  is using it to solve specific problems and make life easier for people. He's currently working as an intern at Direct Supply and has previously interned at Enforcement Technology Group, Inc. working on police tatical systems. Outside of SSE he likes working on personal projects. His favorite personal projects reolve around IoT and automation, or developing multiplayer mobile party games.
 
 ### Webmaster - Grace Fleming
-Grace is a softmore software engineering student. She's currently working as a Software Engineering Intern at Direct Supply. Outside of SSE she plays piano, walks dogs, and networks with other people.
+Grace is a softmore software engineering student. She's currently working as a Software Engineering Intern at Direct Supply. Outside of SSE she plays piano, walks dogs, and computer networking.
 
 ### Game Design Club President - Seth Fenske
-Seth is a softmore software engineering student. He's working as a Software Engineering Intern at Directly Supply. Outside of SSE he works on various VR software projects and he reads Stephen King Books.
+Seth is a softmore software engineering student. He's working as a Software Engineering Intern at Direct Supply. Outside of SSE he works on various VR software projects and he reads Stephen King Books.
 
 ### MSOE Alumni - Lyzzi Brooks
