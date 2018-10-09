@@ -34,5 +34,3 @@ Grace is a softmore software engineering student. She's currently working as a S
 
 ### Game Design Club President - Seth Fenske
 Seth is a softmore software engineering student. He's working as a Software Engineering Intern at Direct Supply. Outside of SSE he works on various VR software projects and he reads Stephen King Books.
-
-### MSOE Alumni - Lyzzi Brooks
