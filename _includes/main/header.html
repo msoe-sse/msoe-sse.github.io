@@ -8,15 +8,18 @@
 
         <ul>
             <li><a href="{{ '/' | prepend: site.baseurl }}">home</a></li>
-            <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a>
-            </li>
+            <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a> </li>
             <ul class="dropdown"><li class="menu-item sub-menu">
                 <a href="{{ '/about/eboard' | prepend: site.baseurl }}">EBoard</a>
                 <a href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
             </ul>
             </li> 
             <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
-            <li><a href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a></li>
+            <li><a href="{{ '/repositories/home' | prepend: site.baseurl }}">repositories</a></li>
+            <ul>
+                <li><a href="{{ '/repositories/home' | prepend: site.baseurl }}">repositories</a></li>
+                <li><a href="{{ '/repositories/contribution-guide' | prepend:site.baseurl}}">contributing</a></li>
+            </ul>
             <li><a href="{{ '/events' | prepend: site.baseurl }}">events</a></li>
         </ul>
         <br/>
