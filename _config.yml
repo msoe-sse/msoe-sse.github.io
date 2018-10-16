@@ -25,13 +25,13 @@ blog:
 author:
   fullname                  : Society of Software Engineers
   rss                       : true # Generate RSS feed and add logo to header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : flemingg@msoe.edu # change to your e-mail address
   twitter                   : #twitter-user-name # Add Twitter username to add header logo
   github                    : msoe-sse # Add Github username to add header logo
   youtube                   : #youtube-user-name # Add YouTube username to add header logo
   stackoverflow             : #stackoverflow-user-name # Add Stack Overflow username to add header logo
   disqus                    : #disqus-site-name # Add Disqus site name to add comments
-  google_analytics          : #'UA-XXXXXXXX-X' # Add Google Analytics token to add GA support
+  google_analytics          : 'UA-127592939-1' # Add Google Analytics token to add GA support
   photo                     : "uploads/SSE_LOGO.png"
   photo2x                   : "uploads/SSE_LOGO.png"
 
