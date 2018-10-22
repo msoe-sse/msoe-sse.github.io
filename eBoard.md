@@ -5,7 +5,7 @@ permalink: /about/eboard
 published: true
 ---
 
-![Some of the eBoard shown at the programming competition](/assets/img/sse-eboard-partial.jpg)
+![A picture of the eboard](/assets/img/sse-eboard.jpg)
 
 ## Our Eboard
 
