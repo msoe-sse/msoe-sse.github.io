@@ -1,211 +1,237 @@
+/* MSOE-SSE Website
+ * Header re-style
+ *
+ *      This document is the styling for the SSE website header. The primary purpose
+ *      of this re-write is to make the website resizeable and mobile friendly. It does
+ *      this by using the rem and % unit length, if you edit this document, DO NOT ADD
+ *      PIXEL MEASUREMENTS FOR POSITIONING because they are hard coded and make webpages
+ *      ugly when re-sized.
+ *
+ *
+ * Author: R. George Burkhardt
+ * Last Modified: 11/21/2018
+ */
 
-.navigation {
-    min-height: 70px !important;
-    padding-top: 10px;
-}
-.navigation .navbar-brand {
-    padding-right: 28px;
-    width: 280px;
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-    font-family: "hobo-std", sans-serif;
-    font-style: italic;
-    font-size: 26px !important;
-    color: #5fcf80 !important;
-}
-.navigation .navbar-brand .site-logo {
-    float: left;
-    margin-top: -10px;
-    margin-right: 1rem;
-    width: 250px;
-}
-.navigation #navbar {
-    float: right !important;
-    margin-right: -15px;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
-}
-@media (max-width: 768px) {
-    #navigation #navbar {
-        float: none !important;
-        margin-right: 0;
-    }
-}
-.navigation #navbar .navbar-nav li a {
-    color: #b2bbbd !important;
-}
-.navigation #navbar .navbar-nav li a:hover,
-.navigation #navbar .navbar-nav li a:focus {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-.navigation #navbar .navbar-nav .active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-.navigation #navbar .navbar-nav .dropdown-menu li a {
-    color: #515151 !important;
-    text-shadow: none !important;
-}
 
-header {
-    overflow: visible;
-    margin-bottom: 5rem;
-}
+// Logo
 
 .logo {
-    font-size: 3.5rem;
-    font-weight: $base-font-weight-bold;
-    color: var(--link-color);
-
-    .logosvg {
-        margin-bottom: -1.0rem;
-    	  height: 4.7rem; /* 2.7rem;*/
-        -webkit-filter: var(--invert-logo-color);
-    }
-}
-// Currently not being used
-// in favor of a drop-down site navigation
-.menu {
-    float: left;
-
-	  ul {
-	    list-style-type: none;
-	    margin-bottom: 0rem;
-	    padding: 0rem;
-	  }
-	  li {
-	    display: inline-block;
-	    margin-right: 1rem;
-	      &:last-child {
-	        margin-right: 0px;
-	      }
-        a {
-          color: var(--text-color-light);
-    	    font-size: $base-font-size;
-    	    font-weight: $base-font-weight;
-    	    display: block;
-          height: 2rem; // reset
-          .smaller {
-            font-size: 0.85em;
-          }
-        }
-	  }
-}
-.site-navigation {
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 40px;
-  overflow: visible;
+    /* Provides some spacing for better reading and accessibility between
+        logo and */
+    margin-bottom: 1rem;
 }
 
-.site-navigation ul {
-  color: var(--link-color);
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+
+.logotext {
+    /* Make the font pretty */
+    font-size: 4rem;
+    font-weight: 800;
+
+    /* Provide some space between text and logo svg*/
+    padding-right: .5rem;
+
 }
 
-.site-navigation li {
-  color: black;
-  color: var(--link-color);
-  display: block;
-  float: left;
-  margin: 0 2px 0 0;
-  position: relative;
-  text-decoration: none;
-  padding: 12px;
+
+.logosvg {
+    /* SVGs are sized by width, this looks decent*/
+    width: 4rem;
+    
+    /* Aligns image to the logo text*/
+    vertical-align: top;
 }
 
-.site-navigation li a {
-color: var(--text-color-dark);
-text-decoration: none;
-display: block;
+
+
+// Navigation Bar
+
+.navigation-bar {
+    /* Gives breathing room between nav and social while also matching spacing style above*/
+    margin-bottom: 1rem;
 }
 
-.site-navigation li:hover {
-  transition: background 0.2s ease-in-out;
-  background:var(--text-color-dark);
-  cursor: pointer;
-  
+.menu-button {
+    /* Doesn't display button until in menu view at 640px */
+    display: none;
+
+    /* Center to match styles*/
+    text-align: center;
+
+    /* Make text pretty and to match styling */
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.site-navigation ul li ul {
-  font-size: 16px;
-  background:var(--text-color-dark);
-  visibility: hidden;
-  float: left;
-min-width: 150px;
-  position: absolute;
-transition: visibility 0.65s ease-in;
-margin-top:12px;
-  left: 0;
-  z-index: 999;
+.navigation-bar_link {
+    /* Making the font pretty while also matching logo text style*/
+    font-size: 2rem;
+    font-weight: 700;
+
+    /* Remove underline from links*/
+    text-decoration: none;
+
+    /* Provide spacing between link options; done only on the right as to prevent
+        a left margin which would push the bar out of alignment with the logo div*/
+    margin-right: 1.5rem
 }
 
-.site-navigation ul li:hover > ul,
-.site-navigation ul li ul:hover {
- visibility: visible;
- color: var(--text-color-dark);
+
+// Social Bar
+
+.social-bar {
+    /* Align the social bar to the right of the window */
+    text-align: right;
+
+    /* Give some breathing room between the */
+    margin-bottom: 1rem;
 }
 
-.site-navigation ul li ul li {
-  clear: both;
-  padding: 5px 0 5px 18px;
-width: 100%;
+.social-bar_link {
+    /* Make icons pretty and match */
+    font-size: 1.66rem;
+
+    /* Remove underline from link */
+    text-decoration: none;
 }
 
-.site-navigation ul li ul li:hover {
-  background: var(--text-color-dark);
+
+// Dropdown Menu
+
+.dropdown-wrapper {
+    /* Puts the wrapper div class inline with the other link elements so they stay in a
+        nice order */
+    display: inline-block;
 }
 
-// Social icons
-.social {
-    float: right;
-    margin-top: 1.75rem;
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    li {
-      display: inline-block;
-    }
-    li a {
-      display: block;
-      color: var(--text-color-light);
-      text-align: center;
-      font-size: 1.5rem;
-      width: 2.5rem;
+.dropdown-menu-content {
+    /* Don't want to display the menu until the parent wrapper div is hovered over*/
+    display: none;
 
-      // ugly fix needed for theme switcher icon
-    	&:focus {
-    	  border: none;
-        &:focus:hover {
-          border-bottom: 0.15em solid;
-        }
-  	  }
-  }
+    /* Forces the menu to stay in place and prevents it from moving items when it appears */
+    position: absolute;
+    z-index: 2;
+
+    /* Make the text readable when the menu appears*/
+    background-color: var(--table-border-color);
+
+    /* Gives some spacing for readability */
+    padding: 1rem;
+
 }
 
-@media (max-width: 48rem) {
-    header {
-        margin-bottom: 2rem;
-    }
-    .menu,
-    .social {
-        @include centered-block();
-    }
-    // fake it till you make it
+.navigation-bar_link_dropdown {
+    /* Making the font pretty while also matching nav bar text style*/
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    /* Provide spacing between link options; done only on the right as to prevent
+        a left margin which would push the bar out of alignment with the logo div*/
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+
+    /* Makes the links display in a downward line*/
+    display: block;
+}
+
+
+// Actions
+
+.dropdown-wrapper:hover .dropdown-menu-content {
+    /* Changes the menu from none to block so it displays*/
+    display: block;
+}
+
+
+
+/* This is mobile view styling - only time you have to use px */
+@media screen and (max-width: 770px) {
+
     .logo {
-      margin-top: 5rem;
-      .logosvg {
-        display: block;
-        margin: -9rem auto 5rem auto;
-        height: 3rem;
-      }
+        /* Centers the logo in the middle of the mobile page*/
+        text-align: center;
     }
+
+    .main-menu-items {
+        /* Mobile container does not display until hovered over*/
+        display: none;
+
+        /* Center the menu */
+        margin: auto;
+
+        /* Provide some spacing for better reading */
+        padding: .5rem;
+
+        /* Adds a nice background color */
+        background-color: var(--table-border-color);
+    }
+
+    .navigation-bar_link {
+        /* Makes them display in descending order*/
+        display: block;
+
+        /* Aligns the text to the left - this design is based off industry standard*/
+        text-align: left;
+
+        /* Make the text pretty */
+        font-size: 1.5rem;
+        text-decoration: none;
+
+        /* Add some spacing for readability */
+        margin-bottom: .1rem;
+        
+        /* Making the underline stay under the words only */
+        width: fit-content;
+    }
+
+    .navigation-bar_link_dropdown {
+        /* Align text to the left like in the regular menu */
+        text-align: left;
+
+        /* Make the text pretty */
+        font-size: 1rem;
+        text-decoration: none;
+
+        /* Add some spacing for better hierarchy */
+        margin-left: .5rem
+    }
+
+    .dropdown-menu-content {
+        /* Makes the drop down display in descending order */
+        display: block;
+
+        /* Make the drop down appear under the other menu items */
+        position: relative;
+
+        /* Make the color match and the menu pretty */
+        background-color: var(--table-border-color);
+    }
+
+    .menu-button {
+        /* Displays the button when in mobile view */
+        display: block;
+    }
+
+    .main-menu:hover .main-menu-items {
+        /* Displays the mobile menu mobile format */
+        display: block;
+    }
+
+    .social-bar {
+        /* Centers text to match styling in header */
+        text-align: center;
+
+    }
+    .social-bar_link {
+        /* Gives some nice spacing for better reading */
+        margin: .5rem;
+    }
+
+
 }
+
+
+
+
+
+
+
