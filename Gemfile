@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.0"
-gem "rouge", "~> 3.0"
+gem "jekyll"
 
 group :jekyll_plugins do
+  gem 'github-pages'
   gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
