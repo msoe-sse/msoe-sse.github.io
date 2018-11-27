@@ -9,7 +9,7 @@ published: true
 
 {% capture page_subtitle %}
 <img
-    class="me"
+    class="center-photo-float"
     alt="{{ author.name }}"
     src="{{ site.author.photo | relative_url }}"
     srcset="{{ site.author.photo2x | relative_url }} 2x"

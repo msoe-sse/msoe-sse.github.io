@@ -1,107 +1,71 @@
 <header>
     <div class="site-navigation">
+      
+      <!--Site Title and SVG Logo-->
       <div class="logo">
-
-        <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
-        <object type="image/svg+xml" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object>
+        <a class="logotext" href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
+        <img class="logosvg" src="{{ site.blog.logo_path | relative_url }}"/>
       </div>
 
-        <ul>
-            <li><a href="{{ '/' | prepend: site.baseurl }}">home</a></li>
-            <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a>
-            </li>
-            <ul class="dropdown"><li class="menu-item sub-menu">
-                <a href="{{ '/about/eboard' | prepend: site.baseurl }}">EBoard</a>
-                <a href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
-            </ul>
-            </li> 
-            <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
-            <li><a href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a></li>
-            <li><a href="{{ '/events' | prepend: site.baseurl }}">events</a></li>
-        </ul>
-        <br/>
-    </div>
-    <div class="social">
-      <ul>
+      <!--Menu Bar and drop downs -->
+      <div class="navigation-bar">
+        <div class="main-menu"><div class="menu-button">menu</div>
+          <div class="main-menu-items">
+            <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
+            <div class="dropdown-wrapper">
+              <a class="navigation-bar_link" href="{{ '/about' | prepend: site.baseurl }}">about</a>
+              <div class="dropdown-menu-content">
+                <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
+                <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
+              </div>
+            </div> 
+            <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
+            <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
+            <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
+          </div>
+        </div>
+      </div>
+      
+      <!--Social Bar elements-->
+      <div class="social-bar">
         {% if site.author.youtube %}
-        <li>
-            <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
+            <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-youtube"></span>
             </a>
-        </li>
         {% endif %}
+        
         {% if site.author.stackoverflow %}
-        <li>
-            <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
+            <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-stackoverflow"></span>
             </a>
-        </li>
         {% endif %}
+        
         {% if site.author.twitter %}
-        <li>
-            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
+            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-twitter"></span>
             </a>
-        </li>
         {% endif %}
+        
         {% if site.author.github %}
-        <li>
-            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
+            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-github"></span>
             </a>
-        </li>
         {% endif %}
+        
         {% if site.author.mail %}
-        <li>
-            <a href="mailto:{{ site.author.mail }}" target="_blank">
+            <a href="mailto:{{ site.author.mail }}" target="_blank" class="social-bar_link">
               <span class="icon-mail_outline"></span>
             </a>
-        </li>
         {% endif %}
+        
         {% if site.author.rss == true %}
-        <li>
-            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="social-bar_link">
                 <span class="icon-rss_feed"></span>
             </a>
-        </li>
         {% endif %}
-        <li>
-            <a href="#" onclick="switchTheme()" title="Switch theme?">
+        
+            <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link">
               <span class="icon-invert_colors" id="theme-switcher"></span>
             </a>
-        </li>
-      </ul>
     </div>
 </header>
-<br/>
-<nav id="navbar" class="collapse navbar-collapse">
-  <ul class="nav navbar-nav">
-      {% assign links = site.data.navigation %}
-      {% for link in links %}
-          {% assign class = nil %}
-          {% if page.url contains link.url %}
-              {% assign class = 'active' %}
-          {% endif %}
-          {% if link.sublinks %}
-              <li class="dropdown {{ class }}">
-                  <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                      {% for sublink in link.sublinks %}
-                          {% if sublink.title == 'separator' %}
-                              <li role="separator" class="divider"></li>
-                          {% else %}
-                              <li>
-                                  <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                              </li>
-                          {% endif %}
-                      {% endfor %}
-                  </ul>
-              </li>
-          {% else %}
-              <li class="{{ class }}">
-                  <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-              </li>
-          {% endif %}
-      {% endfor %}
-  </ul>
-</nav>
