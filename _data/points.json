@@ -1,0 +1,30 @@
+{
+    "meetings": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10"],
+    "students": [
+        {
+            "name": "Grace Fleming",
+            "pointBreakdown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "pointTotal": 10
+        },
+        {
+            "name": "Andy Wojciechowski",
+            "pointBreakdown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "pointTotal": 10
+        },
+        {
+            "name": "Joesph Weller",
+            "pointBreakdown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "pointTotal": 10
+        },
+        {
+            "name": "George Burkhardt",
+            "pointBreakdown": [0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+            "pointTotal": 8
+        },
+        {
+            "name": "Gerald",
+            "pointBreakdown": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1],
+            "pointTotal": 7
+        }
+    ]
+}
