@@ -107,28 +107,26 @@ Should an Executive Board member fail to uphold their responsibilities, it may c
 ## ARTICLE IV: Meetings
 ### Section 1: Types of Meetings
 1. GENERAL  meetings
-    * GENERAL meetings are to be held not more than once a month, for which the date must be announced at least by the end of the preceding meeting. The purpose of GENERAL meetings is to conduct votes and discuss the direction of the organization.
-2. INTEREST meetings
-    * INTEREST meetings are to be held not more than once every two weeks, for which the date must be announced at least by the end of the preceding meeting. The purpose of INTEREST meetings is to further the personal, educational, and business development of members through items including but not limited to presentations, forums, bootcamps, and training
+    * The cadence for GENERAL meetings are to be established within the first quarter with the new Executive Board. At the time of this revision, the current executive board has decided that General meetings are to be held on Friday at 12 noon on weeks 3, 6, and 9 of each academic quarter. The purpose of GENERAL meetings is to conduct votes, discuss the direction of the organization, and inform the members of upcoming events and opportunities.
+2. EXECUTIVE meetings
+    * EXECUTIVE meetings should be organized by the PRESIDENT or VICE-PRESIDENT at the beginning of each new quarter, so as to reflect changing schedules. The cadence is to be set by the Executive Board as a whole with a complete majority, but it may not descend in frequency beyond bi-weekly meetings.
 3. SPECIAL meetings
-    * SPECIAL meetings may be called by the Executive board with at least a ONE(1) week notice, the topic of which is to be decided by the Executive board. Attendance is not mandatory but is highly encouraged.
-4. EXECUTIVE meetings
-    * EXECUTIVE meetings may be called by the PRESIDENT or VICE-PRESIDENT with at least TWO (2) weeks notice, the purpose of which is to ensure Officers understand the status of the other Officers and that the Organization is moving towards the purpose of the Organization stated previously.
+    * SPECIAL meetings may be called by the PRESIDENT or VICE-PRESIDENT with at least a ONE(1) week notice, the topic of which is to be decided by the organizer. Attendance of the Executive Board is mandatory.
+4. SUB-CLUB meetings
+    * SUB-CLUB meetings include regular meetings for each the website, game development, competitive programming, and any other team that may form. These should be set by the respective coordinator or team lead, and should be subject to change each quarter with changing schedules.    
 
 ### Section 2: Voting and Decision Making Process
-All votes will be held in person during general meetings.  Any member can suggest an item to bring to vote, and it then must be approved by a member of the Executive Board. Votes will pass by a simple majority of any currently assembled regular members who have attended at least one previous meeting during the current school year, with the Vice President receiving an extra vote in the case of a tie.
+All votes involving regular members will be held in person during general meetings. Any member can suggest an item to bring to vote, and it then must be approved by a member of the Executive Board. Votes will pass by a simple majority of any currently assembled regular members who have attended at least one previous meeting during the current school year, with the Vice President receiving an extra vote in the case of a tie.
 ### Section 3: Location
-The Organization will conduct all meetings on the campus of the Milwaukee School of Engineering.
+As of Fall 2018, it is encouraged to hold these meetings in CC03. Upon completion of the new building containing an office for the Organization, executive board meetings will be held in this office, and general meetings are encouraged to be held in the classroom on the first floor.
 
-## Artivle V: Committees
+## Article V: Committees
 ### Section 1: Committee Creation
-The Executive board has the right to create a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The purpose of the Committee must be explicitly defined in writing as an addition to Article V, Section 3. Each committee must have an explicitly designated leader (champion)  from the REGULAR members at the time of creation.
+The Executive board has the right to create a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The purpose of the Committee must be explicitly defined in writing and added to the master list on the website. Each committee must have an explicitly designated leader (Champion) from the REGULAR members at the time of creation.
 ### Section 2: Committee Disbandment
-The Executive board has the right to disband a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The Committee’s addition to Article V, Section 3 must be removed on the date of disbandment.
-
+The Executive board has the right to disband a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The Committee’s information must be removed from the master list and all of its associated notes / files must be archived for historical reference.
 ## ARTICLE VI: Amendments
 ### Section 1: Amendment Process
-These Articles may be amended by a vote of ⅔ of the members present at a monthly meeting ⅔ majority vote at a general meeting. A notice and a copy of any proposed amendment shall be distributed to all members at least 1 meeting prior to the meeting at which the amendment is to be considered.  The members shall be notified of adopted constitutional amendments by the most feasible means. Amendments may be submitted by any member.
-
+These Articles may be amended by a ⅔ majority vote at a general meeting. A notice and a copy of any proposed amendment shall be distributed to all members at least 1 meeting prior to the meeting at which the amendment is to be considered. The members shall be notified of adopted constitutional amendments by the most feasible means. Amendments may be submitted by any member.
 
 
