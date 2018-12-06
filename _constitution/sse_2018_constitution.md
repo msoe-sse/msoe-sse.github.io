@@ -30,22 +30,22 @@ Members must be pursuing (or already hold) a degree from MSOE (excluding sponsor
 
 ### Section 3: Types of Members
 1. **REGULAR members**
-    1. REGULAR members are those members who have earned at least 10 points in the current quarter and have the right to vote in any non-executive organization vote. Regular members may earn points for the following:
-        1. General Meeting: 10 pts
-        2. Event Attendee: 10 pts
-        3. Helping w/ Event/Project: 20 pts
+    * REGULAR members are those members who have earned at least 10 points in the current quarter and have the right to vote in any non-executive organization vote. Regular members may earn points for the following:
+        * General Meeting: 10 pts
+        * Event Attendee: 10 pts
+        * Helping w/ Event/Project: 20 pts
             * Game development club, website, any event
-        4. Leadership Role in Organization/Project: 30 pts
+        * Leadership Role in Organization/Project: 30 pts
             * Game development club, website, any event
-    2. Members with zero points at any given time are considered INACTIVE.
-    3. Points reset to zero at the beginning of each quarter. At the end of each quarter, a raffle will be held and each 10pts had by member corresponds to one raffle entry.
+    * Members with zero points at any given time are considered INACTIVE.
+    * Points reset to zero at the beginning of each quarter. At the end of each quarter, a raffle will be held and each 10pts had by member corresponds to one raffle entry.
     
     
 2. **ALUMNI members**
-    1. ALUMNI members are those who have graduated from MSOE with REGULAR member standing or those who have been granted ALUMNI status by a simple majority vote of the Executive board. ALUMNI members do not have the right to vote unless all ALUMNI members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
+    * ALUMNI members are those who have graduated from MSOE with REGULAR member standing or those who have been granted ALUMNI status by a simple majority vote of the Executive board. ALUMNI members do not have the right to vote unless all ALUMNI members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
 3. **SPONSOR members**
-    1. SPONSOR membership is granted to any organization, company, or individual (including professors) by a simple majority vote of the Executive board. SPONSOR members do not have the right to vote unless all SPONSOR members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
-    2. The Faculty Advisor is automatically a SPONSOR member.
+    * SPONSOR membership is granted to any organization, company, or individual (including professors) by a simple majority vote of the Executive board. SPONSOR members do not have the right to vote unless all SPONSOR members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
+    * The Faculty Advisor is automatically a SPONSOR member.
 
 
 ## ARTICLE III: Officers
