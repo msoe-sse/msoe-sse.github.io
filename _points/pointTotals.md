@@ -4,7 +4,7 @@ title: SSE Point Totals
 permalink: /points
 ---
 
-<table>
+<table id="PointsTable">
     <tr class="points-row">
         <th>Student Name</th>
         {% for meeting in site.data.points.meetings %}
