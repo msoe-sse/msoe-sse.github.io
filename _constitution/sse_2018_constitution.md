@@ -16,9 +16,9 @@ _Ratified: November 2, 2018_
 ###  Section 1: Name
 The name of this Organization shall be the Society of Software Engineers, hereafter referred to as the Organization. The official acronym shall be SSE.
 ### Section 2: Purposes
-The principal purpose of this Organization shall be to improve the experience of students interested in software and affiliated with MSOE by providing opportunities to socialize, network, build their skills, and professionally develop. Other goals include increasing enrollment in corresponding academic programs, generating interest in software technology among all students, guiding prospective students in integrating with the program. Students graduating from the Organization should have developed skills, a broader network, and the confidence to pursue their goals.
+The principal purpose of this Organization shall be to improve the experience of students interested in software and affiliated with MSOE by providing opportunities to socialize, network, build their skills, and professionally develop. Other goals include increasing enrollment in corresponding academic programs, generating interest in software technology among all students, and guiding prospective students in integrating with the program. Students graduating from the Organization should have developed skills, a broader network, and the confidence to pursue their goals.
 ## ARTICLE II: Membership
-###  Section 1: Qualification for Membership
+### Section 1: Qualification for Membership
 Members must be pursuing (or already hold) a degree from MSOE (excluding sponsor members). There are no other qualifications. Consistent with all applicable federal and state laws and MSOE policies, this Organization and its subordinate bodies and officers shall not discriminate for or against anyone on the basis of race, gender, religion, culture, or sexual orientation.
 ### Section 2: Responsibilities of Members 
 1. Members should attend all monthly meetings held by the Organization.
@@ -38,23 +38,20 @@ Members must be pursuing (or already hold) a degree from MSOE (excluding sponsor
         * Leadership Role in Organization/Project: 30 pts
             * Game development club, website, any event
     * Members with zero points at any given time are considered INACTIVE.
-    * Points reset to zero at the beginning of each quarter. At the end of each quarter, a raffle will be held and each 10pts had by member corresponds to one raffle entry.
-    
-    
+    * Points reset to zero at the beginning of each quarter. At the end of each quarter, a raffle will be held and each 10 pts had by member corresponds to one raffle entry.
 2. **ALUMNI members**
     * ALUMNI members are those who have graduated from MSOE with REGULAR member standing or those who have been granted ALUMNI status by a simple majority vote of the Executive board. ALUMNI members do not have the right to vote unless all ALUMNI members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
 3. **SPONSOR members**
     * SPONSOR membership is granted to any organization, company, or individual (including professors) by a simple majority vote of the Executive board. SPONSOR members do not have the right to vote unless all SPONSOR members have been given the right to vote on a specific vote, such permission being granted by a ⅔ majority vote of the Executive board.
     * The Faculty Advisor is automatically a SPONSOR member.
 
-
 ## ARTICLE III: Officers
 ### Section 1: The Executive Board
 The Executive Board of the Organization shall consist of the President, Vice President, Secretary and multiple Coordinators, including but not limited to Communications, Administrative, Events, Competitive Programming Team, Game Development, and Webmaster. Any REGULAR, ALUMNI, or SPONSOR member may suggest a new Coordinator position to be created. The Executive Board, including both the coordinators and executive positions, will vote on the approval of the new coordinator position. All executive positions including chairs must be held by a regular member. If a coordinator’s status becomes inactive, a replacement will be appointed by the Executive Board from among REGULAR MEMBERS.
 ### Section 2: Election of Officers
-Each elected officer shall hold their position for one year, starting in the Spring term. Yearly elections are to begin in late Winter term. Voting should occur the during the General Meeting during the 9th week of the Winter quarter. Election information should be distributed at least 2 weeks prior. Potential candidates must be nominated by at least two REGULAR MEMBERS (not including the candidate) prior to running for any executive position.
+Each elected officer shall hold their position for one year, starting in the Spring term. Yearly elections are to begin in late Winter term. Voting should occur during the General Meeting during the 9th week of the Winter quarter. Election information should be distributed at least 2 weeks prior. Potential candidates must be nominated by at least two REGULAR MEMBERS (not including the candidate) prior to running for any executive position.
 ### Section 3: Officer Responsibilities
-* **All officers**
+* **All Officers**
     * Attend scheduled Executive Board Meetings
         * Provide digital notice of absence in Slack channel at least 5 minutes before meeting
         * An officer should not miss more than two consecutive meetings
@@ -79,7 +76,7 @@ Each elected officer shall hold their position for one year, starting in the Spr
     * Curate and distribute a quarterly newsletter with valuable information for members and stakeholders
     * Forward high-impact updates from individual members to the general membership
 * **Event Coordinator**
-    * Oversee / guide event committees to ensure events contribute to Organizational goals
+    * Oversee/guide event committees to ensure events contribute to Organizational goals
     * Manage SSE room and equipment reservations on the University’s room reservation software
     * Refer to the event feedback forms from the previous year when planning new or recurring events
     * Maintain SSE event calendar
@@ -119,12 +116,11 @@ Should an Executive Board member fail to uphold their responsibilities, it may c
 All votes involving regular members will be held in person during general meetings. Any member can suggest an item to bring to vote, and it then must be approved by a member of the Executive Board. Votes will pass by a simple majority of any currently assembled regular members who have attended at least one previous meeting during the current school year, with the Vice President receiving an extra vote in the case of a tie.
 ### Section 3: Location
 As of Fall 2018, it is encouraged to hold these meetings in CC03. Upon completion of the new building containing an office for the Organization, executive board meetings will be held in this office, and general meetings are encouraged to be held in the classroom on the first floor.
-
 ## Article V: Committees
 ### Section 1: Committee Creation
 The Executive board has the right to create a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The purpose of the Committee must be explicitly defined in writing and added to the master list on the website. Each committee must have an explicitly designated leader (Champion) from the REGULAR members at the time of creation.
 ### Section 2: Committee Disbandment
-The Executive board has the right to disband a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The Committee’s information must be removed from the master list and all of its associated notes / files must be archived for historical reference.
+The Executive board has the right to disband a committee by a simple majority vote conducted either at a GENERAL meeting or an EXECUTIVE meeting. The Committee’s information must be removed from the master list and all of its associated notes/files must be archived for historical reference.
 ## ARTICLE VI: Amendments
 ### Section 1: Amendment Process
 These Articles may be amended by a ⅔ majority vote at a general meeting. A notice and a copy of any proposed amendment shall be distributed to all members at least 1 meeting prior to the meeting at which the amendment is to be considered. The members shall be notified of adopted constitutional amendments by the most feasible means. Amendments may be submitted by any member.
