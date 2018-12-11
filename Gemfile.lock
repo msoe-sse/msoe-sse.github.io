@@ -1,3 +1,18 @@
+GIT
+  remote: https://github.com/ad2games/rubocop-ci
+  revision: ba0a05acf90b9fdff3634d2886fc844b489f628f
+  specs:
+    rubocop-ci (1.0.2)
+      brakeman-min (~> 4.3.1)
+      coffeelint (~> 1.16.0)
+      highline
+      rake
+      rubocop (~> 0.52.0)
+      rubocop-rspec (= 1.19.0)
+      scss_lint (~> 0.57.0)
+      slim_lint (~> 0.16.1)
+      terminal-table
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,10 +23,20 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    ast (2.4.0)
+    brakeman-min (4.3.1)
+      ruby2ruby (~> 2.4.0)
+      ruby_parser (~> 3.11.0)
+      safe_yaml (>= 1.0)
+      sexp_processor (~> 4.7)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
+    coffeelint (1.16.1)
+      coffee-script
+      execjs
+      json
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
@@ -83,6 +108,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 2.0)
       typhoeus (~> 1.3)
+    highline (2.0.0)
     html-pipeline (2.9.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -193,6 +219,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
+    json (2.1.0)
     kramdown (1.17.0)
     liquid (4.0.0)
     listen (3.1.5)
@@ -213,16 +240,37 @@ GEM
       mini_portile2 (~> 2.3.0)
     octokit (4.13.0)
       sawyer (~> 0.8.0, >= 0.5.3)
+    parallel (1.12.1)
+    parser (2.5.3.0)
+      ast (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    powerpack (0.1.2)
     public_suffix (2.0.5)
+    rainbow (3.0.0)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rouge (2.2.1)
+    rubocop (0.52.1)
+      parallel (~> 1.10)
+      parser (>= 2.4.0.2, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    rubocop-rspec (1.19.0)
+      rubocop (>= 0.51.0)
     ruby-enum (0.7.2)
       i18n
+    ruby-progressbar (1.10.0)
+    ruby2ruby (2.4.1)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.6)
     ruby_dep (1.5.0)
+    ruby_parser (3.11.0)
+      sexp_processor (~> 4.9)
     rubyzip (1.2.2)
     safe_yaml (1.0.4)
     sass (3.7.2)
@@ -233,9 +281,24 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    scss_lint (0.57.1)
+      rake (>= 0.9, < 13)
+      sass (~> 3.5, >= 3.5.5)
+    sexp_processor (4.11.0)
+    slim (4.0.1)
+      temple (>= 0.7.6, < 0.9)
+      tilt (>= 2.0.6, < 2.1)
+    slim_lint (0.16.1)
+      rake (>= 10, < 13)
+      rubocop (>= 0.50.0)
+      slim (>= 3.0, < 5.0)
+      sysexits (~> 1.1)
+    sysexits (1.2.0)
+    temple (0.8.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
+    tilt (2.0.9)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
@@ -252,6 +315,8 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
+  rouge
+  rubocop-ci!
 
 BUNDLED WITH
    1.17.1
