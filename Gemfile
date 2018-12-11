@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'rouge'
-gem "rubocop-jekyll", "~> 0.4.0"
+gem 'rubocop-jekyll', '~> 0.4.0'
 
 group :jekyll_plugins do
   gem 'github-pages'
