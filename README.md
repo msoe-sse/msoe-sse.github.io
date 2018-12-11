@@ -10,3 +10,9 @@
 7. If both (E) and (F) succeed, you’ll be good to run `bundle exec jekyll serve --port 4000` (you don’t need the --port 4000, but this option allows you to specify the port on which the site will run locally for you.
 8. You should be able to run the website locally now!
 9. Checkout our backlog under "Projects" and "Website Re-Design" to find items to work on.
+
+## Continuous Integration
+
+There are checks that will be performed whenever Pull Requests are opened.  To save time on the build server, please run the tests locally to check for errors that will occur in the CI builds.
+
+1. To run [Rubocop](https://github.com/ashmaroli/rubocop-jekyll), run the command `bundle exec rubocop -R`

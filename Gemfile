@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
-
 gem 'jekyll'
 gem 'rouge'
-gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
+gem 'rubocop-jekyll', '~> 0.4.0'
 
 group :jekyll_plugins do
   gem 'github-pages'
