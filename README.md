@@ -1,5 +1,5 @@
 # Setup
-1. You will need Ruby 2.4 (NOT 2.5, as we learned)
+1. You will need Ruby installed on your development machine.  Ruby 2.4 or 2.5 should both work fine.
     - Check version with `ruby -v`
 2. We’ll be using git (install if you don’t already have it)
     - For those who are unfamiliar with git & reading these notes in retrospect, please send me a DM and we’ll figure out the best way for you to get comfortable with basic commands or an IDE.
