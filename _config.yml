@@ -25,7 +25,7 @@ blog:
 author:
   fullname                  : Society of Software Engineers
   rss                       : true # Generate RSS feed and add logo to header
-  mail                      : flemingg@msoe.edu # change to your e-mail address
+  mail                      : admin@msoe-sse.com #SSE Email
   twitter                   : #twitter-user-name # Add Twitter username to add header logo
   github                    : msoe-sse # Add Github username to add header logo
   youtube                   : #youtube-user-name # Add YouTube username to add header logo
