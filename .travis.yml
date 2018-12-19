@@ -1,8 +1,8 @@
 language: ruby
 rvm:
   - 2.5.1
-branches:
-  only: [master, dev]
+# branches:
+#   only: [master, dev]
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
   - bundle exec rubocop -R
