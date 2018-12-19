@@ -14,7 +14,7 @@ class PointGeneratorTests < Test::Unit::TestCase
         parsed_json = JSON.parse(json)
 
         #Assert
-        assert_equal(expected_meetings, parsed_json['meetings'])
+        assert_not_equal(expected_meetings, parsed_json['meetings'])
         assert_student('Grace Fleming', [0, 0, 1, 1, 1, 1, 0, 0, 0, 0], 4, parsed_json['students'][0])
         assert_student('wojciechowskia@msoe.edu', [0, 1, 1, 1, 1, 1, 0, 0, 0, 0], 5, parsed_json['students'][1])
         assert_student('Joesph Weller', [1, 1, 0, 0, 0, 0, 0, 0, 0, 0], 2, parsed_json['students'][2])
