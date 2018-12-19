@@ -97,12 +97,12 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 3.7.4)
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
   rake
-  rouge
+  rouge (~> 2.2.1)
   rubocop-jekyll (~> 0.4.0)
   rubyXL
   test-unit
