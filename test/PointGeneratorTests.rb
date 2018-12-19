@@ -1,10 +1,10 @@
-require File.expand_path('../_plugins/PointGenerator.rb')
+require File.expand_path('./_plugins/PointGenerator.rb')
 require 'test/unit'
 
 class PointGeneratorTests < Test::Unit::TestCase
     def test_json_content
         #Arrange
-        test_excel_file = "#{Dir.pwd}/resources/test attendance counts.xlsx"
+        test_excel_file = "#{Dir.pwd}/test/resources/test attendance counts.xlsx"
         expected_meetings = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10']
 
         generator = PointGenerator.new()
