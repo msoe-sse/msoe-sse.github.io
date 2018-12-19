@@ -4,21 +4,23 @@ title: SSE Point Totals
 permalink: /points
 ---
 
-<table id="PointsTable">
-    <tr class="points-row">
-        <th>Student Name</th>
-        {% for meeting in site.data.points.meetings %}
-            <th>{{meeting}}</th>
-        {% endfor %}
-        <th>Total</th>
-    </tr>
-    {% for student in site.data.points.students %}
-        <tr class="points-row"> 
-            <td>{{student.name}}</td>
-            {% for meetingTotal in student.pointBreakdown %}
-                <td>{{meetingTotal}}</td>
+<div class="tableWrapper">
+    <table id="PointsTable">
+        <tr class="points-row">
+            <th>Student Name</th>
+            {% for meeting in site.data.points.meetings %}
+                <th>{{meeting}}</th>
             {% endfor %}
-            <td>{{student.pointTotal}}</td>
+            <th>Total</th>
         </tr>
-    {% endfor %}
-</table>
+        {% for student in site.data.points.students %}
+            <tr class="points-row"> 
+                <td>{{student.name}}</td>
+                {% for meetingTotal in student.pointBreakdown %}
+                    <td>{{meetingTotal}}</td>
+                {% endfor %}
+                <td>{{student.pointTotal}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
