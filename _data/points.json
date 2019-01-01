@@ -14,63 +14,12 @@
   ],
   "students": [
     {
-      "name": "terrybc@msoe.edu",
+      "name": "burkhardtr@msoe.edu",
       "pointBreakdown": [
         0,
-        0,
         1,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "flemingg@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
         1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "dennyb@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "vogtjm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
         0,
         0,
         1,
@@ -79,7 +28,7 @@
         0,
         0
       ],
-      "pointTotal": 2
+      "pointTotal": 4
     },
     {
       "name": "WellerJ@msoe.edu",
@@ -99,44 +48,10 @@
       "pointTotal": 4
     },
     {
-      "name": "lindsleyae@msoe.edu",
-      "pointBreakdown": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "Wankowskijj@msoe.edu",
+      "name": "stanglersm@msoe.edu",
       "pointBreakdown": [
         0,
         0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "burkhardtr@msoe.edu",
-      "pointBreakdown": [
-        0,
-        1,
         1,
         1,
         0,
@@ -147,75 +62,7 @@
         0,
         0
       ],
-      "pointTotal": 4
-    },
-    {
-      "name": "rondeaui@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "balloneij@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "martensdr@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Huebnerj@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
+      "pointTotal": 3
     },
     {
       "name": "millerec@msoe.edu",
@@ -233,40 +80,6 @@
         0
       ],
       "pointTotal": 3
-    },
-    {
-      "name": "botzocc@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "suarezta@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
     },
     {
       "name": "Olsonj@msoe.edu",
@@ -320,40 +133,6 @@
       "pointTotal": 3
     },
     {
-      "name": "hibbscm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "gibsonze@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
       "name": "hennigc@msoe.edu",
       "pointBreakdown": [
         0,
@@ -369,40 +148,6 @@
         0
       ],
       "pointTotal": 3
-    },
-    {
-      "name": "kennedynm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "wojciechowskia@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
     },
     {
       "name": "scharrernf@msoe.edu",
@@ -473,6 +218,23 @@
       "pointTotal": 3
     },
     {
+      "name": "terrybc@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
       "name": "yonekuranm@msoe.edu",
       "pointBreakdown": [
         0,
@@ -490,11 +252,11 @@
       "pointTotal": 2
     },
     {
-      "name": "Schlavenskyl@msoe.edu",
+      "name": "flemingg@msoe.edu",
       "pointBreakdown": [
         0,
         0,
-        0,
+        1,
         1,
         0,
         0,
@@ -504,7 +266,160 @@
         0,
         0
       ],
-      "pointTotal": 1
+      "pointTotal": 2
+    },
+    {
+      "name": "dennyb@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "vogtjm@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "lindsleyae@msoe.edu",
+      "pointBreakdown": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "Wankowskijj@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "suarezta@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "hibbscm@msoe.edu",
+      "pointBreakdown": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "gibsonze@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "cabellol@msoe.edu",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
+    },
+    {
+      "name": "wojciechowskia@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 2
     },
     {
       "name": "dupontn@msoe.edu",
@@ -524,23 +439,6 @@
       "pointTotal": 2
     },
     {
-      "name": "langsm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
       "name": "bowsert@msoe.edu",
       "pointBreakdown": [
         0,
@@ -558,23 +456,6 @@
       "pointTotal": 2
     },
     {
-      "name": "stanglersm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 3
-    },
-    {
       "name": "ostendorfe@msoe.edu",
       "pointBreakdown": [
         0,
@@ -590,74 +471,6 @@
         0
       ],
       "pointTotal": 2
-    },
-    {
-      "name": "schwingbeckjj@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "o'brienjm@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "leel@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "bahashwanb@msoe.edu",
-      "pointBreakdown": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
     },
     {
       "name": "geromelrr@msoe.edu",
@@ -694,6 +507,74 @@
       "pointTotal": 1
     },
     {
+      "name": "bahashwanb@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "leel@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "o'brienjm@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "schwingbeckjj@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
       "name": "ricetc@msoe.edu",
       "pointBreakdown": [
         0,
@@ -703,6 +584,23 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Seth Kooiker",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -728,6 +626,23 @@
       "pointTotal": 1
     },
     {
+      "name": "langsm@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
       "name": "kaeglerdj@msoe.edu",
       "pointBreakdown": [
         0,
@@ -745,165 +660,12 @@
       "pointTotal": 1
     },
     {
-      "name": "arrowsmithhs@msoe.edu",
+      "name": "Schlavenskyl@msoe.edu",
       "pointBreakdown": [
         0,
         0,
         0,
-        0,
-        0,
-        0,
         1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "cabellol@msoe.edu",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 2
-    },
-    {
-      "name": "Shahbaz Mogal",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Alexander Johnson",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Matt Haas",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Mohammad Urhum Sheikh",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Joseph Carey",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Isaiah Zupke",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Joe Bunales",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Josh Svehla",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
         0,
         0,
         0,
@@ -916,23 +678,6 @@
     },
     {
       "name": "Eduardo Aviles",
-      "pointBreakdown": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "pointTotal": 1
-    },
-    {
-      "name": "Seth Kooiker",
       "pointBreakdown": [
         0,
         1,
@@ -1017,7 +762,75 @@
       "pointTotal": 1
     },
     {
+      "name": "arrowsmithhs@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "kennedynm@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
       "name": "Kyle Rodrigues",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Shahbaz Mogal",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Alexander Johnson",
       "pointBreakdown": [
         0,
         1,
@@ -1085,11 +898,113 @@
       "pointTotal": 1
     },
     {
+      "name": "Matt Haas",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "botzocc@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
       "name": "Julian Singkham",
       "pointBreakdown": [
         0,
         1,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Huebnerj@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "martensdr@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "balloneij@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "rondeaui@msoe.edu",
+      "pointBreakdown": [
+        0,
+        0,
+        1,
         0,
         0,
         0,
@@ -1119,7 +1034,92 @@
       "pointTotal": 1
     },
     {
+      "name": "Mohammad Urhum Sheikh",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Joseph Carey",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
       "name": "Andrew Winston",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Isaiah Zupke",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Joe Bunales",
+      "pointBreakdown": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pointTotal": 1
+    },
+    {
+      "name": "Josh Svehla",
       "pointBreakdown": [
         0,
         1,
