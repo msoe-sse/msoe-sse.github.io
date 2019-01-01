@@ -20,7 +20,6 @@ class PointGenerator < Jekyll::Generator
   end
 
   def parse_excel_files(excel_files_names)
-    #TODO: Should we handle multiple excel files?
     excel_file_name = excel_files_names[0]
     workbook = RubyXL::Parser.parse(excel_file_name)
     worksheet = workbook[0]
@@ -62,7 +61,9 @@ class PointGenerator < Jekyll::Generator
         result << StudentData.new(name, point_breakdown, total_points)
       end
     }
-    return result.map{|data| {name: data.name, pointBreakdown: data.point_breakdown, pointTotal: data.total_points}}
+    result = result.map{|data| {name: data.name, pointBreakdown: data.point_breakdown, pointTotal: data.total_points}}
+    result = result.sort_by {|hsh| hsh[:pointTotal]}.reverse!
+    return result
   end
 
   def create_json_file(json)

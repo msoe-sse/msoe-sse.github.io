@@ -16,10 +16,10 @@ class PointGeneratorTests < Test::Unit::TestCase
 
     # Assert
     assert_equal(expected_meetings, parsed_json['meetings'])
-    assert_student('Grace Fleming', [ 0, 0, 1, 1, 1, 1, 0, 0, 0, 0 ], 4, parsed_json['students'][0])
+    assert_student('Gerald', [ 1, 1, 1, 1, 1, 1, 1, 0, 0, 0 ], 7, parsed_json['students'][0])
     assert_student('wojciechowskia@msoe.edu', [ 0, 1, 1, 1, 1, 1, 0, 0, 0, 0 ], 5, parsed_json['students'][1])
-    assert_student('Joesph Weller', [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ], 2, parsed_json['students'][2])
-    assert_student('Gerald', [ 1, 1, 1, 1, 1, 1, 1, 0, 0, 0 ], 7, parsed_json['students'][3])
+    assert_student('Grace Fleming', [ 0, 0, 1, 1, 1, 1, 0, 0, 0, 0 ], 4, parsed_json['students'][2])
+    assert_student('Joesph Weller', [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ], 2, parsed_json['students'][3])
   end
 
   def assert_student(expected_name, expected_point_breakdown, expected_point_total, actual_student)
