@@ -4,7 +4,7 @@ require 'rubyXL'
 require 'json'
 
 class PointGenerator < Jekyll::Generator
-  def generate
+  def generate(site)
     make_data_directory
     excel_files = find_all_excel_file_names
     json = parse_excel_files(excel_files)
