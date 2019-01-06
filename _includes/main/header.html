@@ -21,8 +21,12 @@
             </div> 
             <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
             <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-            <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
-            <a class="navigation-bar_link" href="{{ '/points' | prepend: site.baseurl}}">points</a>
+            <div class="dropdown-wrapper">
+              <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
+              <div class="dropdown-menu-content">
+                <a class="navigation-bar_link" href="{{ '/events/points' | prepend: site.baseurl}}">points</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
