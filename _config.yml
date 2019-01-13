@@ -35,7 +35,7 @@ author:
   photo                     : "uploads/SSE_LOGO.png"
   photo2x                   : "uploads/SSE_LOGO.png"
 
-
+APIBaseUrl: "http://127.0.0.1:5000"
 
 ## !!
 ## Advanced blog settings

@@ -8,14 +8,15 @@ class PointGenerator < Jekyll::Generator
     @site = site
     make_data_directory
     json = parse_json_from_api
+    puts json
     create_json_file(json)
   end
 
   def parse_json_from_api
     base_url = @site.config['APIBaseUrl']
     uri = URI("#{base_url}/points")
-    response = Net::HTTP.get(uri)
-    JSON.parse(response)
+    response_hash = JSON.parse(Net::HTTP.get(uri))
+    JSON.pretty_generate(response_hash)
   end
 
   def create_json_file(json)
