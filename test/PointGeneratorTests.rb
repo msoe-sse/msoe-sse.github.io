@@ -1,30 +1,49 @@
 require File.expand_path('./_plugins/PointGenerator.rb')
-require 'test/unit'
+require 'webmock/test_unit'
+require 'json'
 
 class PointGeneratorTests < Test::Unit::TestCase
-  def test_json_content
+  def test_parse_json_from_api
     # Arrange
-    test_excel_file = "#{Dir.pwd}/test/resources/test attendance counts.xlsx"
-    expected_meetings = [ 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5',
-                          'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', ]
+    data = {
+      meetings: [ 'meeting1', 'meeting2' ],
+      students: [
+        {
+          name: 'student0',
+          pointBreakdown: [ 0, 1 ],
+          total: 1,
+        },
+        {
+          name: 'student1',
+          pointBreakdown: [ 1, 1 ],
+          total: 2,
+        },
+      ],
+    }
+
+    json_data = data.to_json
+
+    dummy_config = {}
+    dummy_config['APIBaseUrl'] = 'https://www.api.com'
+
+    site = DummyJekyllSite.new(dummy_config)
+    stub_request(:get, 'https://www.api.com/points').to_return(status: 200, body: json_data, headers: {})
 
     generator = PointGenerator.new
+    generator.instance_variable_set(:@site, site)
 
     # Act
-    json = generator.parse_excel_files([ test_excel_file ])
-    parsed_json = JSON.parse(json)
+    generator.parse_json_from_api
 
     # Assert
-    assert_equal(expected_meetings, parsed_json['meetings'])
-    assert_student('Gerald', [ 1, 1, 1, 1, 1, 1, 1, 0, 0, 0 ], 7, parsed_json['students'][0])
-    assert_student('wojciechowskia@msoe.edu', [ 0, 1, 1, 1, 1, 1, 0, 0, 0, 0 ], 5, parsed_json['students'][1])
-    assert_student('Grace Fleming', [ 0, 0, 1, 1, 1, 1, 0, 0, 0, 0 ], 4, parsed_json['students'][2])
-    assert_student('Joesph Weller', [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ], 2, parsed_json['students'][3])
+    assert_requested :get, 'https://www.api.com/points', times: 1
   end
 
-  def assert_student(expected_name, expected_point_breakdown, expected_point_total, actual_student)
-    assert_equal(expected_name, actual_student['name'])
-    assert_equal(expected_point_breakdown, actual_student['pointBreakdown'])
-    assert_equal(expected_point_total, actual_student['pointTotal'])
+  class DummyJekyllSite
+    def initialize(config)
+      @config = config
+    end
+
+    attr_reader :config
   end
 end
