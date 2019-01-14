@@ -8,7 +8,6 @@ class PointGenerator < Jekyll::Generator
     @site = site
     make_data_directory
     json = parse_json_from_api
-    puts json
     create_json_file(json)
   end
 
