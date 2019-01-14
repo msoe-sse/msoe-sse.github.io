@@ -3,7 +3,44 @@ require 'webmock/test_unit'
 require 'json'
 
 class PointGeneratorTests < Test::Unit::TestCase
-  def test_parse_json_from_api
+  def test_unhandled_error
+    dummy_config = {}
+    dummy_config['APIBaseUrl'] = 'api'
+
+    site = DummyJekyllSite.new(dummy_config)
+    stub_request(:get, 'api/points')
+
+    generator = PointGenerator.new
+    generator.instance_variable_set(:@site, site)
+
+    # Act
+    result = generator.parse_json_from_api
+
+    # Assert
+    assert_not_requested :get, 'api/points'
+    assert_nil result
+  end
+
+  def test_not_found
+    dummy_config = {}
+    dummy_config['APIBaseUrl'] = 'https://www.api.com'
+
+    site = DummyJekyllSite.new(dummy_config)
+    stub_request(:get, 'https://www.api.com/points').to_return(status: 404, headers: {})
+
+    generator = PointGenerator.new
+    generator.instance_variable_set(:@site, site)
+
+    # Act
+    result = generator.parse_json_from_api
+
+    # Assert
+    assert_requested :get, 'https://www.api.com/points', times: 1
+
+    assert_nil result
+  end
+
+  def test_ok
     # Arrange
     data = response_data
 
@@ -44,8 +81,6 @@ class PointGeneratorTests < Test::Unit::TestCase
 
     attr_reader :config
   end
-
-  private
 
   def response_data
     {
