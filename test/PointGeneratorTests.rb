@@ -5,21 +5,7 @@ require 'json'
 class PointGeneratorTests < Test::Unit::TestCase
   def test_parse_json_from_api
     # Arrange
-    data = {
-      meetings: [ 'meeting1', 'meeting2' ],
-      students: [
-        {
-          name: 'student0',
-          pointBreakdown: [ 0, 1 ],
-          total: 1,
-        },
-        {
-          name: 'student1',
-          pointBreakdown: [ 1, 1 ],
-          total: 2,
-        },
-      ],
-    }
+    data = response_data
 
     json_data = data.to_json
 
@@ -33,10 +19,22 @@ class PointGeneratorTests < Test::Unit::TestCase
     generator.instance_variable_set(:@site, site)
 
     # Act
-    generator.parse_json_from_api
+    result = generator.parse_json_from_api
+    result_hash = JSON.parse(result)
 
     # Assert
     assert_requested :get, 'https://www.api.com/points', times: 1
+
+    assert_equal data[:meetings], result_hash['meetings']
+
+    assert_student 'student0', [ 0, 1 ], 1, result_hash['students'][0]
+    assert_student 'student1', [ 1, 1 ], 2, result_hash['students'][1]
+  end
+
+  def assert_student(expected_name, expected_point_breakdown, expected_point_total, actual_student)
+    assert_equal(expected_name, actual_student['name'])
+    assert_equal(expected_point_breakdown, actual_student['pointBreakdown'])
+    assert_equal(expected_point_total, actual_student['pointTotal'])
   end
 
   class DummyJekyllSite
@@ -45,5 +43,25 @@ class PointGeneratorTests < Test::Unit::TestCase
     end
 
     attr_reader :config
+  end
+
+  private
+
+  def response_data
+    {
+      meetings: [ 'meeting1', 'meeting2' ],
+      students: [
+        {
+          name: 'student0',
+          pointBreakdown: [ 0, 1 ],
+          pointTotal: 1,
+        },
+        {
+          name: 'student1',
+          pointBreakdown: [ 1, 1 ],
+          pointTotal: 2,
+        },
+      ],
+    }
   end
 end
