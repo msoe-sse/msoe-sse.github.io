@@ -20,7 +20,7 @@ class PointGenerator < Jekyll::Generator
         response_hash = JSON.parse(response.body)
         result = JSON.pretty_generate(response_hash)
       else
-        Jekyll.logger.error'API Error:', "Error from API status code #{response.code}"
+        Jekyll.logger.error 'API Error:', "Error from API status code #{response.code}"
       end
     rescue StandardError => ex
       Jekyll.logger.error 'Unhandled Error in PointGenerator.rb: ', ex
