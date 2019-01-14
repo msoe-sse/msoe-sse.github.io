@@ -1,64 +1,31 @@
 require 'jekyll'
-require 'find'
-require 'rubyXL'
 require 'json'
+require 'net/http'
 
 class PointGenerator < Jekyll::Generator
   def generate(site)
+    @site = site
     make_data_directory
-    excel_files = find_all_excel_file_names
-    json = parse_excel_files(excel_files)
+    json = parse_json_from_api
     create_json_file(json)
   end
 
-  def find_all_excel_file_names
-    result = []
-    Find.find(parent_directory) do |path|
-      result << path if path =~ /.*\.xlsx$/
-    end
-    result
-  end
-
-  def parse_excel_files(excel_files_names)
-    excel_file_name = excel_files_names[0]
-    workbook = RubyXL::Parser.parse(excel_file_name)
-    worksheet = workbook[0]
-    meetings = parse_meetings(worksheet)
-    students = parse_students(worksheet)
-    JSON.pretty_generate(meetings: meetings, students: students)
-  end
-
-  def parse_meetings(worksheet)
-    result = []
-    worksheet[0].cells.each do |cell|
-      result << cell.value if cell && cell.value && 'Totals'.casecmp(cell.value) != 0
-    end
-    result
-  end
-
-  def parse_students(worksheet)
-    result = []
-    worksheet.each do |row|
-      name = ''
-      point_breakdown = []
-      total_points = 0
-      row.cells.each do |cell|
-        if cell && cell.row != 0 && cell.column.zero?
-          name = cell.value
-        elsif cell && cell.row != 0 && cell.column == row.cells.last.column
-          total_points = cell.value
-        else
-          point_breakdown << if cell && cell.value
-                               cell.value
-                             else
-                               0
-                             end
-        end
+  def parse_json_from_api
+    result = nil
+    begin
+      base_url = @site.config['APIBaseUrl']
+      uri = URI("#{base_url}/points")
+      response = Net::HTTP.get_response(uri)
+      if response.is_a?(Net::HTTPSuccess)
+        response_hash = JSON.parse(response.body)
+        result = JSON.pretty_generate(response_hash)
+      else
+        Jekyll.logger.error 'API Error:', "Error from API status code #{response.code}"
       end
-      result << StudentData.new(name, point_breakdown, total_points) if name != ''
+    rescue StandardError => ex
+      Jekyll.logger.error 'Unhandled Error in PointGenerator.rb: ', ex
     end
-    result = result.map { |data| { name: data.name, pointBreakdown: data.point_breakdown, pointTotal: data.total_points } }
-    result.sort_by { |hsh| hsh[:pointTotal] }.reverse!
+    result
   end
 
   def create_json_file(json)
@@ -79,18 +46,4 @@ class PointGenerator < Jekyll::Generator
   def make_data_directory
     Dir.mkdir(path) unless Dir.exist?(path)
   end
-end
-
-class StudentData
-  def initialize(name, point_breakdown, total_points)
-    @name = name
-    @point_breakdown = point_breakdown
-    @total_points = total_points
-  end
-
-  attr_reader :name
-
-  attr_reader :point_breakdown
-
-  attr_reader :total_points
 end
