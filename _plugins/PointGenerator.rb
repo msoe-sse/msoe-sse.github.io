@@ -1,5 +1,4 @@
 require 'jekyll'
-require 'find'
 require 'json'
 require 'net/http'
 
