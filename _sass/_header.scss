@@ -32,7 +32,7 @@
 .logosvg {
     /* SVGs are sized by width, this looks decent*/
     width: 4rem;
-    
+
     /* Aligns image to the logo text*/
     vertical-align: top;
 }
@@ -146,6 +146,10 @@
         /* Centers the logo in the middle of the mobile page*/
         text-align: center;
     }
+    
+    .main-menu {
+        text-align: center;
+    }
 
     .main-menu-items {
         /* Mobile container does not display until hovered over*/
@@ -174,7 +178,7 @@
 
         /* Add some spacing for readability */
         margin-bottom: .1rem;
-        
+
         /* Making the underline stay under the words only */
         width: fit-content;
     }
@@ -204,20 +208,20 @@
 
     .menu-button {
         /* Displays the button when in mobile view */
-        display: block;
+        display: inline-block;
     }
 
-    .main-menu:hover .main-menu-items {
-        /* Displays the mobile menu mobile format */
-        display: block;
-    }
+    //.main-menu:hover .main-menu-items {
+    //    /* Displays the mobile menu mobile format */
+    //    display: block;
+    //}
 
     .social-bar {
         /* Centers text to match styling in header */
         text-align: center;
 
     }
-    
+
 
 }
 
