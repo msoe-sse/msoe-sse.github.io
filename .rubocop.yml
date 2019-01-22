@@ -54,9 +54,6 @@ AllCops:
     - '**/Thorfile'
     - '**/Vagabondfile'
     - '**/Vagrantfile'
-    #Custom source files
-    - '_plugins/**/*'
-    - 'test/**/*'
   Exclude:
     - 'node_modules/**/*'
     - 'vendor/**/*'
