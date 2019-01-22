@@ -7,12 +7,12 @@
     justify-content: center;
 }
 
-#TableWrapper {
+#Container {
     display: none;
     overflow-x: scroll;
 }
 
-#PointsTable {
+.points-table {
     font-size: 14px;
 }
 

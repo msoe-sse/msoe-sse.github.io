@@ -12,10 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
         .then((resp) => resp.json())
         .then(function(data) {
             document.getElementById('LoadingHeader').style.display = 'none';
-            document.getElementById('TableWrapper').style.display = 'block';
-            let table = document.getElementById('PointsTable');
+            document.getElementById('Container').style.display = 'block';
+
+            let table = document.createElement('table');
+            table.className += 'points-table';
             table.append(createThead(data));
             table.append(createTbody(data));
+
+            document.getElementById('Container').append(table);
         })
         .catch(function() {
             document.getElementById('LoadingHeader').style.display = 'none';
