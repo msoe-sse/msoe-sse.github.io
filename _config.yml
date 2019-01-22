@@ -39,7 +39,8 @@ author:
 ## Advanced blog settings
 ## You should not change anything here unless you know what you are doing
 
-APIBaseUrl: "http://user-ranking-endpoint-demo.herokuapp.com"
+##APIBaseUrl: "https://user-ranking-endpoint-demo.herokuapp.com"
+APIBaseUrl: "http://blah.com"
 APISource: "drive"
 
 # Gems

@@ -2,7 +2,13 @@
     text-align: center;
 }
 
-.tableWrapper {
+#LoadingHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#TableWrapper {
+    display: none;
     overflow-x: scroll;
 }
 
@@ -10,17 +16,7 @@
     font-size: 14px;
 }
 
-.mobile {
+#ErrorMessage {
     display: none;
-}
-
-@media screen and (max-width: 770px) {
-    .mobile {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
-    }
 }
 
