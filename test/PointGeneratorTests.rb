@@ -6,9 +6,10 @@ class PointGeneratorTests < Test::Unit::TestCase
   def test_unhandled_error
     dummy_config = {}
     dummy_config['APIBaseUrl'] = 'api'
+    dummy_config['APISource'] = 'drive'
 
     site = DummyJekyllSite.new(dummy_config)
-    stub_request(:get, 'api/points')
+    stub_request(:get, 'api/points?source=drive')
 
     generator = PointGenerator.new
     generator.instance_variable_set(:@site, site)
@@ -17,16 +18,17 @@ class PointGeneratorTests < Test::Unit::TestCase
     result = generator.parse_json_from_api
 
     # Assert
-    assert_not_requested :get, 'api/points'
+    assert_not_requested :get, 'api/points?source=drive'
     assert_nil result
   end
 
   def test_not_found
     dummy_config = {}
     dummy_config['APIBaseUrl'] = 'https://www.api.com'
+    dummy_config['APISource'] = 'drive'
 
     site = DummyJekyllSite.new(dummy_config)
-    stub_request(:get, 'https://www.api.com/points').to_return(status: 404, headers: {})
+    stub_request(:get, 'https://www.api.com/points?source=drive').to_return(status: 404, headers: {})
 
     generator = PointGenerator.new
     generator.instance_variable_set(:@site, site)
@@ -35,7 +37,7 @@ class PointGeneratorTests < Test::Unit::TestCase
     result = generator.parse_json_from_api
 
     # Assert
-    assert_requested :get, 'https://www.api.com/points', times: 1
+    assert_requested :get, 'https://www.api.com/points?source=drive', times: 1
 
     assert_nil result
   end
@@ -48,9 +50,10 @@ class PointGeneratorTests < Test::Unit::TestCase
 
     dummy_config = {}
     dummy_config['APIBaseUrl'] = 'https://www.api.com'
+    dummy_config['APISource'] = 'drive'
 
     site = DummyJekyllSite.new(dummy_config)
-    stub_request(:get, 'https://www.api.com/points').to_return(status: 200, body: json_data, headers: {})
+    stub_request(:get, 'https://www.api.com/points?source=drive').to_return(status: 200, body: json_data, headers: {})
 
     generator = PointGenerator.new
     generator.instance_variable_set(:@site, site)
@@ -60,7 +63,7 @@ class PointGeneratorTests < Test::Unit::TestCase
     result_hash = JSON.parse(result)
 
     # Assert
-    assert_requested :get, 'https://www.api.com/points', times: 1
+    assert_requested :get, 'https://www.api.com/points?source=drive', times: 1
 
     assert_equal data[:meetings], result_hash['meetings']
 

@@ -14,7 +14,8 @@ class PointGenerator < Jekyll::Generator
     result = nil
     begin
       base_url = @site.config['APIBaseUrl']
-      uri = URI("#{base_url}/points")
+      source = @site.config['APISource']
+      uri = URI("#{base_url}/points?source=#{source}")
       response = Net::HTTP.get_response(uri)
       if response.is_a?(Net::HTTPSuccess)
         response_hash = JSON.parse(response.body)

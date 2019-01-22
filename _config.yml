@@ -35,11 +35,12 @@ author:
   photo                     : "uploads/SSE_LOGO.png"
   photo2x                   : "uploads/SSE_LOGO.png"
 
-APIBaseUrl: "http://127.0.0.1:5000"
-
 ## !!
 ## Advanced blog settings
 ## You should not change anything here unless you know what you are doing
+
+APIBaseUrl: "http://user-ranking-endpoint-demo.herokuapp.com"
+APISource: "drive"
 
 # Gems
 plugins:
