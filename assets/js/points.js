@@ -4,6 +4,8 @@ sitemap:
   exclude: 'yes'
 ---
 
+const MOBILE_WIDTH_BREAKPOINT = 770;
+
 document.addEventListener("DOMContentLoaded", function() {
     let apiUrl = '{{ site.APIBaseUrl }}';
     let source = '{{ site.APISource }}';
@@ -11,15 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch(`${apiUrl}/points?source=${source}`)
         .then((resp) => resp.json())
         .then(function(data) {
-            document.getElementById('LoadingHeader').style.display = 'none';
-            document.getElementById('Container').style.display = 'block';
-
-            let table = document.createElement('table');
-            table.className += 'points-table';
-            table.append(createThead(data));
-            table.append(createTbody(data));
-
-            document.getElementById('Container').append(table);
+            if(window.innerWidth > MOBILE_WIDTH_BREAKPOINT) {
+                createDesktopTable(data);
+            } else {
+                createMobileTables(data);
+            }
         })
         .catch(function() {
             document.getElementById('LoadingHeader').style.display = 'none';
@@ -28,7 +26,45 @@ document.addEventListener("DOMContentLoaded", function() {
         })
 });
 
-function createThead(data) {
+function createMobileTables(data) {
+    hideLoadingHeaderAndShowContainer();
+
+    data.students.forEach(student => {
+        let studentTable = document.createElement('table');
+
+        let nameRow = document.createElement('tr');
+        createAndAppendElement('td', 'Student Name', nameRow);
+        createAndAppendElement('td', student.name, nameRow);
+        studentTable.append(nameRow);
+
+        for(let i = 0; i < data.meetings.length -1; i++) {
+            let pointRow = document.createElement('tr');
+            createAndAppendElement('td', data.meetings[i], pointRow);
+            createAndAppendElement('td', student.pointBreakdown[i], pointRow);
+            studentTable.append(pointRow);
+        }
+
+        let pointTotalRow = document.createElement('tr');
+        createAndAppendElement('td', 'Total', pointTotalRow);
+        createAndAppendElement('td', student.pointTotal, pointTotalRow);
+        studentTable.append(pointTotalRow);
+
+        document.getElementById('Container').append(studentTable);
+    });
+}
+
+function createDesktopTable(data) {
+    hideLoadingHeaderAndShowContainer();
+
+    let table = document.createElement('table');
+    table.className += 'points-table';
+    table.append(createDesktopThead(data));
+    table.append(createDesktopTbody(data));
+
+    document.getElementById('Container').append(table);
+}
+
+function createDesktopThead(data) {
     let thead = document.createElement('thead');
     let headerRow = document.createElement('tr');
 
@@ -44,7 +80,7 @@ function createThead(data) {
     return thead;
 }
 
-function createTbody(data) {
+function createDesktopTbody(data) {
     let tbody = document.createElement('tbody');
     data.students.forEach(element => {
         let row = document.createElement('tr');
@@ -66,4 +102,9 @@ function createAndAppendElement(elementType, innerHtml, elementToAppendTo) {
     let studentNameHeader = document.createElement(elementType);
     studentNameHeader.innerHTML = innerHtml;
     elementToAppendTo.append(studentNameHeader);
+}
+
+function hideLoadingHeaderAndShowContainer() {
+    document.getElementById('LoadingHeader').style.display = 'none';
+    document.getElementById('Container').style.display = 'block';
 }
