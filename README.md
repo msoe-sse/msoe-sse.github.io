@@ -16,4 +16,3 @@
 There are checks that will be performed whenever Pull Requests are opened.  To save time on the build server, please run the tests locally to check for errors that will occur in the CI builds.
 
 1. To run [Rubocop](https://github.com/ashmaroli/rubocop-jekyll), run the command `bundle exec rubocop -R`
-2. To run Unit Tests, run the command `bundle exec rake test`

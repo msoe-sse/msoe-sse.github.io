@@ -2,25 +2,21 @@
     text-align: center;
 }
 
-.tableWrapper {
+#LoadingHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    display: none;
     overflow-x: scroll;
 }
 
-#PointsTable {
+.points-table {
     font-size: 14px;
 }
 
-.mobile {
+#ErrorMessage {
     display: none;
-}
-
-@media screen and (max-width: 770px) {
-    .mobile {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
-    }
 }
 
