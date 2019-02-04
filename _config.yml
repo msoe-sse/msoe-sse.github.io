@@ -70,8 +70,6 @@ collections:
     title: events
   constitution:
     output: true
-  points:
-    output: true
 defaults:
   -
     scope:
