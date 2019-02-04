@@ -1,12 +1,14 @@
 const MOBILE_WIDTH_BREAKPOINT = 770;
+const SHOW = "block";
+const HIDE = "none";
 
 /* Hides or displays the nav menu items based on the size of the screen. */
 window.addEventListener('resize', function() {
     const navItems = document.getElementById('menu-items');
     if (window.innerWidth > MOBILE_WIDTH_BREAKPOINT) {
-        navItems.style.display = "block";
+        navItems.style.display = SHOW;
    } else {
-       navItems.style.display = "none";
+       navItems.style.display = HIDE;
    }
 });
 
@@ -27,6 +29,6 @@ function hideNav() {
  */
 function displayNav() {
     const navItems = document.getElementById('menu-items');
-    navItems.style.display = "block";
+    navItems.style.display = SHOW;
 }
 
