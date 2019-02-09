@@ -74,7 +74,7 @@ function createDesktopThead(data) {
         createAndAppendElement('th', element, headerRow)
     });
 
-    createAndAppendElement('th', 'Point Total', headerRow);
+    createAndAppendElement('th', 'Total', headerRow);
     thead.append(headerRow);
 
     return thead;
