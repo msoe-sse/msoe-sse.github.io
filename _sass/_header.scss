@@ -32,7 +32,7 @@
 .logosvg {
     /* SVGs are sized by width, this looks decent*/
     width: 4rem;
-    
+
     /* Aligns image to the logo text*/
     vertical-align: top;
 }
@@ -147,6 +147,10 @@
         text-align: center;
     }
 
+    .main-menu {
+        text-align: center;
+    }
+
     .main-menu-items {
         /* Mobile container does not display until hovered over*/
         display: none;
@@ -174,7 +178,7 @@
 
         /* Add some spacing for readability */
         margin-bottom: .1rem;
-        
+
         /* Making the underline stay under the words only */
         width: fit-content;
     }
@@ -204,12 +208,7 @@
 
     .menu-button {
         /* Displays the button when in mobile view */
-        display: block;
-    }
-
-    .main-menu:hover .main-menu-items {
-        /* Displays the mobile menu mobile format */
-        display: block;
+        display: inline-block;
     }
 
     .social-bar {
@@ -217,7 +216,7 @@
         text-align: center;
 
     }
-    
+
 
 }
 
