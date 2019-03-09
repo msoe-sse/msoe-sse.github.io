@@ -1,6 +1,6 @@
 <header>
     <div class="site-navigation">
-      
+
       <!--Site Title and SVG Logo-->
       <div class="logo">
         <a class="logotext" href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
@@ -9,28 +9,29 @@
 
       <!--Menu Bar and drop downs -->
       <div class="navigation-bar">
-        <div class="main-menu"><div class="menu-button">menu</div>
-          <div class="main-menu-items">
-            <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
-            <div class="dropdown-wrapper">
-              <a class="navigation-bar_link" href="{{ '/about' | prepend: site.baseurl }}">about</a>
-              <div class="dropdown-menu-content">
-                <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
-                <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
+        <div class="main-menu"><div id="mobile-menu-button" class="menu-button" onmouseenter="displayNav()" onmouseout="hideNav()">menu</div>
+        </div>
+          <div id="menu-items" class="main-menu-items">
+              <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
+              <div class="dropdown-wrapper">
+                  <a class="navigation-bar_link" href="{{ '/about' | prepend: site.baseurl }}">about</a>
+                  <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
+                      <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
+                  </div>
+              </div>
+              <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
+              <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
+              <div class="dropdown-wrapper">
+                <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
+                <div class="dropdown-menu-content">
+                  <a class="navigation-bar_link_dropdown" href="{{ '/events/points' | prepend: site.baseurl}}">points</a>
+                </div>
               </div>
             </div> 
-            <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
-            <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-            <div class="dropdown-wrapper">
-              <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
-              <div class="dropdown-menu-content">
-                <a class="navigation-bar_link" href="{{ '/events/points' | prepend: site.baseurl}}">points</a>
-              </div>
-            </div>
           </div>
-        </div>
       </div>
-      
+
       <!--Social Bar elements-->
       <div class="social-bar">
         {% if site.author.youtube %}
@@ -38,39 +39,40 @@
               <span class="icon-youtube"></span>
             </a>
         {% endif %}
-        
+
         {% if site.author.stackoverflow %}
             <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-stackoverflow"></span>
             </a>
         {% endif %}
-        
+
         {% if site.author.twitter %}
             <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-twitter"></span>
             </a>
         {% endif %}
-        
+
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-github"></span>
             </a>
         {% endif %}
-        
+
         {% if site.author.mail %}
             <a href="mailto:{{ site.author.mail }}" target="_blank" class="social-bar_link">
               <span class="icon-mail_outline"></span>
             </a>
         {% endif %}
-        
+
         {% if site.author.rss == true %}
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="social-bar_link">
                 <span class="icon-rss_feed"></span>
             </a>
         {% endif %}
-        
+
             <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link">
               <span class="icon-invert_colors" id="theme-switcher"></span>
             </a>
     </div>
+        <script type="text/javascript" src="/assets/js/nav.js"></script>
 </header>
