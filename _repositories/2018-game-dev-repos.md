@@ -6,12 +6,12 @@ permalink: /repositories
 
 
 
-## [Game Development Java FX Project](https://github.com/GracieHorton/gamedev_javafxproject)
+## [Game Development 2D Unity Project](https://github.com/GracieHorton/gamedev_javafxproject)
 
 >Houses a Unity side-scroller game inspired by Mario/cuphead. 
 
-## [Game Development Picture Repository](https://github.com/Acais/LoveCore)
->Love core is a collection of games written in lua for the Love enginee. The games will be compiled together to form an overarching game, similar to Mario party. While the official name is still under discussion, this lua game is great practice for your development skills, so enjoy!
+## Prop Hunt VR
+>A prop hunt game written in C# using the Unity game engine where the seeker plays in VR. Join the [#vr_game_dev](https://msoe-sse.slack.com/messages/CD9MUUGP3/) channel on Slack and send a message to Seth Fenske on Slack to get access to the private GitHub repository for Prop Hunt VR if you would like to get invovled with this project.
 
 
 ## [This web site's home](https://github.com/msoe-sse/msoe-sse.github.io)
