@@ -4,7 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-const MOBILE_WIDTH_BREAKPOINT = 770;
+const MOBILE_WIDTH = 770;
 
 document.addEventListener("DOMContentLoaded", function() {
     let apiUrl = '{{ site.APIBaseUrl }}';
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch(`${apiUrl}/points?source=${source}`)
         .then((resp) => resp.json())
         .then(function(data) {
-            if(window.innerWidth > MOBILE_WIDTH_BREAKPOINT) {
+            if(window.innerWidth > MOBILE_WIDTH) {
                 createDesktopTable(data);
             } else {
                 createMobileTables(data);
