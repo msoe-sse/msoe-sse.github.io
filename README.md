@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/msoe-sse/msoe-sse.github.io.svg?branch=master)](https://travis-ci.com/msoe-sse/msoe-sse.github.io)
 # Setup
 1. You will need Ruby installed on your development machine.  Ruby 2.4 or 2.5 should both work fine.
     - Check version with `ruby -v`
