@@ -35,11 +35,12 @@ author:
   photo                     : "uploads/SSE_LOGO.png"
   photo2x                   : "uploads/SSE_LOGO.png"
 
-
-
 ## !!
 ## Advanced blog settings
 ## You should not change anything here unless you know what you are doing
+
+APIBaseUrl: "https://user-ranking-endpoint-staging.herokuapp.com"
+APISource: "sheets"
 
 # Gems
 plugins:
