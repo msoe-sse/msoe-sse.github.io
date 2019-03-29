@@ -7,13 +7,13 @@ published: true
 
 # Game Jam 2019
 
+## This year’s theme is: Dimensional Diasters!
+
 [Register now](https://docs.google.com/forms/d/e/1FAIpQLScc1pJpq1djj7SdGMW2XmuD2wxfaZ_CrHEQtqDppeBFf_cdUw/viewform)
 
 ## What is this event?
 
 A game jam is a competition, a race against the clock, to write a video game in less than 36 hours. You or your team must submit a video game by 11:59 on Saturday night. The only catch is that each submission must adhere to the year’s theme. The SSE website will announce the theme on Friday at noon. The contest consists of two main categories, the hard-core competition and the casual competition.
-
-This year’s theme is: Dimensional Diasters!
 
 The subcategories for which we will award prizes are:
 
