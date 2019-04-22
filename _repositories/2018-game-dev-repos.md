@@ -2,13 +2,14 @@
 layout: page
 title: Repositories
 permalink: /repositories
+repo-status: true
 ---
 
 
 
 ## [Game Development 2D Unity Project](https://github.com/GracieHorton/gamedev_javafxproject)
 
->Houses a Unity side-scroller game inspired by Mario/cuphead. 
+>Houses a Unity side-scroller game inspired by Mario/cuphead.
 
 ## Prop Hunt VR
 >A prop hunt game written in C# using the Unity game engine where the seeker plays in VR. Join the [#vr_game_dev](https://msoe-sse.slack.com/messages/CD9MUUGP3/) channel on Slack and send a message to Seth Fenske on Slack to get access to the private GitHub repository for Prop Hunt VR if you would like to get invovled with this project.
