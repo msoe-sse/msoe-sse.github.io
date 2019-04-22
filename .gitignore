@@ -13,3 +13,6 @@
 
 # cached scss
 /.sass-cache/
+
+# Jetbrains IDEA
+.idea

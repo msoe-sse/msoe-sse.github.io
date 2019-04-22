@@ -1,14 +1,13 @@
 language: ruby
 rvm:
-  - 2.4.1
-
+  - 2.5.1
+branches:
+  only: [master, dev]
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
-  
+  - bundle exec rubocop -R
 sudo: false # route your build to the container-based infrastructure for a faster build
-
 cache: bundler # caching bundler gem packages will speed up build
 exclude: [vendor]
-
 install:
 - bundle install
