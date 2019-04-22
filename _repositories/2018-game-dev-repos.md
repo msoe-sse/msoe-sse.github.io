@@ -9,7 +9,7 @@ repo-status: true
 
 ## [Game Development Java FX Project](https://github.com/GracieHorton/gamedev_javafxproject)
 
->Houses a Unity side-scroller game inspired by Mario/cuphead. 
+>Houses a Unity side-scroller game inspired by Mario/cuphead.
 
 ## [Game Development Picture Repository](https://github.com/Acais/LoveCore)
 >Love core is a collection of games written in lua for the Love enginee. The games will be compiled together to form an overarching game, similar to Mario party. While the official name is still under discussion, this lua game is great practice for your development skills, so enjoy!
