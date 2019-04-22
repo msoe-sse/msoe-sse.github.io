@@ -7,63 +7,49 @@ published: true
 
 # Game Jam 2019
 
-## This year’s theme is: Dimensional Diasters!
+## What was this event?
 
-[Register now](https://docs.google.com/forms/d/e/1FAIpQLScc1pJpq1djj7SdGMW2XmuD2wxfaZ_CrHEQtqDppeBFf_cdUw/viewform)
+The game jam was a competition, a race against the clock, to write a video game in less than 36 hours. You or your team had to submit a video game by 11:59 on Saturday night. The only catch is that each submission must adhere to the year’s theme. The contest consisted of two main categories, the hard-core competition and the casual competition.
 
-## What is this event?
+This year’s theme was: Dimensional Disasters!
 
-A game jam is a competition, a race against the clock, to write a video game in less than 36 hours. You or your team must submit a video game by 11:59 on Saturday night. The only catch is that each submission must adhere to the year’s theme. The SSE website will announce the theme on Friday at noon. The contest consists of two main categories, the hard-core competition and the casual competition.
-
-The subcategories for which we will award prizes are:
-
+The subcategories for which we will soon award prizes to are: 
 Best Art
 
 Best Story
 
 Most Creative Interpretation of Theme
 
-#### [Rules for the Casual Competition](#headin)
-#### [Rules for the Hardcore Competition](#headin2)
-#### [Event Guidelines](#headin3)
-#### [When is it?](#headin4)
-#### [How do I sign up?](#headin5)
-<a name="headin"></a>
+## Game Jam Overall Retro
+The game jam went by in a flash. Nothing compares to the panicked cretive rush you feel after realizing you've wasted hours nitpicking one aspect of your game and only have 6 hours to complete 30% of your game. At the end of your 36 hours, all you can do is do that one final git push as the tears stream down your face. Tears of joy that you finished your project before the deadline, but mixed with tears of mouring your beautiful brain child.
 
-## Rules for the Casual Competion
+Overall, the event went very well. We had some high quality submissions  which have much promise in their own right. I hope that we can continue developing these games in order to make them even better than their current 36 hour versions.
 
-The casual competition allows each team to use whatever assets the team can get their hands on to complete their game. This may include: code, sprites, audio, and game engines. The game should still be original to this competition and not reusing old projects from the past as submissions. Old assets are always ok to reuse.
-<a name="headin2"></a>
+## Try the games for yourself
 
-## Rules for the Hardcore Competition 
+### Hardcore Competion
+#### Seth Fenske - Euclids Dreamland
+ According to Euclid, the shortest distance between two points in space is a straght line. What if that wasn't the case? What if you could go from point a to point b via a route that isn't a stratight line? Find out what that might feel like in Euclids Dreamland!
 
-The hardcore competition is exactly the same; however, each team must start from scratch. From the time the competition starts on Friday, until it ends on Saturday each team must produce all submitted art, code, sounds, etc. There are exceptions to this rule; you may use software tools to aid you in creating your game. This includes tools like game engines, version control software, etc.
-<a name="headin3"></a>
+To run the game, download the project from GitHub: [https://github.com/GameJam2019](https://github.com/CreeperElement/GameJam2019)
 
-## Event Guidelines
+Download the Zip. Unzip it and click the EuclidsDreamland shortcut. Press Alt-F4 to quit the game.
 
-_Before the game jam_: Put together a team and register for either the casual or hardcore competition.
+#### Isaac Ballone - Melvin The Duck
 
-_Friday at Noon_: The theme will be announced on Friday at noon. All teams may begin developing their games. Make sure to relate the game back to the theme.
+Melvin the Duck is an instant-classic featuring hand drawn graphics, spectacular special effects, and addicting gameplay. You play as the star of the show, Melvin, as you defend your home by bonking interdimensional rift junk.
 
-_Saturday 11:00 pm_: The website will post a link to a google form. Use this form to include a link to your game.
+Try it now at: [https://onlinecoop.games/melvin](https://onlinecoop.games/melvin), and be sure to bookmark it as co-op mode will be released shortly!
 
-_Saturday 11:59 pm_: Any projects submitted after this time will not be accepted. If any updates to any projects are made after this point, we will disqualify the project.
+### Casual Competion
+#### Andrew Wojciechowski - Cross Dimensional Platformer
 
-_Sunday 6:00 am_: All of the games will be uploaded to the website. Anyone can download and play them. At this point, all teams who submitted a final version of their game can begin voting for their favorite game.
+Cross dimensional platformer is a generic platformer where the platforming is determined through objects in the world which are located in inter dimensional rifts.
 
-_Saturday, April 5th 7:00 pm_: The winners of awards will be announced at the Beta Test Night, where can continue to show off your game and get feedback from players. Attending this event is not necessary to win any awards.
-<a name="headin4"></a>
+If you want to try out the first level go to [https://github.com/MsoeGameJam2019](https://github.com/andy-wojciechowski/MsoeGameJam2019). You will need Python installed on your computer and no-one has successfully gotten it to run at the command line yet. The only way to play the game currently is with the PyCharm IDE.
 
-## When is it?
+#### Christian Hennig - Flippy the Penguin
 
-The competition runs from Friday at noon until Saturday night.
+Flippy's life was great, until one day everything turned upside down (literally!). "Flippy" is a 2D top-down adventure game inspired by pretty much any good 2D game you can think of. The first level of "Flippy" features bottle whacking, belly-sliding, a mysterious villain, and a copious amount crabs.
 
-We will announce the game jam theme on Friday at noon. At that time, people may sign up as individuals or teams, and hack away at their game until the submission window opens at 11:00 pm on Saturday. At that time, final submissions will open for anyone who finished in time to submit their code. Submissions MUST be turned in by the 11:59 deadline.
-<a name="headin5"></a>
-
-## How do I sign up?
-
-Click the [Register Now](https://docs.google.com/forms/d/e/1FAIpQLScc1pJpq1djj7SdGMW2XmuD2wxfaZ_CrHEQtqDppeBFf_cdUw/viewform) Link and sign up as an individual or as a team. All you need at this point is some team name under which to register. Remember this name as you will use it later to link your team to your game.
-
-Again, teams may be composed of an individual or a team of as many people as desired. There is no limit and teams are allowed for both the casual and hardcore competition.
+If you would like to try the first version of this level, go to: [https://github.com/Flippy](https://github.com/ChipHennig/Flippy) 1. Download the ZIP file (Clone or Download) 2. After extracting, go to folder: "FINAL BUILD" 3. Run "FlippyGameJam.exe"
