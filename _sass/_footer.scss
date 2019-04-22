@@ -6,6 +6,16 @@ footer {
     color: var(--text-color-light);
     text-align: center;
     line-height: $base-line-height;
+    width: 100%;
+    background-color: rgb(252, 249, 249);
+}
+
+.topic {
+    color: green;
+}
+
+a {
+    color: green !important;
 }
 
 #disqus_thread {
