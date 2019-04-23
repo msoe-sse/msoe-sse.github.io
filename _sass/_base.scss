@@ -25,7 +25,12 @@ body {
     max-width: 48rem;
     margin: 4rem auto 4rem auto;
 }
-
+.repository-status::after {
+  box-sizing: unset;
+}
+.repository-status::before {
+  box-sizing: unset;
+}
 
 @media (max-width: 48rem) {
     body {

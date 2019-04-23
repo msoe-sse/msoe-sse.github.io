@@ -76,6 +76,7 @@ defaults:
       type: my_tags
     values:
       layout: blog-by-tag
+      repo: false
 
 # Handling Reading
 exclude                    : ["README.md", "README.html"]
