@@ -40,7 +40,6 @@ author:
 ## You should not change anything here unless you know what you are doing
 
 APIBaseUrl: "https://user-ranking-endpoint-staging.herokuapp.com"
-APISource: "sheets"
 
 # Gems
 plugins:
