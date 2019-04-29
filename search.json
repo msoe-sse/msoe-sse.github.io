@@ -5,16 +5,18 @@ sitemap:
 ---
 [
     {% for post in site.posts %}
+        {% capture posttitle %}{{post.title}}{% endcapture %}
         {
-            "title": "{{ post.title | escape}}",
+            "title": "{{ posttitle | escape}}",
             "url": "{{ site.baseurl }}{{ post.url }}"
         } {% unless forloop.last %}, {% endunless %}
     {% endfor %}
-    {% if site.pages.size > 0}, {% endif %}
+    {% if site.pages.size > 0 %}, {% endif %}
     {% for page in site.pages %}
-    {
-        "title": "{{ page.title | escape}}",
-        "url": "{{ site.baseurl }}{{ page.url }}"
-    }
+        {% capture pagetitle %}{{page.title}}{% endcapture %}
+        {
+            "title": "{{ pagetitle | escape}}",
+            "url": "{{ site.baseurl }}{{ page.url }}"
+        } {% unless forloop.last %}, {% endunless %}
     {% endfor %}
 ]
