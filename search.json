@@ -21,4 +21,27 @@ sitemap:
             } {% unless forloop.last %}, {% endunless %}
         {% endif %}
     {% endfor %}
+    {% for repoPage in site.repositories %}
+        {% capture pagetitle %}{{repoPage.title}}{% endcapture %}
+        {
+            "title": "{{ pagetitle | escape}}",
+            "url": "{{ site.baseurl }}{{ repoPage.url }}"
+        } {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {% if site.events.size > 0 %}, {% endif %}
+    {% for eventPage in site.events %}
+        {% capture pagetitle %}{{eventPage.title}}{% endcapture %}
+        {
+            "title": "{{ pagetitle | escape}}",
+            "url": "{{ site.baseurl }}{{ eventPage.url }}"
+        } {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {% if site.constitution.size > 0 %}, {% endif %}
+    {% for constitutionPage in site.constitution %}
+        {% capture pagetitle %}{{constitutionPage.title}}{% endcapture %}
+        {
+            "title": "{{ pagetitle | escape}}",
+            "url": "{{ site.baseurl }}{{ constitutionPage.url }}"
+        } {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
 ]

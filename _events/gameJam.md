@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SSE Events
+title: SSE Game Jam
 permalink: /events/gamejam
 published: true
 ---
