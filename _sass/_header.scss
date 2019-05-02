@@ -224,7 +224,14 @@
     display: inline-block;
 }
 
+#search-input {
+    color: var(--text-color);
+    background: var(--code-bg-color);
+}
 
-
-
-
+#results-container {
+    text-align: left;
+    position: absolute;
+    background-color: var(--table-border-color);
+    z-index: 10;
+}
