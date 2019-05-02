@@ -13,10 +13,12 @@ sitemap:
     {% endfor %}
     {% if site.pages.size > 0 %}, {% endif %}
     {% for page in site.pages %}
-        {% capture pagetitle %}{{page.title}}{% endcapture %}
-        {
-            "title": "{{ pagetitle | escape}}",
-            "url": "{{ site.baseurl }}{{ page.url }}"
-        } {% unless forloop.last %}, {% endunless %}
+        {% if page.layout == 'page' %}
+            {% capture pagetitle %}{{page.title}}{% endcapture %}
+            {
+                "title": "{{ pagetitle | escape}}",
+                "url": "{{ site.baseurl }}{{ page.url }}"
+            } {% unless forloop.last %}, {% endunless %}
+        {% endif %}
     {% endfor %}
 ]

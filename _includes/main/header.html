@@ -21,7 +21,7 @@
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a>
                   </div>
               </div>
-              <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
+              <!--<a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>-->
               <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
               <div class="dropdown-wrapper">
                 <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
@@ -30,7 +30,7 @@
                   <a class="navigation-bar_link_dropdown" href="{{ '/events/gamejam' | prepend: site.baseurl }}">game jam</a>
                 </div>
               </div>
-            </div> 
+            </div>
            </div>
           </div>
           <br/>
@@ -77,6 +77,9 @@
             <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link">
               <span class="icon-invert_colors" id="theme-switcher"></span>
             </a>
+        
+        <span>{% include search.html %}</span>
+
     </div>
         <script type="text/javascript" src="/assets/js/nav.js"></script>
 </header>
