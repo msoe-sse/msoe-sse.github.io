@@ -1,0 +1,9 @@
+---
+layout: page
+title: Lightning Talks
+permalink: /events/lightningtalks
+---
+
+{% for talk in site.data.lightningtalks %}
+    {% include youtubePlayer.html id=talk.id %}
+{% endfor %}
