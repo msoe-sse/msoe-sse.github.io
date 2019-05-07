@@ -8,9 +8,8 @@ const MOBILE_WIDTH = 770;
 
 document.addEventListener("DOMContentLoaded", function() {
     let apiUrl = '{{ site.APIBaseUrl }}';
-    let source = '{{ site.APISource }}';
 
-    fetch(`${apiUrl}/points?source=${source}`)
+    fetch(`${apiUrl}/points`)
         .then((resp) => resp.json())
         .then(function(data) {
             if(window.innerWidth > MOBILE_WIDTH) {
