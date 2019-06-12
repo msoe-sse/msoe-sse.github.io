@@ -5,7 +5,7 @@ permalink: /about/eboard
 published: true
 ---
 
-<img src="/assets/img/Eboard_RockClimb.jpg" width="90%" height="45%" />
+<img src="/assets/img/eboard-rock-crop.png" width="100%" height="200%" />
 
 ## Our Eboard
 
