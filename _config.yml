@@ -39,7 +39,7 @@ author:
 ## Advanced blog settings
 ## You should not change anything here unless you know what you are doing
 
-APIBaseUrl: "https://user-ranking-endpoint-staging.herokuapp.com"
+APIBaseUrl: "https://user-ranking-endpoint-prod.herokuapp.com"
 
 # Gems
 plugins:

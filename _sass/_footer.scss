@@ -6,8 +6,16 @@ footer {
     color: var(--text-color-light);
     text-align: center;
     line-height: $base-line-height;
+    width: 100%;
+    background-color: var(--hero-heading-color);
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+.icons {
+    font-size: 3rem;
 }
 
 #disqus_thread {
-    margin-top: 100px;
+    margin-top: 5rem;
 }

@@ -5,6 +5,7 @@ permalink: /about/eboard
 published: true
 ---
 
+<img src="/assets/img/eboard-rock-crop.png" width="100%" height="200%" />
 
 ## Our Eboard
 
