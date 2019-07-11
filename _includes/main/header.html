@@ -9,7 +9,8 @@
 
       <!--Menu Bar and drop downs -->
       <div class="navigation-bar">
-        <div class="main-menu"><div id="mobile-menu-button" class="menu-button" onmouseenter="displayNav()" onmouseout="hideNav()">menu</div>
+        <div class="main-menu">
+          <div id="mobile-menu-button" class="menu-button" onmouseenter="displayNav()" onmouseout="hideNav()">menu</div>
         </div>
           <div id="menu-items" class="main-menu-items">
               <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
@@ -19,7 +20,7 @@
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a> 
-                  </div>
+              </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
               <div class="dropdown-wrapper">
@@ -31,14 +32,15 @@
                 </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-            </div>
-           </div>
+          
           </div>
-          <br/>
-        <div class="utility-bar">
+      </div>
+    </div>
+    <br/>
+    <div class="utility-bar">
         <span>{% include search.html %}</span>
-      </div>
-      </div>
+    </div>
+    <div>
       <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link switch-theme-icon">
         <span class="icon-invert_colors" id="theme-switcher"></span>
       </a>
