@@ -18,14 +18,24 @@
                   <div class="dropdown-menu-content">
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
+                      <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a> 
                   </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
+              <div class="dropdown-wrapper">
+                <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
+                <div class="dropdown-menu-content">
+                  <a class="navigation-bar_link_dropdown" href="{{ '/events/points' | prepend: site.baseurl}}">points</a>
+                  <a class="navigation-bar_link_dropdown" href="{{ '/events/gamejam' | prepend: site.baseurl }}">game jam</a>
+                  <a class="navigation-bar_link_dropdown" href="{{ '/events/lightningtalks' | prepend: site.baseurl }}">lightning talks</a>
+                </div>
+              </div>
               <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-              <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
           </div>
       </div>
-
+      <br/>
+      <br/>
+      <br/>
       <!--Social Bar elements-->
       <div class="social-bar">
         {% if site.author.youtube %}
