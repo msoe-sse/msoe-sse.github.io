@@ -46,18 +46,6 @@
             </a>
         {% endif %}
 
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller social-bar_link">
-              <span class="icon-github"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.mail %}
-            <a href="mailto:{{ site.author.mail }}" target="_blank" class="social-bar_link">
-              <span class="icon-mail_outline"></span>
-            </a>
-        {% endif %}
-
         {% if site.author.rss == true %}
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="social-bar_link">
                 <span class="icon-rss_feed"></span>
