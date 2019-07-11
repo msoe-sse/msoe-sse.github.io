@@ -77,9 +77,8 @@
 .social-bar {
     /* Align the social bar to the right of the window */
     text-align: right;
-
-    /* Give some breathing room between the */
-    margin-bottom: 1rem;
+    margin-left: auto;
+    display: flex;
 }
 
 .social-bar_link {
@@ -88,6 +87,13 @@
 
     /* Remove underline from link */
     text-decoration: none;
+}
+
+.switch-theme-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
 }
 
 
@@ -141,6 +147,10 @@
 
 /* This is mobile view styling - only time you have to use px */
 @media screen and (max-width: 770px) {
+
+    .utility-bar {
+        flex-direction: column;
+    }
 
     .logo {
         /* Centers the logo in the middle of the mobile page*/
@@ -214,15 +224,46 @@
     .social-bar {
         /* Centers text to match styling in header */
         text-align: center;
-
+        margin: 1rem 0;
+        display: flex;
     }
-
 
 }
 
+.utility-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 
+    span {
+        width: 100%;
+        margin-right: 0.5rem;
+    }
+}
 
-
-
-
-
+// Full site search
+.site-search {
+    color: var(--text-color);
+    background: var(--code-bg-color);
+    border-radius: 0.25rem;
+    width: 100%;
+    border-style: solid;
+    border-color: --text-color;
+    box-shadow: none;
+    padding: 0.3rem
+}
+  
+.site-search-results {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    background-color: var(--table-border-color);
+    z-index: 20;
+}
+  
+// Search result childrens
+.site-search-results li {
+    margin: 1rem;
+}
+  
