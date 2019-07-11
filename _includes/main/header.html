@@ -39,39 +39,9 @@
         <span>{% include search.html %}</span>
       </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <!--Social Bar elements-->
-      <div class="social-bar">
-        {% if site.author.youtube %}
-            <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller social-bar_link">
-              <span class="icon-youtube"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.stackoverflow %}
-            <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller social-bar_link">
-              <span class="icon-stackoverflow"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller social-bar_link">
-              <span class="icon-twitter"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.rss == true %}
-            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="social-bar_link">
-                <span class="icon-rss_feed"></span>
-            </a>
-        {% endif %}
-
-            <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link">
-              <span class="icon-invert_colors" id="theme-switcher"></span>
-            </a>
-        </div>
+      <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link switch-theme-icon">
+        <span class="icon-invert_colors" id="theme-switcher"></span>
+      </a>
     </div>
         <script type="text/javascript" src="/assets/js/nav.js"></script>
 </header>
