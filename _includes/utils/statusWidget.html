@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+<link rel="stylesheet" href="{{"assets/css/github-activity.css" | relative_url}}">
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+<script type="text/javascript" src="{{"assets/js/github-activity.js" | relative_url}}"></script>
+
+<div id="feed" style="height: 500px;"></div>
+
+<script>
+GitHubActivity.feed({
+    username: "msoe-sse",
+    repository: "msoe-sse.github.io",
+    selector: "#feed"
+});
+</script>

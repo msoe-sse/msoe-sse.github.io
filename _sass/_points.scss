@@ -1,0 +1,23 @@
+.points-row {
+    text-align: center;
+}
+
+#LoadingHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#Container {
+    display: none;
+    overflow-x: scroll;
+}
+
+.points-table {
+    font-size: 14px;
+    margin: 0;
+}
+
+#ErrorMessage {
+    display: none;
+}
+

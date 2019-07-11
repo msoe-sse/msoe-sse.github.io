@@ -35,11 +35,11 @@ author:
   photo                     : "uploads/SSE_LOGO.png"
   photo2x                   : "uploads/SSE_LOGO.png"
 
-
-
 ## !!
 ## Advanced blog settings
 ## You should not change anything here unless you know what you are doing
+
+APIBaseUrl: "https://user-ranking-endpoint-prod.herokuapp.com"
 
 # Gems
 plugins:
@@ -76,6 +76,7 @@ defaults:
       type: my_tags
     values:
       layout: blog-by-tag
+      repo: false
 
 # Handling Reading
 exclude                    : ["README.md", "README.html"]
