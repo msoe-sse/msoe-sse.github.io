@@ -18,7 +18,7 @@
                   <div class="dropdown-menu-content">
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
                       <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
-                      <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a>
+                      <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a> 
                   </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/archive' | prepend: site.baseurl }}">archive</a>
@@ -31,12 +31,11 @@
                 </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-            </div> 
-           </div>
           </div>
-          <br/>
-          <br/>
-          <br/>
+      </div>
+      <br/>
+      <br/>
+      <br/>
       <!--Social Bar elements-->
       <div class="social-bar">
         {% if site.author.youtube %}
@@ -54,18 +53,6 @@
         {% if site.author.twitter %}
             <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller social-bar_link">
               <span class="icon-twitter"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller social-bar_link">
-              <span class="icon-github"></span>
-            </a>
-        {% endif %}
-
-        {% if site.author.mail %}
-            <a href="mailto:{{ site.author.mail }}" target="_blank" class="social-bar_link">
-              <span class="icon-mail_outline"></span>
             </a>
         {% endif %}
 
