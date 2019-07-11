@@ -1,0 +1,19 @@
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Search" class="site-search">
+    <ul id="results-container" class="site-search-results"></ul>
+</div>
+    
+<script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+    
+<script>
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+
+    SimpleJekyllSearch({
+      searchInput,
+      resultsContainer,
+      json: '/search.json'
+    });
+
+    
+</script>
