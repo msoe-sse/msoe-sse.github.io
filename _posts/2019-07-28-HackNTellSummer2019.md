@@ -11,7 +11,7 @@ published: true
 ---
 {: .lead}
 <!–-break-–>
-![Hack N Tell Summer 2019.jpg](/assets/img/Hack N Tell Summer 2019.jpg)
+![Hack N Tell Summer 2019.jpg](/assets/img/Hack_N_Tell_Summer_2019.jpg)
 
 Hello, it's Andy Wojciechowski (SSE Member) and Seth Fenske (Game Dev Officer) and we're going to tell you what we worked on during Rokkin Cat's summer 2019 Hack N Tell. 
 
@@ -21,7 +21,7 @@ For those of you who don't know what a Hack N Tell is, it's a 8 hour event in [W
 # What Andy Worked On
 During the Hack N Tell I worked on adding features to an application I've been working on all summer, a post editor for the SSE website, which I'm using currently to write this post. On the SSE website currently we have very few posts currently and I'm hoping the editor will help increase the number of posts on the website by allowing people to directly write and submit posts for the website instead of having website developers only writing posts. The main feature I worked on is allowing a user to edit existing posts on the website. Over the course of the Hack N Tell I worked on refactoring existing code in the backend and making a new list page which will allow a user to either edit an existing post or allow them to create a new post. At the end of the event I ended up with an initial list page shown below.
 
-![Initial Post List View.png](/assets/img/Initial Post List View.png)
+![Initial Post List View.png](/assets/img/Initial_Post_List_View.png)
 
 The page does look kind of basic at the moment, along with the initial edit view but I'm hoping to get some help from some of the other SSE website developers in order to make the post editor look better. 
 
