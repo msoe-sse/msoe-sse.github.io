@@ -19,3 +19,27 @@ footer {
 #disqus_thread {
     margin-top: 5rem;
 }
+
+.contacts {
+  display: block;
+  width: 100%;
+}
+
+.contact {
+  padding: 1rem;
+  margin: .2rem;
+  width: 14%;
+}
+
+.contact .name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact a {
+  color: rgb(50, 50, 230);
+}
+
+.contact .phone {
+  color: rgb(30, 150, 50);
+}

@@ -5,7 +5,7 @@
             <a href="https://www.instagram.com/msoe_sse/"><i
                     class="fab fa-instagram"></i></a>
             <a href="https://msoe-sse.slack.com/"><i class="fab fa-slack"></i></a>
-            <a href="https://github.com/msoe-sse"><i class="fab fa-github"></i></a> 
+            <a href="https://github.com/msoe-sse"><i class="fab fa-github"></i></a>
     </div>
     <div>
         <span>Released under the MIT License.</span>
@@ -13,5 +13,16 @@
     <div>
             <span class="topic">{{ site.blog.description }}</span>
             <span>written by {{ site.author.fullname }}.</span>
+    </div>
+    <div class="contacts">
+          {% for person in site.eboard %}
+            <div class="contact">
+                <span class="name">{{ person.fullname }}</span><br>
+                Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a><br>
+                {% if person.linkedin %}LinkedIn: <a href="{{ person.linkedin }}">{{ person.fullname }}</a><br>{% endif %}
+                {% if person.phone %}Phone: <span class="phone">{{ person.phone }}</span><br>{% endif %}
+                {% if person.twitter %}Twitter: <a href="twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a><br>{% endif %}
+            </div>
+          {% endfor %}
     </div>
 </footer>
