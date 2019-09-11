@@ -14,9 +14,9 @@
             <span class="topic">{{ site.blog.description }}</span>
             <span>written by {{ site.author.fullname }}.</span>
     </div>
-    <div class="contacts">
-          <br>
-          <div class="label">Eboard Members</div>
+    <div class="eboard">
+      <div class="label">Eboard Members</div>
+      <div class="contacts">
           {% for person in site.eboard %}
             <div class="contact">
                 <span class="name">{{ person.fullname }}</span><br>
@@ -26,5 +26,6 @@
                 {% if person.twitter %}Twitter: <a href="twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a><br>{% endif %}
             </div>
           {% endfor %}
+      </div>
     </div>
 </footer>
