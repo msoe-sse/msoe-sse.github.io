@@ -21,14 +21,27 @@ footer {
 }
 
 .contacts {
+  text-align: center;
   display: block;
   width: 100%;
 }
 
+.label {
+  margin: 0 auto auto auto;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
 .contact {
+  display: inline-block;
+  float: left;
   padding: 1rem;
   margin: .2rem;
   width: 14%;
+}
+
+.contact:first-child {
+  margin-left: 7%;
 }
 
 .contact .name {
