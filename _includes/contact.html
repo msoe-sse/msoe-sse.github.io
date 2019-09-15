@@ -1,7 +1,7 @@
 <div class="line"></div>
 <div class="contact">
   {% if person %}
-    {% if showname %}<span class="name">{{ person.fullname }}</span><br>{% endif %}
+    {% if showname != false %}<span class="name">{{ person.fullname }}</span><br>{% endif %}
     Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a>
     {% if person.linkedin %}LinkedIn: <a href="{{ person.linkedin }}">{{ person.fullname }}</a><br>{% endif %}
     {% if person.phone %}Phone: <span class="phone">{{ person.phone }}</span>{% endif %}
