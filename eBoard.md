@@ -5,6 +5,8 @@ permalink: /about/eboard
 published: true
 ---
 
+{% assign showname = false %}
+
 <img src="/assets/img/eboard-rock-crop.png" width="100%" height="200%" />
 
 ## Our Eboard
