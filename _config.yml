@@ -23,7 +23,7 @@ blog:
 
 # Author info
 author:
-  fullname                  : Society of Software Engineers udc.uh
+  fullname                  : Society of Software Engineers
   rss                       : true # Generate RSS feed and add logo to header
   mail                      : admin@msoe-sse.com #SSE Email
   twitter                   : #twitter-user-name # Add Twitter username to add header logo
