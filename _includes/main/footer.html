@@ -14,18 +14,4 @@
             <span class="topic">{{ site.blog.description }}</span>
             <span>written by {{ site.author.fullname }}.</span>
     </div>
-    <div class="eboard">
-      <div class="label">Eboard Members</div>
-      <div class="contacts">
-          {% for person in site.eboard %}
-            <div class="contact">
-                <span class="name">{{ person.fullname }}</span><br>
-                Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a><br>
-                {% if person.linkedin %}LinkedIn: <a href="{{ person.linkedin }}">{{ person.fullname }}</a><br>{% endif %}
-                {% if person.phone %}Phone: <span class="phone">{{ person.phone }}</span><br>{% endif %}
-                {% if person.twitter %}Twitter: <a href="twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a><br>{% endif %}
-            </div>
-          {% endfor %}
-      </div>
-    </div>
 </footer>

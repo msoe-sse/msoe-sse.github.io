@@ -36,29 +36,35 @@ author:
   photo2x                   : "uploads/SSE_LOGO.png"
 
 eboard:
-  - fullname: Sabrina Stangler™️
+  sabrina:
+    fullname: Sabrina Stangler™️
     email: stanglersm@msoe.edu
     linkedin: linkedin.com/in/sabrinastangler/
     twitter: sabrinastangler
-  - fullname: Seth Fenske
+  seth:
+    fullname: Seth Fenske
     email: fenskesd@msoe.edu
     phone: (262) 977 - 4026
     linkedin: linkedin.com/in/seth-fenske-ab2704150/
     github: github.com/CreeperElement
     twitter: SethFenske
-  - fullname: Errin Miller
+  erin:
+    fullname: Errin Miller
     email: millerec@msoe.edu
     phone: (262) 402-3000
     linkedin: linkedin.com/in/errin-miller-900179145/
-  - fullname: Nick Scharrer
+  nick:
+    fullname: Nick Scharrer
     email: scharrernf@msoe.edu
     phone: 262-777-0993
     linkedin: linkedin.com/in/nscharrer/
-  - fullname: Grace Fleming
+  grace:
+    fullname: Grace Fleming
     email: flemingg@msoe.edu
     phone: 505-278-9952
     linkedin: linkedin.com/in/gracefleming/
-  - fullname: Kiel Dowdle
+  kiel:
+    fullname: Kiel Dowdle
     email: dowdlek@msoe.edu
     phone: 414-313-6727
     linkedin: www.linkedin.com/in/kieldowdle/
