@@ -49,6 +49,6 @@ Grace here! I'm currently a software major and the Webmaster of SSE. Currently I
 {% include contact.html %}
 
 ### Game Dev Club Master - Seth Fenske
-Hey guys! I'm Seth, a softmore software engineering student. I currently work as a Software Engineering Intern at Direct Supply. Outside of SSE I work on various VR software projects and read Stephen King Books.
+Hey guys! I'm Seth, a sophomore software engineering student. I currently work as a Software Engineering Intern at Direct Supply. Outside of SSE I work on various VR software projects and read Stephen King Books.
 {% assign person = site.eboard.seth %}
 {% include contact.html %}
