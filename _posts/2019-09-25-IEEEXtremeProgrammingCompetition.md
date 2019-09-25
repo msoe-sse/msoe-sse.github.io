@@ -12,8 +12,7 @@ published: true
 ---
 {: .lead}
 <!–-break-–>
-[logo]: https://ieeextreme.org/wp-content/uploads/2019/05/Xtreme_colour-e1557478323964.png "IEEEXtreme logo"
-![alt text][logo]
+![IEEEXtreme_logo.jpg](https://ieeextreme.org/wp-content/uploads/2019/05/Xtreme_colour-e1557478323964.png)
 
 ## What is IEEEXtreme?
 
