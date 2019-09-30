@@ -1,11 +1,11 @@
 <div class="line"></div>
 <div class="contact">
-  {% if person %}
-    {% if showname %}<span class="name">{{ person.fullname }}</span><br>{% endif %}
-    Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-    {% if person.linkedin %}LinkedIn: <a href="{{ person.linkedin }}">{{ person.fullname }}</a><br>{% endif %}
-    {% if person.phone %}Phone: <span class="phone">{{ person.phone }}</span>{% endif %}
-    {% if person.twitter %}Twitter: <a href="twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>{% endif %}
+  {% if include.person %}
+    {% if showname %}<span class="name">{{ include.person.fullname }}</span><br>{% endif %}
+    Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>
+    {% if include.person.linkedin %}LinkedIn: <a href="{{ include.person.linkedin }}">{{ include.person.fullname }}</a><br>{% endif %}
+    {% if include.person.phone %}Phone: <span class="phone">{{ include.person.phone }}</span>{% endif %}
+    {% if include.person.twitter %}Twitter: <a href="twitter.com/{{ include.person.twitter }}">@{{ include.person.twitter }}</a>{% endif %}
   {% endif %}
   <br><br>
 </div>
