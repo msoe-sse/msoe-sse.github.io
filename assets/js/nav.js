@@ -14,7 +14,7 @@ window.addEventListener('resize', function() {
 });
 
 /**
- *  Displays the navigation menu items. 
+ *  Toggles the display of the navigation menu items. 
  */
 function toggleNav() {
     const navItems = document.getElementById('menu-items');
