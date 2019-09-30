@@ -16,7 +16,7 @@ published: true
 
 ## What is IEEEXtreme?
 
-IEEEXtreme  is an annual programming challenge for college students. The event takes place over a period of 24 hours where teams of IEEE student members compete with each other by solving a series of programming challenges. The competition is being run by the student branch of IEEE at MSOE. To compete in the event you must be a member of IEEE. Registration for IEEEXtreme is currently open. The event will take place on October 19th, the Saturday following week 5. Where the competition will take place has yet to be determined, but it will be some where in Diercks Hall.
+IEEEXtreme  is an annual programming challenge for college students. The event takes place over a period of 24 hours where teams of IEEE student members compete with each other by solving a series of programming challenges. The competition is being run by the student branch of IEEE at MSOE. To compete in the event you must be a member of IEEE. Registration for IEEEXtreme is currently open. The event starts on October 18th at 7pm and ends on Saturday at 7pm. Where the competition will take place has yet to be determined, but it will be some where in Diercks Hall.
 
 [Join IEEE](https://www.ieee.org/membership/join/index.html) ($16 for half year, $32 for a full year)
 
