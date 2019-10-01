@@ -59,6 +59,19 @@ function generateMachine(data) {
     winnerElement.id = 'winner';
 
     spinButton.addEventListener('click', () => {
-        winnerElement.textContent = getRandomArrayItem(entries);
+        /* This check is performed here instead of after `entries` is updated
+           because otherwise the final winner's name would be immediately
+           overwritten by the 'Everyone has won!' message. */
+        if(entries.length === 0) {
+            spinButton.disabled = true;
+            winnerElement.textContent = 'Nobody is left! Everyone has won!';
+            return;
+        }
+
+        let winner = getRandomArrayItem(entries);
+        winnerElement.textContent = winner;
+
+        /* Remove all of the winner's names from the raffle pool. */
+        entries = entries.filter(name => name !== winner);
     });
 }
