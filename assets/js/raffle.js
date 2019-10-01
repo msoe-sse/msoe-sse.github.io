@@ -71,7 +71,7 @@ function generateMachine(data) {
         let winner = getRandomArrayItem(entries);
         winnerElement.textContent = winner;
 
-        /* Remove all of the winner's names from the raffle pool. */
-        entries = entries.filter(name => name !== winner);
+        /* People can win multiple times if they have multiple entries */
+        entries.splice(entries.indexOf(winner), 1);
     });
 }
