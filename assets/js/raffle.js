@@ -11,11 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     fetch(`${apiUrl}/points`)
         .then(response => response.json())
-        .then(data => generateMachine(data))
+        .then(data => {
+            document.querySelector('#LoadingHeader').remove();
+            generateMachine(data);
+        })
         .catch(() => {
+            document.querySelector('#LoadingHeader').remove();
             container.textContent
                 = ('There was an error while contacting the points service. ' +
-                   'Please try again later.')
+                   'Please try again later.');
         });
 });
 
