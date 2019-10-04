@@ -3,7 +3,18 @@ layout: page
 title: Lightning Talks
 permalink: /events/lightningtalks
 ---
-
+<h2>What are Lightning Talks?</h2>
+<p>
+    Lightning talks are quick 5-15 minute presentations that explore a certain topic in the domain of software engineering.
+    They are delivered during a SSE General Meeting and can be about anything you want! For example, you could give a 
+    talk on a new web framework, or maybe a new programming paradigm you just learned about. The goal is to share information
+    and encourage collaboration in new technologies. Check out the archives below to see what members have previously presented!
+</p>
+<h3>Interested in giving one?</h3>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSenuUQt-iEXlAuux5AzPaCZaR1pnQBjsDNwqpnfTEk5EuGvsA/viewform?usp=sf_link" target="_blank">
+    Sign Up Here
+</a>
+<h2>Past Lightning Talks</h2>
 {% for talk in site.data.lightningtalks %}
     {% include youtubePlayer.html id=talk.id %}
 {% endfor %}
