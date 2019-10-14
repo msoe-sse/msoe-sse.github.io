@@ -3,9 +3,9 @@
   {% if include.person %}
     {% if include.showname %}<span class="name">{{ include.person.fullname }}</span><br>{% endif %}
     Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>
-    {% if include.person.linkedin %}LinkedIn: <a href="{{ include.person.linkedin }}">{{ include.person.fullname }}</a><br>{% endif %}
+    {% if include.person.linkedin %}LinkedIn: <a href="https://{{ include.person.linkedin }}">{{ include.person.fullname }}</a><br>{% endif %}
     {% if include.person.phone %}Phone: <span class="phone">{{ include.person.phone }}</span>{% endif %}
-    {% if include.person.twitter %}Twitter: <a href="twitter.com/{{ include.person.twitter }}">@{{ include.person.twitter }}</a>{% endif %}
+    {% if include.person.twitter %}Twitter: <a href="https://twitter.com/{{ include.person.twitter }}">@{{ include.person.twitter }}</a>{% endif %}
   {% endif %}
   <br><br>
 </div>
