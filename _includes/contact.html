@@ -1,0 +1,40 @@
+<div class="line"></div>
+<div class="contact">
+  {% if include.person %}
+    {% if include.showname %}<span class="name">{{ include.person.fullname }}</span><br>{% endif %}
+    Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>
+    {% if include.person.linkedin %}LinkedIn: <a href="https://{{ include.person.linkedin }}">{{ include.person.fullname }}</a><br>{% endif %}
+    {% if include.person.phone %}Phone: <span class="phone">{{ include.person.phone }}</span>{% endif %}
+    {% if include.person.twitter %}Twitter: <a href="https://twitter.com/{{ include.person.twitter }}">@{{ include.person.twitter }}</a>{% endif %}
+  {% endif %}
+  <br><br>
+</div>
+
+<style>
+  .line {
+    background-color: #707070;
+    margin: 0 0 10px 0;
+    padding:.05rem 0;
+    width: 100%;
+    float: left;
+  }
+
+  .contact {
+    witdh: 100%;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+
+  .contact .name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .contact a {
+    color: #3232e6;
+  }
+
+  .contact .phone {
+    color: #1e9632;
+  }
+</style>
