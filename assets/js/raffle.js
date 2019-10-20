@@ -32,46 +32,59 @@ function getRandomArrayItem(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
+function shuffleArray(array) {
+    /* Returns a new array, with the input array's entries in random order.*/
+    let old = array.slice(); // don't destroy original array
+    let out = [];
+
+    old.forEach(item => {
+        let index = Math.floor(Math.random() * old.length);
+        out.push(old.splice(index, 1)[0]);
+    });
+
+    return out;
+}
+
 function generateMachine(data) {
-    /* The DOM looks like this:
+    let spinButton = document.querySelector('#spin');
+    let winnerElement = document.querySelector('#winner');
+    let nameBox = document.querySelector('#entries');
 
-         div#raffle (= container)
-           button#spin (= spinButton)
-           p#winner (= winnerElement)
-    */
-    let container = document.querySelector('#raffle');
-    let entries = [];
-
+    let entriesUnsorted = [];
     data.students.forEach(student => {
         /* The more total points a student has, the more entries they have in
            the raffle. */
         for(let i = 0; i < student.pointTotal; i += 1) {
-            entries.push(student.name);
+            let entry = document.createElement('p');
+            entry.classList.add('entry');
+            /* Give each entry a random background color. There is a
+               text-shadow applied so the name is always legible. */
+            let red = Math.floor(Math.random() * 256);
+            let green = Math.floor(Math.random() * 256);
+            let blue = Math.floor(Math.random() * 256);
+            entry.style.backgroundColor = ('rgb(' + red
+                                           + ', ' + green
+                                           + ', ' + blue + ')');
+            entry.textContent = student.name;
+            entriesUnsorted.push(entry);
         }
     });
 
-    let spinButton = container.appendChild(document.createElement('button'));
-    spinButton.type = 'button';
-    spinButton.id = 'spin';
-    spinButton.textContent = 'Spin';
-
-    let winnerElement = container.appendChild(document.createElement('p'));
-    winnerElement.id = 'winner';
+    shuffleArray(entriesUnsorted).forEach(entry => nameBox.appendChild(entry));
 
     spinButton.addEventListener('click', () => {
         /* This check is performed here instead of after `entries` is updated
            because otherwise the final winner's name would be immediately
            overwritten by the 'Everyone has won!' message. */
-        if(entries.length === 0) {
+        if(nameBox.children.length === 0) {
             spinButton.disabled = true;
             winnerElement.textContent = 'Nobody is left! Everyone has won!';
             return;
         }
 
-        let winner = getRandomArrayItem(entries);
-        winnerElement.textContent = winner;
-
-        /* People can win multiple times if they have multiple entries */
-        entries.splice(entries.indexOf(winner), 1);
+        let winner = nameBox.firstChild;
+        let winnerText = winner.textContent;
+        winner.remove();
+        winnerElement.textContent = winnerText;
     });
 }

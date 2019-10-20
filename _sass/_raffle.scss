@@ -1,0 +1,30 @@
+#raffle {
+    background-color: black;
+    border: 0.5em solid gray;
+}
+
+#spin {
+    width: 100%;
+}
+
+.buttonwrap {
+    margin: 0;
+    border-top: 0.5em solid gray;
+}
+
+#winner {
+    color: white;
+}
+
+.entry {
+    color: white;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    text-shadow: black 0 0 0.5em;
+}
+
+#entrieswrap {
+    overflow: hidden;
+    height: 23em;
+}
