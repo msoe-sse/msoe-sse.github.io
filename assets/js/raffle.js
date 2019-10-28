@@ -72,6 +72,8 @@ function generateMachine(data) {
 
     shuffleArray(entriesUnsorted).forEach(entry => nameBox.appendChild(entry));
 
+    let spinHelper = new SpinnerHelper();
+
     spinButton.addEventListener('click', () => {
         /* This check is performed here instead of after `entries` is updated
            because otherwise the final winner's name would be immediately
@@ -82,9 +84,47 @@ function generateMachine(data) {
             return;
         }
 
-        let winner = nameBox.firstChild;
-        let winnerText = winner.textContent;
-        winner.remove();
-        winnerElement.textContent = winnerText;
+        spinHelper.spin();
     });
+}
+
+class SpinnerHelper {
+    constructor() {
+        this.button = document.querySelector('#spin');
+        this.entries = document.querySelector('#entries');
+        this.entries.style.position = 'relative';
+        this.winner = document.querySelector('#winner');
+        this.intervalId = undefined;
+        this.y = 0;
+    }
+
+    startSpinning() {
+        this.y = 0;
+        this.button.disabled = true;
+        this.intervalId = setInterval(() => {
+            this.y -= 0.35;
+            this.entries.style.top = this.y + 'em';
+        }, 10);
+    }
+
+    stopSpinning() {
+        if(this.intervalId !== undefined) {
+            clearInterval(this.intervalId);
+        }
+        this.button.disabled = false;
+
+        let winnerElement = this.entries.firstChild;
+        this.winner.textContent = winnerElement.textContent;
+        winnerElement.remove();
+    }
+
+    spin() {
+        this.startSpinning();
+        setTimeout(() => this.stopSpinning(), this.chooseSpinTime());
+    }
+
+    chooseSpinTime() {
+        /* 2000ms - 4000ms */
+        return Math.random() * 2000 + 2000;
+    }
 }
