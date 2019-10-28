@@ -78,7 +78,7 @@ function generateMachine(data) {
         /* This check is performed here instead of after `entries` is updated
            because otherwise the final winner's name would be immediately
            overwritten by the 'Everyone has won!' message. */
-        if(nameBox.children.length === 0) {
+        if(nameBox.childElementCount === 0) {
             spinButton.disabled = true;
             winnerElement.textContent = 'Nobody is left! Everyone has won!';
             return;
@@ -92,7 +92,9 @@ class SpinnerHelper {
     constructor() {
         this.button = document.querySelector('#spin');
         this.entries = document.querySelector('#entries');
-        this.entries.style.position = 'relative';
+        this.entries.style.position = 'absolute';
+        this.entriesWrapper = document.querySelector('#entrieswrap');
+        this.fakeEntries = [];
         this.winner = document.querySelector('#winner');
         this.entryToPop = undefined;
         this.intervalId = undefined;
@@ -105,11 +107,38 @@ class SpinnerHelper {
             this.entryToPop = undefined;
         }
 
+        this.fakeEntries.forEach(entry => entry.remove());
+        this.fakeEntries = [];
+
+        /* If the list of entries is not long enough, duplicate it until there
+           are enough entries so that the user won't see blank space. */
+        let threshold = 0.35 * 4000 / 10 + 23; /* uses values from below */
+        /* each entry is 3.5em in height */
+        let entriesLength = 3.5 * this.entries.childElementCount;
+
+        if(entriesLength < threshold) {
+            console.log('making fake entries');
+            let currentLength = entriesLength;
+
+            while(currentLength < threshold) {
+                let clone = this.entries.cloneNode(true);
+                clone.style.top = currentLength + 'em';
+                this.fakeEntries.push(clone);
+                this.entriesWrapper.appendChild(clone);
+                currentLength += entriesLength;
+            }
+        }
+
         this.y = 0;
         this.button.disabled = true;
         this.intervalId = setInterval(() => {
             this.y -= 0.35;
             this.entries.style.top = this.y + 'em';
+            this.fakeEntries.forEach(entry => {
+                /* 1234em -> 1234 */
+                let currentY = parseFloat(entry.style.top.slice(0, -2));
+                entry.style.top = currentY - 0.35 + 'em';
+            });
         }, 10);
     }
 

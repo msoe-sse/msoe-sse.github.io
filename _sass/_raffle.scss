@@ -29,7 +29,12 @@
     text-shadow: black 0 0 0.5em;
 }
 
+#entries {
+    width: 100%;
+}
+
 #entrieswrap {
-    overflow: hidden;
     height: 23em;
+    overflow: hidden;
+    position: relative;
 }
