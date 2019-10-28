@@ -94,11 +94,17 @@ class SpinnerHelper {
         this.entries = document.querySelector('#entries');
         this.entries.style.position = 'relative';
         this.winner = document.querySelector('#winner');
+        this.entryToPop = undefined;
         this.intervalId = undefined;
-        this.y = 0;
+        this.y = 0; /* measured in em */
     }
 
     startSpinning() {
+        if(this.entryToPop !== undefined) {
+            this.entryToPop.remove();
+            this.entryToPop = undefined;
+        }
+
         this.y = 0;
         this.button.disabled = true;
         this.intervalId = setInterval(() => {
@@ -110,12 +116,14 @@ class SpinnerHelper {
     stopSpinning() {
         if(this.intervalId !== undefined) {
             clearInterval(this.intervalId);
+            this.intervalId = undefined;
         }
         this.button.disabled = false;
 
-        let winnerElement = this.entries.firstChild;
-        this.winner.textContent = winnerElement.textContent;
-        winnerElement.remove();
+        /* Defer removing the winner to after the next time the spin button is
+           clicked so the spinner doesn't jump when it stops */
+        this.entryToPop = this.getWinner();
+        this.winner.textContent = this.entryToPop.textContent;
     }
 
     spin() {
@@ -126,5 +134,15 @@ class SpinnerHelper {
     chooseSpinTime() {
         /* 2000ms - 4000ms */
         return Math.random() * 2000 + 2000;
+    }
+
+    getWinner() {
+        /* The raffle winner needs to be visible. Figure out what the second
+           visible element is, as the first is going to be cut off by the top
+           of the raffle machine. */
+        /* each entry is 3.5em, and modulo prevents overflow */
+        let index = Math.floor((this.y / -3.5 + 1)
+                               % this.entries.children.length);
+        return this.entries.children[index];
     }
 }
