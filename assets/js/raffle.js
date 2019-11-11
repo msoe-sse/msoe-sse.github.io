@@ -5,6 +5,8 @@ sitemap:
 ---
 'use strict';
 
+const COLORS = ['red', 'green', 'blue'];
+
 document.addEventListener("DOMContentLoaded", () => {
     let apiUrl = '{{ site.APIBaseUrl }}';
     let container = document.querySelector('#raffle');
@@ -62,9 +64,7 @@ function generateMachine(data) {
             let red = Math.floor(Math.random() * 256);
             let green = Math.floor(Math.random() * 256);
             let blue = Math.floor(Math.random() * 256);
-            entry.style.backgroundColor = ('rgb(' + red
-                                           + ', ' + green
-                                           + ', ' + blue + ')');
+            entry.style.backgroundColor = getRandomArrayItem(COLORS);
             entry.textContent = student.name;
             entriesUnsorted.push(entry);
         }
