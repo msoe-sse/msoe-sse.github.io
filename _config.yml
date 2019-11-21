@@ -68,7 +68,12 @@ eboard:
     email: dowdlek@msoe.edu
     phone: (414) 313-6727
     linkedin: www.linkedin.com/in/kieldowdle/
-noofmembers: 6
+  andy:
+    fullname: Andy Wojciechowski
+    email: wojciechowskia@msoe.edu
+    phone: (414) 399-7353
+    linkedin: linkedin.com/in/andrew-wojciechowski/
+noofmembers: 7
 
 ## !!
 ## Advanced blog settings
