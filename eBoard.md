@@ -20,12 +20,12 @@ Hi there, I am Nick Scharrer and an currently the Vice President of SSE. I forme
 {% include contact.html person=site.eboard.nick %}
 
 ### Communications Coordinator - Brady Cassada
-Hi! I'm Brady Cassada, the current Communications Coordinator of SSE. I am a Junior Software Engineering student at MSOE and I have been interning at Collins Aerospace since last summer. I have a passion for all different types of software and I love expanding my knowledge. In my free time I like playing hockey, making music, and playing video games.
+Hi! I'm Brady Cassada, the current Communications Coordinator of SSE. I am a Senior Software Engineering student at MSOE and I have been interning at Collins Aerospace since last summer. I have a passion for all different types of software and I love expanding my knowledge. In my free time I like playing hockey, making music, and playing video games.
 {% include contact.html %}
 
-### Administrative Coordinator - Paul Rinaldi
-Hi, I'm Paul Rinaldi! I'm serving as the Administrative Coordinator as a Second-Year student for the 19-20 school year. This summer I'll be working at Collins Aerospace, but in my free time I'm also a software developer in two startup companies. Fun fact: I'm a quadruplet (2 of us at MSOE), do you know my brother? I'm eager to learn new technologies but I'm currently focusing on web development, redeveloping games for the old SNES, and participating in National Cyber League competitions. If you see me walking around, say hi!
-{% include contact.html %}
+### Administrative Coordinator - Andy Wojciechowski
+Hi, I'm Andy Wojciechowski and I am the Administrative Coordinator for SSE. I am a junior software engineering student and I have been interning at Rexnord since last summer as a Software Development Engineer in Test. Outside of SSE I enjoy working on personal software projects, spending time with friends, and playing video games.
+{% include contact.html person=site.eboard.andy %}
 
 ### Events Coordinator - Erin Miller
 Hey, my name is Errin Miller and I am the Event Coordinator for SSE. I grew up around the Milwaukee area, and as of the ’19-’20 school year, I am a sophomore computer science student with an interest in cybersecurity and data science. Outside of school, I spend most of my time reading, writing, and playing the piano. I look forward to working with you all this year!
@@ -36,9 +36,9 @@ Hi, I’m Kiel Dowdle and I'm serving as the competitive programming team captai
 {% include contact.html person=site.eboard.kiel %}
 
 ### Webmaster - Grace Fleming
-Grace here! I'm currently a software major and the Webmaster of SSE. Currently I hold an internship at Direct Supply where I work in a variety of web apps. Outside of SSE I enjoy spending time with friends, walking around Milwaukee, and computer networking.
+Grace here! I'm currently a software major and the Webmaster of SSE. Currently I hold an internship at Collins Aerospace. Outside of SSE I enjoy spending time with friends, walking around Milwaukee, and computer networking.
 {% include contact.html person=site.eboard.grace %}
 
 ### Game Dev Club Master - Seth Fenske
-Hey guys! I'm Seth, a sophomore software engineering student. I currently work as a Software Engineering Intern at Direct Supply. Outside of SSE I work on various VR software projects and read Stephen King Books.
+Hey guys! I'm Seth, a junior software engineering student. I currently work as a Software Engineering Intern at Direct Supply. Outside of SSE I work on various VR software projects and read Stephen King Books.
 {% include contact.html person=site.eboard.seth %}
