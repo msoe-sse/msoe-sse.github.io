@@ -1,0 +1,88 @@
+- position: President
+  name: Erin Miller
+  bio: >- 
+    Hey, my name is Errin Miller and I am the President for SSE. I grew up around the Milwaukee area, and as of the ’19-’20 school year, 
+    I am a sophomore computer science student with an interest in cybersecurity and data science. Outside of school, I spend most of my time 
+    reading, writing, and playing the piano. I look forward to working with you all this year!
+  contact:
+    fullname: Erin Miller
+    email: millerec@msoe.edu
+    phone: (262) 402-3000
+    linkedin: linkedin.com/in/errin-miller-900179145/
+
+- position: Vice President
+  name: Kiel Dowdle 
+  bio: >-
+    Hi, I’m Kiel Dowdle and I'm serving as the Vice President for SSE. I’m a sophomore nontraditional transfer student 
+    studying computer science. Outside of SSE I work as a carpenter and in my free time I enjoy playing sports, video games, and traveling. 
+    I'll be playing volleyball at Bradford beach over the summer and my favorite video game right now is Tetris 99.
+  contact:
+    fullname: Kiel Dowdle
+    email: dowdlek@msoe.edu
+    phone: (414) 313-6727
+    linkedin: www.linkedin.com/in/kieldowdle/
+
+- position: Communications Coordinator
+  name: Grace Fleming
+  bio: >-
+    Grace here! I'm currently a software major and the Communications Coordinator of SSE. Currently I hold an internship at Collins Aerospace. 
+    Outside of SSE I enjoy spending time with friends, walking around Milwaukee, and computer networking.
+  contact:
+    fullname: Grace Fleming
+    email: flemingg@msoe.edu
+    phone: (505) 278-9952
+    linkedin: linkedin.com/in/gracefleming/
+
+- position: Administrative Coordinator
+  name: Chris Hubbell
+  bio: >-
+    TODO
+  contact:
+    fullname: Chris Hubbell
+    email: hubbellc@msoe.edu
+    phone: TODO
+    linkedin: TODO
+
+- position: Events Coordinator
+  name: Tyler Tran
+  bio: >-
+    TODO
+  contact:
+    fullname: Tyler Tran
+    email: trant@msoe.edu
+    phone: TODO
+    linkedin: TODO
+
+- position: Programming Competition Team Capt.
+  name: Nicholas Johnson
+  bio: >-
+    TODO
+  contact:
+    fullname: Nicholas Johnson
+    email: johnsonn@msoe.edu
+    phone: TODO
+    linkedin: TODO
+
+- position: Webmaster
+  name: Andy Wojciechowski
+  bio: >-
+    Hi, I'm Andy Wojciechowski and I am the Webmaster for SSE. I am a junior software engineering student 
+    and I have been interning at Rexnord since last summer as a Software Development Engineer in Test. Outside of SSE I enjoy working on personal software projects, 
+    spending time with friends, and playing video games.
+  contact:
+    fullname: Andy Wojciechowski
+    email: wojciechowskia@msoe.edu
+    phone: (414) 399-7353
+    linkedin: linkedin.com/in/andrew-wojciechowski/
+
+- position: Game Dev Club Master
+  name: Seth Fenske
+  bio: >-
+    Hey guys! I'm Seth, a junior software engineering student. I currently work as a Software Engineering Intern at Direct Supply.
+    Outside of SSE I work on various VR software projects and read Stephen King Books.
+  contact: 
+    fullname: Andy Wojciechowski
+    email: fenskesd@msoe.edu
+    phone: (262) 977 - 4026
+    linkedin: linkedin.com/in/seth-fenske-ab2704150/
+    twitter: SethFenske
