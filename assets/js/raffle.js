@@ -14,14 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch(`${apiUrl}/points`)
         .then(response => response.json())
         .then(data => {
-            document.querySelector('#LoadingHeader').remove();
+            document.getElementById('LoadingHeader').style.display = 'none';
+            document.getElementById('raffle').style.display = 'block';
             generateMachine(data);
         })
         .catch(() => {
-            document.querySelector('#LoadingHeader').remove();
-            container.textContent
-                = ('There was an error while contacting the points service. ' +
-                   'Please try again later.');
+            document.getElementById('LoadingHeader').style.display = 'none';
+            document.getElementById('ErrorMessage').style.display = 'flex';
+            document.getElementById('ErrorMessage').style.justifyContent = 'center';
         });
 });
 
