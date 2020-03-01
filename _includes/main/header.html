@@ -10,18 +10,18 @@
       <!--Menu Bar and drop downs -->
       <div class="navigation-bar">
         <div class="main-menu">
-          <div id="mobile-menu-button" class="menu-button" onmouseenter="displayNav()" onmouseout="hideNav()">menu</div>
+          <span id="mobile-menu-button" class="menu-button" onclick="toggleNav()">menu</span>
         </div>
           <div id="menu-items" class="main-menu-items">
-              <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
-              <div class="dropdown-wrapper">
-                  <a class="navigation-bar_link" href="{{ '/about' | prepend: site.baseurl }}">about</a>
-                  <div class="dropdown-menu-content">
-                      <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
-                      <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
-                      <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a> 
+            <a class="navigation-bar_link" href="{{ '/' | prepend: site.baseurl }}">home</a>
+            <div class="dropdown-wrapper">
+              <a class="navigation-bar_link" href="{{ '/about' | prepend: site.baseurl }}">about</a>
+              <div class="dropdown-menu-content">
+                  <a class="navigation-bar_link_dropdown" href="{{ '/about/eboard' | prepend: site.baseurl }}">eboard</a>
+                  <a class="navigation-bar_link_dropdown" href="{{ '/about/constitution' | prepend: site.baseurl }}">constitution</a>
+                  <a class="navigation-bar_link_dropdown" href="{{ '/about/feedback' | prepend: site.baseurl }}">feedback</a> 
               </div>
-              </div>
+            </div>
               <div class="dropdown-wrapper">
                 <a class="navigation-bar_link" href="{{ '/events' | prepend: site.baseurl }}">events</a>
                 <div class="dropdown-menu-content">
@@ -29,10 +29,10 @@
                   <a class="navigation-bar_link_dropdown" href="{{ '/events/raffle' | prepend: site.baseurl}}">raffle</a>
                   <a class="navigation-bar_link_dropdown" href="{{ '/events/gamejam' | prepend: site.baseurl }}">game jam</a>
                   <a class="navigation-bar_link_dropdown" href="{{ '/events/lightningtalks' | prepend: site.baseurl }}">lightning talks</a>
+                  <a class="navigation-bar_link_dropdown" href="{{ '/events/webmeetings' | prepend: site.baseurl }}">website past meetings</a>
                 </div>
               </div>
               <a class="navigation-bar_link" href="{{ '/repositories' | prepend: site.baseurl }}">repositories</a>
-          
           </div>
       </div>
     </div>

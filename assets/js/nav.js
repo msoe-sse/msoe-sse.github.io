@@ -1,6 +1,7 @@
 const MOBILE_WIDTH_BREAKPOINT = 770;
 const SHOW = "block";
 const HIDE = "none";
+const UNDERLINE = "underline";
 
 /* Hides or displays the nav menu items based on the size of the screen. */
 window.addEventListener('resize', function() {
@@ -13,22 +14,18 @@ window.addEventListener('resize', function() {
 });
 
 /**
- *  Hides the navigation menu items on mobile unless the user clicks on a link.
+ *  Toggles the display of the navigation menu items. 
  */
-function hideNav() {
+function toggleNav() {
     const navItems = document.getElementById('menu-items');
-    const items = document.querySelectorAll(':hover');
-    const hoveredItem = items.item(items.length - 1);
-    if (hoveredItem.tagName != 'A') {
-        navItems.style.display = "none";
+    const menuButton = document.getElementById('mobile-menu-button');
+    const currentlyShowing = navItems.style.display === SHOW;
+    if (currentlyShowing) {
+        navItems.style.display = HIDE;
+        menuButton.style.borderBottom = HIDE;
+    } else {
+        navItems.style.display = SHOW;
+        menuButton.style.textDecoration = UNDERLINE;
     }
-}
-
-/**
- *  Displays the navigation menu items.
- */
-function displayNav() {
-    const navItems = document.getElementById('menu-items');
-    navItems.style.display = SHOW;
 }
 
