@@ -9,7 +9,6 @@ const COLORS = ['red', 'green', 'blue'];
 
 document.addEventListener("DOMContentLoaded", () => {
     let apiUrl = '{{ site.APIBaseUrl }}';
-    let container = document.querySelector('#raffle');
 
     fetch(`${apiUrl}/points`)
         .then(response => response.json())
@@ -54,20 +53,11 @@ function generateMachine(data) {
 
     let entriesUnsorted = [];
     data.students.forEach(student => {
-        /* The more total points a student has, the more entries they have in
-           the raffle. */
-        for(let i = 0; i < student.pointTotal; i += 1) {
-            let entry = document.createElement('p');
-            entry.classList.add('entry');
-            /* Give each entry a random background color. There is a
-               text-shadow applied so the name is always legible. */
-            let red = Math.floor(Math.random() * 256);
-            let green = Math.floor(Math.random() * 256);
-            let blue = Math.floor(Math.random() * 256);
-            entry.style.backgroundColor = getRandomArrayItem(COLORS);
-            entry.textContent = student.name;
-            entriesUnsorted.push(entry);
-        }
+        let entry = document.createElement('p');
+        entry.classList.add('entry');
+        entry.style.backgroundColor = getRandomArrayItem(COLORS);
+        entry.textContent = student.name;
+        entriesUnsorted.push(entry);
     });
 
     shuffleArray(entriesUnsorted).forEach(entry => nameBox.appendChild(entry));
