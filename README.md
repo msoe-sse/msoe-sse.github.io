@@ -9,7 +9,8 @@
 5. Run a `gem install bundler`
 6. Run a `bundle install`
 7. If both (E) and (F) succeed, you’ll be good to run `bundle exec jekyll serve --port 4000` (you don’t need the --port 4000, but this option allows you to specify the port on which the site will run locally for you.)
-   - To test out points service features on staging run `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
+   - To test out SSE web api features on staging run `bundle exec jekyll serve --config _config.yml,_config_staging.yml`
+   - To test our SSE web api features while running the api locally run `bundle exec jekyll serve --config _config.yml,_config_staging.yml`
 8. You should be able to run the website locally now!
 9. Checkout our backlog under "Projects" and "Website Re-Design" to find items to work on.
 
