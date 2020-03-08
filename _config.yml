@@ -101,7 +101,7 @@ collections:
   my_tags:
     output: true
     permalink: /tag/:slug/
-  repositories:
+  subclubs:
     output: true
   events:
     output: true
