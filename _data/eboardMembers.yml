@@ -1,8 +1,8 @@
 - position: President
   name: Erin Miller
   bio: >- 
-    Hey, my name is Errin Miller and I am the President for SSE. I grew up around the Milwaukee area, and as of the ’19-’20 school year, 
-    I am a sophomore computer science student with an interest in cybersecurity and data science. Outside of school, I spend most of my time 
+    Hey, my name is Errin Miller and I am the President for SSE. I grew up around the Milwaukee area, and as of the ’20-’21 school year, 
+    I am a junior computer science student with an interest in cybersecurity and data science. Outside of school, I spend most of my time 
     reading, writing, and playing the piano. I look forward to working with you all this year!
   contact:
     fullname: Erin Miller
@@ -13,7 +13,7 @@
 - position: Vice President
   name: Kiel Dowdle 
   bio: >-
-    Hi, I’m Kiel Dowdle and I'm serving as the Vice President for SSE. I’m a sophomore nontraditional transfer student 
+    Hi, I’m Kiel Dowdle and I'm serving as the Vice President for SSE. I’m a junior nontraditional transfer student 
     studying computer science. Outside of SSE I work as a carpenter and in my free time I enjoy playing sports, video games, and traveling. 
     I'll be playing volleyball at Bradford beach over the summer and my favorite video game right now is Tetris 99.
   contact:
@@ -66,8 +66,8 @@
 - position: Webmaster
   name: Andy Wojciechowski
   bio: >-
-    Hi, I'm Andy Wojciechowski and I am the Webmaster for SSE. I am a junior software engineering student 
-    and I have been interning at Rexnord since last summer as a Software Development Engineer in Test. Outside of SSE I enjoy working on personal software projects, 
+    Hi, I'm Andy Wojciechowski and I am the Webmaster for SSE. I am a senior software engineering student 
+    and I have been interning at Rexnord for over a year as a Software Development Engineer in Test. Outside of SSE I enjoy working on personal software projects, 
     spending time with friends, and playing video games.
   contact:
     fullname: Andy Wojciechowski
@@ -78,7 +78,7 @@
 - position: Game Dev Club Master
   name: Seth Fenske
   bio: >-
-    Hey guys! I'm Seth, a junior software engineering student. I currently work as a Software Engineering Intern at Direct Supply.
+    Hey guys! I'm Seth, a senior software engineering student. I currently work as a Software Engineering Intern at Direct Supply.
     Outside of SSE I work on various VR software projects and read Stephen King Books.
   contact: 
     fullname: Andy Wojciechowski
