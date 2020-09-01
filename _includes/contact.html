@@ -1,7 +1,6 @@
 <div class="line"></div>
 <div class="contact">
   {% if include.person %}
-    {% if include.showname %}<span class="name">{{ include.person.fullname }}</span><br>{% endif %}
     Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>
     {% if include.person.linkedin %}LinkedIn: <a href="https://{{ include.person.linkedin }}">{{ include.person.fullname }}</a><br>{% endif %}
     {% if include.person.phone %}Phone: <span class="phone">{{ include.person.phone }}</span>{% endif %}
@@ -20,7 +19,7 @@
   }
 
   .contact {
-    witdh: 100%;
+    width: 100%;
     padding: 0;
     margin: 0 0 1rem 0;
   }
