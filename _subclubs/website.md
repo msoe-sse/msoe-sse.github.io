@@ -5,8 +5,8 @@ permalink: /subclubs/website
 repo-status: true
 ---
 
-## Summary
-The Website Subclub maintains this website that you're currently on as well as other projects related to this website. In addition to maintaining the SSE website the Website Subclub also maintains the MSOE Student Government website.
+## What do we do?
+In the Website Subclub, we learn different web development skills by maintaining real websites that are used at MSOE. The Website Subclub maintains this website that you're currently on as well as other projects related to this website. In addition to maintaining the SSE website the Website Subclub also maintains the MSOE Student Government website. All experience levels are welcome where we have are more basic website projects in which we manage basic static content of a site and more advanaced projects in which we make web requests to a RESTful API and fetch data from a database.
 
 ## Repositories
 All of the SSE website repositories can be found at this link [here](https://github.com/msoe-sse) and all of the MSOE Student Government repositories can be found at this link [here](https://github.com/msoe-sg). To contribute to one of these repositories, create a new fork, do your development & submit a pull request with an intelligent message. Your request will be evaluated by our webmaster and (if necessary) the rest of the SSE eBoard or by MSOE Student Government Representatives. 

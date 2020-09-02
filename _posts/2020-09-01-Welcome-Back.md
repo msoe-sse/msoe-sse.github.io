@@ -1,0 +1,25 @@
+---
+layout: post
+title: Welcome To The 2020/2021 School Year
+author: Andy Wojciechowski
+tags:
+  - announcement
+hero: https://source.unsplash.com/collection/145103/
+overlay: green
+published: true
+---
+{: .lead}
+<!–-break-–>
+This school year will be far different from normal given these difficult times. But, SSE will still be here for you socially, academically and professionally in whatever way we can this school year.
+
+We'd love to see you at our first general meeting during Week 2. We're hoping to hold it in-person safely either outdoors or in the DH audotorium given our saftey plan is approved by student life otherwise it will be held virtually. But, in either way it will be a perfect opportunity to meet other SE students.
+
+After that we'll be looking to hold roundtable discussions held around a certain theme in Weeks 5 and 8. These will be perfect if you want to learn more about a topic in software and to meet other SE students.
+
+Our subclubs will be running meetings this fall. You can learn more information about our Website, Competitive Programming, and Game Development subclubs by checking out their pages below.
+
+- [Website](/subclubs/website)
+- [Game Development](/subclubs/gamedev)
+- [Competitive Programming](/subclubs/competitiveprogramming)
+
+Want to stay in touch? Join our slack [here](https://msoe-sse.slack.com) or sign up for our email list [here](https://mailchi.mp/b862fad03b69/sse-newsletter). 
