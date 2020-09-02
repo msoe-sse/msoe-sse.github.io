@@ -5,10 +5,6 @@ permalink: /subclubs/website
 repo-status: true
 ---
 
-Current Meeting Time: TBD
-
-Current Webmaster: Andy Wojciechowski
-
 ## Summary
 The Website Subclub maintains this website that you're currently on as well as other projects related to this website. In addition to maintaining the SSE website the Website Subclub also maintains the MSOE Student Government website.
 
@@ -18,19 +14,24 @@ All of the SSE website repositories can be found at this link [here](https://git
 ### SSE Repositories
 msoe-sse.github.io: The source code for the website that you're currently on written in the [Jekyll](https://jekyllrb.com/) framework
 
-sse-web-api: A Web API for the SSE website written using the Flask framework in Python. It's used to perform operations for the SSE website such as fetching SSE member attendance to be displayed on the SSE website.
+sse-web-api: The source code for a REST API Web application for the SSE website written using the Flask framework in Python. It's used to fetch and format data so that it can be easily displayed on the SSE website. Currently it's used to fetch SSE member's attendance data for the points leaderboard [here](http://msoe-sse.com/events/points)
 
-jekyll-post-editor: A Ruby on Rails MVC application in which SSE eboard members and other SSE members can write and submit posts for the SSE website.
+jekyll-post-editor: The source code for a [Ruby on Rails](https://rubyonrails.org/) MVC application in which SSE eboard members and other SSE members can write and submit posts for the SSE website.
 
-jekyll-post-editor-test-repo: A copy of the SSE website used for testing the jekyll-post-editor.
+jekyll-post-editor-test-repo: The source code containing a copy of the SSE website used for testing the jekyll-post-editor.
 
-historian: A slack plugin used for saving useful resources for the SSE website (currently unreleased).
+historian: The source code for a slack plugin used for saving useful resources for the SSE website (currently unreleased).
 
 ### MSOE Student Government Repositories
 msoe-sg.github.io: The source code for the MSOE Student Government Website [here](https://msoe-sg.com/) written in the [Jekyll](https://jekyllrb.com/) framework.
 
-msoe-sg-editor: A proof of concept Ruby on Rails MVC application to edit the MSOE student government website. This will likely be discontinued by the msoe-sg-editor-ui and msoe-sg-editor-api applications.
+msoe-sg-editor-ui: The source code for a web application written in [React](https://reactjs.org/) used for editing the MSOE Student Government Website
 
-msoe-sg-editor-ui: A proof of concept React application containing the UI for editing the MSOE Student Government website.
+msoe-sg-editor-api: The source code for a [Ruby on Rails](https://rubyonrails.org/) REST API web application used for editing the MSOE Student Government website.
 
-msoe-sg-editor-api: A proof of concept Ruby on Rails API application used for editing the MSOE Student Government website.
+## Who can I contact if I am interested or want to know more?
+If you are interested or have any questions, feel free to reach out to Andrew Wojciechowski, or join the [# website](https://msoe-sse.slack.com/archives/C783RJ5LL) channel in the SSE Slack. He can be reached on
+- Teams (wojciechowskia@msoe.edu)
+- SSE Slack (@Andrew Wojciechowski)
+- [Email](mailto:wojciechowskia@msoe.edu)
+- Any time you see him in person!
