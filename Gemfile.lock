@@ -269,6 +269,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   rouge
   rubocop-jekyll (~> 0.4.0)
