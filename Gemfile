@@ -8,6 +8,6 @@ group :jekyll_plugins do
   gem 'github-pages'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
-  gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
 end

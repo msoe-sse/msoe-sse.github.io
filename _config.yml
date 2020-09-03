@@ -85,6 +85,10 @@ APIBaseUrl: "https://sse-web-api-prod.herokuapp.com"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 # Permalinks
 permalink                    : posts/:slug
