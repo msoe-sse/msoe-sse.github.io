@@ -25,12 +25,6 @@ We hold a variety of both social and professional events all year long. Some of 
 
 For those with more specific interests related to programming, we have even more clubs to suit your needs! Seth Fenske is in charge of the Game Development Club, where students join together and build their own games. Nicholas Johnson leads the Competitive Programming Team, where members practice answering logic puzzles and programming-related questions, then go compete against other schools' teams. Andy Wojciechowski leads the Website Development club, where students can contribute to building and maintaining SSE's very own website.
 
-Whether you're looking to find new friends in your major, do some networking with local companies, or develop your skills, SSE has something for you. Our meetings are Friday at 12pm on Weeks 3, 6, and 9 of every quarter, so stop by and see what is happening in the world of SSE!
-
-## The Details
-Basic Meeting Info:
-* When: Fridays 12-1pm, Weeks 3, 6, & 9 
-* Where: CC03 (The Johnson Controls Software Development Lab in the Ground Floor of the CC)
-
+Whether you're looking to find new friends in your major, do some networking with local companies, or develop your skills, SSE has something for you. Be sure to join our slack [here](https://msoe-sse.slack.com) and MSTeams team [here](https://teams.microsoft.com/l/team/19%3a038fecd33eb040aabd4821df0fabf907%40thread.tacv2/conversations?groupId=841726d7-4db7-4143-8526-c837d6998beb&tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70) as those are the platforms we use to communicate our meeting information. So, be sure to stop by those meetings to see what is happening in the world of SSE!
 
 </div>
