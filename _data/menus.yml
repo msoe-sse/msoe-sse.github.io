@@ -1,0 +1,34 @@
+- name: home
+  link: /
+  submenus: []
+
+- name: about
+  link: /about
+  submenus:
+    - name: eboard
+      link: /about/eboard
+    - name: constitution
+      link: /about/constitution
+    - name: feedback
+      link: /about/feedback
+
+- name: events
+  link: /events
+  submenus:
+    - name: points
+      link: /events/points
+    - name: game jam
+      link: /events/gamejam
+    - name: lightning talks
+      link: /events/lightningtalks
+    - name: website past meetings
+      link: /events/webmeetings
+  
+- name: subclubs
+  submenus:
+    - name: website
+      link: /subclubs/website
+    - name: competitive programming
+      link: /subclubs/competitiveprogramming
+    - name: game dev
+      link: /subclubs/gamedev

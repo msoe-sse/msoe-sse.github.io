@@ -21,7 +21,7 @@ sitemap:
             } {% unless forloop.last %}, {% endunless %}
         {% endif %}
     {% endfor %}
-    {% for repoPage in site.repositories %}
+    {% for repoPage in site.subclubs %}
         {% capture pagetitle %}{{repoPage.title}}{% endcapture %}
         {
             "title": "{{ pagetitle | escape}}",
