@@ -23,6 +23,8 @@
       link: /events/lightningtalks
     - name: website past meetings
       link: /events/webmeetings
+    - name: past general meetings
+      link: /events/generalmeetings
   
 - name: subclubs
   submenus:
