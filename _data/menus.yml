@@ -17,8 +17,8 @@
   submenus:
     # - name: points
     #   link: /events/points
-    # - name: game jam
-    #   link: /events/gamejam
+    - name: game jam
+      link: /events/gamejam
     - name: lightning talks
       link: /events/lightningtalks
     - name: website past meetings
