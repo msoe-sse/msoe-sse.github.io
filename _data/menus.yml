@@ -25,6 +25,8 @@
       link: /events/webmeetings
     - name: past general meetings
       link: /events/generalmeetings
+    - name: programming languages
+      link: /events/programminglanguages
   
 - name: subclubs
   submenus:
