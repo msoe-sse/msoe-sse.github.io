@@ -5,7 +5,42 @@ permalink: /events/programminglanguages
 published: true
 ---
 
-The page contains information about all of the programming languages that apart of the programming language tournament being done by SSE this quarter.
+The page contains information about all of the programming languages that apart of the programming language tournament being held by SSE this quarter.
+
+# Table of Contents
+
+* [Ada](/events/programminglanguages/#ada)
+* [AWK](/events/programminglanguages/#awk)
+* [Bash](/events/programminglanguages/#bash)
+* [Brainfuck](/events/programminglanguages/#brainfuck)
+* [C](/events/programminglanguages/#c)
+* [C#](/events/programminglanguages/#csharp)
+* [C++](/events/programminglanguages/#cplusplus)
+* [Capl](/events/programminglanguages/#capl)
+* [Cobol](/events/programminglanguages/#cobol)
+* [F#](/events/programminglanguages/#fsharp)
+* [Fortran](/events/programminglanguages/#fortran)
+* [Haskell](/events/programminglanguages/#haskell)
+* [Hope](/events/programminglanguages/#hope)
+* [Java](/events/programminglanguages/#java)
+* [JavaScript](/events/programminglanguages/#javascript)
+* [Kotlin](/events/programminglanguages/#kotlin)
+* [Lolcode](/events/programminglanguages/#lolcode)
+* [Malbolge](/events/programminglanguages/#malbolge)
+* [MATLAB](/events/programminglanguages/#matlab)
+* [Modulaii](/events/programminglanguages/#modulaii)
+* [Perl](/events/programminglanguages/#perl)
+* [PHP](/events/programminglanguages/#php)
+* [Prolog](/events/programminglanguages/#prolog)
+* [Python](/events/programminglanguages/#python)
+* [R](/events/programminglanguages/#r)
+* [Ruby](/events/programminglanguages/#ruby)
+* [Rust](/events/programminglanguages/#rust)
+* [Scheme](/events/programminglanguages/#scheme)
+* [SQL](/events/programminglanguages/#sql)
+* [Tcl/Tk](/events/programminglanguages/#tcltk)
+* [VBA](/events/programminglanguages/#vba)
+* [Whitespace](/events/programminglanguages/#whitespace)
 
 # Ada
 
@@ -97,7 +132,7 @@ sum = number1 + number2;
 printf("%d + %d = %d", number1, number2, sum);
 ```
 
-# C#
+<h1 id="csharp">C#</h1>
 
 C# is a general-purpose object-orientated programming language. C# is widely-used for creating games using the Unity game engine, web application development, and windows applications.
 
@@ -112,7 +147,7 @@ int c = a + b;
 Console.WriteLine(c);
 ```
 
-# C++
+<h1 id="cplusplus">C++</h1>
 
 C++ is a general-purpose programming language created as an extension of the C programming language, and supports different ways of programming like procedural, object-oriented, functional, and so on. C++ has a wide array of applications, such as game development, database software, operating systems, web browsers, and more.
 
@@ -159,7 +194,7 @@ IF WS-NUM3 = WS-NUM4 THEN
       END-IF
 ```
 
-# F#
+<h1 id="fsharp">F#</h1>
 
 F# is a functional programming language for .NET Frameworks developed by Microsoft and first previewed in April of 2019. It is currently used by several companies including but not limited to: Walmart, Microsoft, Jet.com. It can also be easily used alongside or in place of any existing .NET framework applications using C#, Visual Basic, and C++.
 
@@ -517,7 +552,7 @@ insert into emp values
     (2,'HARDING','MANAGER',9,'02-02-1998',52000,300,3)
 ```
 
-# Tcl/Tk
+<h1 id="tcltk">Tcl/Tk</h1>
 
 Tcl is a general purpose dynamic programming language. It supports multiple programming paradigms such as object-oriented, and functional programming. The popular combination of Tcl is with the Tk extension which is refered to as Tcl/Tk which enables building native GUIs in TCL.
 
