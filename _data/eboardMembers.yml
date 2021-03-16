@@ -1,92 +1,69 @@
 - position: President
-  name: Erin Miller
-  bio: >- 
-    Hey, my name is Errin Miller and I am the President for SSE. I grew up around the Milwaukee area, and as of the ’20-’21 school year, 
-    I am a junior computer science student with an interest in cybersecurity and data science. Outside of school, I spend most of my time 
-    reading, writing, and playing the piano. I look forward to working with you all this year!
-  contact:
-    fullname: Erin Miller
-    email: millerec@msoe.edu
-    phone: (262) 402-3000
-    linkedin: linkedin.com/in/errin-miller-900179145/
-
-- position: Vice President
-  name: Kiel Dowdle 
-  bio: >-
-    Hi, I'm Kiel Dowdle and I'm serving as the Vice President for SSE. I'm a junior in the Computer Science program. 
-    Previously I was the chair for the competitive programming club and am still an active member.  Outside of school I 
-    work at Rockwell Automation as a software engineer intern. In my free time I like to travel, camp, play sports and video games. During covid quarantine this year I was able to learn more about Wisconsin by camping at 5 different state parks.
-  contact:
-    fullname: Kiel Dowdle
-    email: dowdlek@msoe.edu
-    phone: (414) 313-6727
-    linkedin: www.linkedin.com/in/kieldowdle/
-
-- position: Communications Coordinator
-  name: Grace Fleming
-  bio: >-
-    Grace here! I'm currently a software major and the Communications Coordinator of SSE. Currently I hold an internship at Collins Aerospace. 
-    Outside of SSE I enjoy spending time with friends, walking around Milwaukee, and computer networking.
-  contact:
-    fullname: Grace Fleming
-    email: flemingg@msoe.edu
-    phone: (505) 278-9952
-    linkedin: linkedin.com/in/gracefleming/
-
-- position: Administrative Coordinator
   name: Chris Hubbell
-  bio: >-
-    Hello! I'm Chris Hubbell and I am SSE's Administrative Coordinator.  This will be my third year at MSOE studying software engineering.  
-    I am currently in the process of looking for internship.  In my free time I like playing video games, particularly Pokemon Go (team mystic ftw), hanging out with friends, and listening to music.  If you have any questions about school, classes, or the best places to play Pokemon, feel free to text or email me.
+  bio: >- 
+    Hello! My name is Chris and I am a senior SE. I enjoy hiking, camping, and taking pictures in my free time. I look forward to working with you all and helping you achieve your goals. Feel free to text me at any time if you need anything or just want to chat!
+
   contact:
     fullname: Chris Hubbell
     email: hubbellc@msoe.edu
     phone: (414) 534-2310
-    linkedin: linkedin.com/in/chris-hubbell-b2b583193
+    linkedin: linkedin.com/in/chris-hubbell-b2b583193/
+
+- position: Vice President
+  name: Paul Rinaldi
+  bio: >-
+    Hi I'm Paul! I'm a junior SE at MSOE minoring in UX and Math. I enjoy helping others find internships and jobs, networking, and live streaming attempts at coding up ideas I have and releasing them. When I'm bored or want to procrastinate, I play a bit of URF mode League of Legends whenever its out and Minecraft with friends. Looking forward to facilitating professional development and community building online and in person as the VP of SSE. Learn more about me and chat anywhere - https://linktr.ee/paul.rinaldi.
+  contact:
+    fullname: Paul Rinaldi
+    email: rinaldip@msoe.edu
+    phone: (414) 550-1293
+    linkedin: www.linkedin.com/in/paul-rinaldi/
+    twitter: paulrinaldi_
+
+- position: Communications Coordinator
+  name: Teresa Toohill
+  bio: >-
+    Hi there! My name is Teresa Toohill and I am the Communications Coordinator for SSE. I grew up right here in the Milwaukee area. Because of that, I feel in love with downtown Milwaukee and MSOE. Currently I am a sophomore Software Engineering student with an interest in web development, finance, and animation. In my freetime I enjoy watching YouTube, netflix, baking, reading, cooking, and biking.
+  contact:
+    fullname: Teresa Toohill
+    email: toohillt@msoe.edu
+    linkedin: linkedin.com/in/teresatoohill/
 
 - position: Events Coordinator
   name: Tyler Tran
   bio: >-
-    Howdy everyone, I’m TK Tran and I’m happy to be serving as Event Coordinator for SSE. I am a sophomore computer science student. 
-    When not in school I like to spend my time working on side projects, rolling dice, and punching things. I am excited to see what this year will have in store.
+    Howdy everyone, I’m TK Tran and I’m happy to be serving as Event Coordinator for SSE. I am a sophomore computer science student. When not in school I like to spend my time working on side projects, rolling dice, and punching things. I am excited to see what this year will have in store.
   contact:
     fullname: Tyler Tran
     email: trant@msoe.edu
-    phone: 262-271-5046
-    linkedin: linkedin.com/in/tyler-tran-40b825176
+    phone: (262) 271-5046
+    linkedin: linkedin.com/in/tyler-tran-40b825176/
 
 - position: Programming Competition Team Capt.
   name: Nicholas Johnson
   bio: >-
-    Hello! I'm Nick Johnson, a Computer Science major who leads the Competitive Programming Team! 
-    I have interests in fast programs and databases, but love any programming you bring to me! 
-    Outside of SSE, I enjoy playing bass and learning new technologies. 
+    Hello! I'm Nick Johnson, a Computer Science major who leads the Competitive Programming Team! I have interests in fast programs and databases, but love any programming you bring to me! Outside of SSE, I enjoy playing bass and learning new technologies. 
   contact:
     fullname: Nicholas Johnson
     email: johnsonn@msoe.edu
-    phone: 630-501-4858
+    phone: (630) 501-4858
     linkedin: linkedin.com/in/nicholas-johnson-a52a10171/
 
 - position: Webmaster
-  name: Andy Wojciechowski
+  name: Jonathan Paulick
   bio: >-
-    Hi, I'm Andy Wojciechowski and I am the Webmaster for SSE. I am a senior software engineering student 
-    and I have been interning at Rexnord for over a year as a Software Development Engineer in Test. Outside of SSE I enjoy working on personal software projects, 
-    spending time with friends, and playing video games.
+    Hi all, I'm Jonathan Paulick, a sophomore Computer Science student. Currently, I am the Webmaster for SSE. During my free time, I enjoy playing music, reading, and spending time with friends. Are you bored, lonely, confused, or offering an internship? Feel free to contact me. 
   contact:
-    fullname: Andy Wojciechowski
-    email: wojciechowskia@msoe.edu
-    phone: (414) 399-7353
-    linkedin: linkedin.com/in/andrew-wojciechowski/
+    fullname: Jonathan Paulick
+    email: paulickj@msoe.edu
+    phone: (414) 916-2998
+    linkedin: linkedin.com/in/jonathan-paulick/
 
 - position: Game Dev Club Master
-  name: Seth Fenske
+  name: Abigail Draper
   bio: >-
-    Hey guys! I'm Seth, a senior software engineering student. I currently work as a Software Engineering Intern at Direct Supply.
-    Outside of SSE I work on various VR software projects and read Stephen King Books.
+    Hey! My name is Abigail Draper, and I’m the Game Development Officer for SSE. I’m pursuing a major in computer science. Outside of school, I like to draw, play video games, and talk about my cat. I’m excited to make new games and see what projects everyone else is working on!
   contact: 
-    fullname: Seth Fenske
-    email: fenskesd@msoe.edu
-    phone: (262) 977 - 4026
-    linkedin: linkedin.com/in/seth-fenske-ab2704150/
-    twitter: SethFenske
+    fullname: Abigail Draper
+    email: drapera@msoe.edu
+    linkedin: linkedin.com/in/abigail-draper-074a44203/
