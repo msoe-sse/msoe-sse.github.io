@@ -30,8 +30,8 @@ msoe-sg-editor-ui: The source code for a web application written in [React](http
 msoe-sg-editor-api: The source code for a [Ruby on Rails](https://rubyonrails.org/) REST API web application used for editing the MSOE Student Government website.
 
 ## Who can I contact if I am interested or want to know more?
-If you are interested or have any questions, feel free to reach out to Andrew Wojciechowski, or join the [# website](https://msoe-sse.slack.com/archives/C783RJ5LL) channel in the SSE Slack. He can be reached on
-- Teams (wojciechowskia@msoe.edu)
-- SSE Slack (@Andrew Wojciechowski)
-- [Email](mailto:wojciechowskia@msoe.edu)
+If you are interested or have any questions, feel free to reach out to Jonathan Paulick, or join the [# website](https://msoe-sse.slack.com/archives/C783RJ5LL) channel in the SSE Slack. He can be reached on
+- Teams (paulickj@msoe.edu)
+- SSE Slack (@Jonathan Paulick)
+- [Email](mailto:paulickj@msoe.edu)
 - Any time you see him in person!
