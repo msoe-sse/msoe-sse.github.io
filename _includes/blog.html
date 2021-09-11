@@ -61,7 +61,7 @@
   {% if site.blog.titles_only == false %}
 
     {% if site.blog.excerpts == true %}
-      {{ post.excerpt }}
+    <!-- This breaks with iframe {{ post.excerpt }} FIX IT -->
         <div class="readmore">
           <a href="{{ post.url | prepend:site.baseurl }}" role="button">Read more</a>
         <div>
