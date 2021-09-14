@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Org Fair Interestees
+title: SSE Intrest Form
 author: SSE eBoard
 tags:
   - announcement
