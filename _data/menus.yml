@@ -15,8 +15,8 @@
 - name: events
   link: /events
   submenus:
-    # - name: points
-    #   link: /events/points
+    - name: points
+      link: /events/points
     - name: game jam
       link: /events/gamejam
     - name: lightning talks
