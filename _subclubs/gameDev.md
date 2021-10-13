@@ -33,8 +33,8 @@ Great question! A game jam is a race against the clock to complete an entire gam
 game and we give prizes to the most popular. Aside from that, there are no rules! (Don't hold me to that)
 
 ## Who can I contact if I am interested or want to know more?
-If you are interested or have any questions, feel free to reach out to Seth Fenske, or join the [# gamedesign](https://msoe-sse.slack.com/archives/C75HLMNAZ) channel in the SSE Slack. He can be reached on
-- Teams (fenskesd@msoe.edu)
-- SSE Slack (@Seth Fenske)
-- [Email](mailto:fenskesd@msoe.edu)
-- Any time you see him in person!
+If you are interested or have any questions, feel free to reach out to Abigail Draper, or join the [# gamedesign](https://msoe-sse.slack.com/archives/C75HLMNAZ) channel in the SSE Slack. She can be reached on
+- Teams (drapera@msoe.edu)
+- SSE Slack (@Abigail Draper)
+- [Email](mailto:drapera@msoe.edu)
+- Any time you see her in person!

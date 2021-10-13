@@ -8,7 +8,7 @@ tags:
   - competitive programming
 hero: ../assets/img/programming_competition/intense.jpg
 overlay: green
-published: true
+published: false
 ---
 {: .lead}
 <!–-break-–>
