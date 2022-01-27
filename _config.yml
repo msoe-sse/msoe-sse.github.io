@@ -46,6 +46,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll_include_plugin
 
 whitelist:
   - jekyll-redirect-from
