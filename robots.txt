@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://msoe-sse.github.io/sitemap.xml

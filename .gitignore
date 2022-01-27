@@ -1,0 +1,18 @@
+# Generated Site
+/_site
+
+# Local Packages
+/.bundle/ruby/
+
+# Temporary Files
+
+.jekyll-metadata
+
+# System Files
+.DS_Store
+
+# cached scss
+/.sass-cache/
+
+# Jetbrains IDEA
+.idea

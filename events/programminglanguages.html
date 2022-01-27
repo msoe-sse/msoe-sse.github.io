@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>Programming Languages &#9642; SSE</title>
+<!--
+<meta name="description" content="The page contains information about all of the programming languages that apart of the programming language tournament being held by SSE this quarter. Table of Contents Ada AWK Bash Brainfuck C C# C++ Capl Cobol F# Fortran Haskell Hope Java JavaScript Kotlin Lolcode Malbolge MATLAB Modulaii Perl PHP Prolog Python...">
+-->
+<meta name="description" content="The Destination for Professional Software Engineers
+">
+<meta name="keywords" content="">
+<link rel="canonical" href="https://msoe-sse.github.io/events/programminglanguages">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Programming Languages" />
+<meta name="twitter:description" content="The Destination for Professional Software Engineers
+" />
+<meta name="twitter:image" content="https://msoe-sse.github.io" />
+<meta name="author" content="">
+<link rel="author" href="">
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Programming Languages">
+<meta property="og:description" content="The Destination for Professional Software Engineers
+">
+<meta property="og:url" content="https://msoe-sse.github.io/events/programminglanguages">
+<meta property="og:site_name" content="SSE">
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" type="image/png" href="/assets/img/msoe-sse.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,400italic,700,700italic">
+<style>
+    html {
+      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="/assets/css/bf.css">
+   <body>
+       <div class="wrapper" id="blep">
+          <header>
+   <div class="site-navigation">
+      <!--Site Title and SVG Logo-->
+     <div class="logo">
+        <a class="logotext" href="/">SSE</a>
+        <img class="logosvg" src="/assets/img/dactl.svg"/>
+     </div>
+      <!--Menu Bar and drop downs -->
+     <div class="navigation-bar">
+       <div class="main-menu">
+          <span id="mobile-menu-button" class="menu-button" onclick="toggleNav()">menu</span>
+       </div>
+         <div id="menu-items" class="main-menu-items">
+                  <a class="navigation-bar_link" href="/">Home</a>
+               <div class="dropdown-wrapper">
+                    <a class="navigation-bar_link" href="/about">About</a>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/about/eboard">eBoard</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/constitution">Constitution</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/feedback">Feedback</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/industryreachout">Industry Reachout</a>
+                 </div>
+               </div>
+               <div class="dropdown-wrapper">
+                    <a class="navigation-bar_link" href="/events">Events</a>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/events/points">Points</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/gamejam">Game Jam</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/lightningtalks">Lightning Talks</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/webmeetings">Website Past Meetings</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/generalmeetings">Past General Meetings</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/programminglanguages">Programming Languages</a>
+                 </div>
+               </div>
+               <div class="dropdown-wrapper">
+                    <span class="navigation-bar_link">Subclubs</span>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/website">Website</a>
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/competitiveprogramming">Competitive Programming</a>
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/gamedev">Game Dev</a>
+                 </div>
+               </div>
+         </div>
+     </div>
+   </div>
+    <br/>
+   <div class="utility-bar">
+        <span><div id="search-container">
+    <input type="text" id="search-input" placeholder="Search" class="site-search">
+   <ul id="results-container" class="site-search-results"></ul>
+</div>
+<script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script>
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+    SimpleJekyllSearch({
+      searchInput,
+      resultsContainer,
+      json: '/search.json'
+    });
+</script></span>
+   </div>
+   <div>
+      <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link switch-theme-icon">
+        <span class="icon-invert_colors" id="theme-switcher"></span>
+      </a>
+   </div>
+        <script type="text/javascript" src="/assets/js/nav.js"></script>
+</header>
+           <p>The page contains information about all of the programming languages that apart of the programming language tournament being held by SSE this quarter.
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+ <li><a href="/events/programminglanguages/#ada">Ada</a>
+ <li><a href="/events/programminglanguages/#awk">AWK</a>
+ <li><a href="/events/programminglanguages/#bash">Bash</a>
+ <li><a href="/events/programminglanguages/#brainfuck">Brainfuck</a>
+ <li><a href="/events/programminglanguages/#c">C</a>
+ <li><a href="/events/programminglanguages/#csharp">C#</a>
+ <li><a href="/events/programminglanguages/#cplusplus">C++</a>
+ <li><a href="/events/programminglanguages/#capl">Capl</a>
+ <li><a href="/events/programminglanguages/#cobol">Cobol</a>
+ <li><a href="/events/programminglanguages/#fsharp">F#</a>
+ <li><a href="/events/programminglanguages/#fortran">Fortran</a>
+ <li><a href="/events/programminglanguages/#haskell">Haskell</a>
+ <li><a href="/events/programminglanguages/#hope">Hope</a>
+ <li><a href="/events/programminglanguages/#java">Java</a>
+ <li><a href="/events/programminglanguages/#javascript">JavaScript</a>
+ <li><a href="/events/programminglanguages/#kotlin">Kotlin</a>
+ <li><a href="/events/programminglanguages/#lolcode">Lolcode</a>
+ <li><a href="/events/programminglanguages/#malbolge">Malbolge</a>
+ <li><a href="/events/programminglanguages/#matlab">MATLAB</a>
+ <li><a href="/events/programminglanguages/#modulaii">Modulaii</a>
+ <li><a href="/events/programminglanguages/#perl">Perl</a>
+ <li><a href="/events/programminglanguages/#php">PHP</a>
+ <li><a href="/events/programminglanguages/#prolog">Prolog</a>
+ <li><a href="/events/programminglanguages/#python">Python</a>
+ <li><a href="/events/programminglanguages/#r">R</a>
+ <li><a href="/events/programminglanguages/#ruby">Ruby</a>
+ <li><a href="/events/programminglanguages/#rust">Rust</a>
+ <li><a href="/events/programminglanguages/#scheme">Scheme</a>
+ <li><a href="/events/programminglanguages/#sql">SQL</a>
+ <li><a href="/events/programminglanguages/#tcltk">Tcl/Tk</a>
+ <li><a href="/events/programminglanguages/#vba">VBA</a>
+ <li><a href="/events/programminglanguages/#whitespace">Whitespace</a>
+</ul>
+<h1 id="ada">Ada</h1>
+<p>Ada is statically typed, high-level object-oriented programming language that is mainly used in mission-critical software such as microkernels and real-time systems. It’s still widely used in industries such as the Avionics industry.<pre><code class="language-Ada">with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+begin
+   Put_Line ("Hello World. Welcome to GNAT");
+end;
+</code></pre>
+<h1 id="awk">AWK</h1>
+<p>AWK is a pattern-matching programming language used to develop short programs to complete complex text processing tasks. AWKis typically used as a data extraction and reporting tool.
+<p>Learn more at: <a href="https://www.gnu.org/software/gawk/manual/gawk.html">https://www.gnu.org/software/gawk/manual/gawk.html</a>
+<p>Example Code:<pre><code class="language-AWK">$ awk 'NR==3, NR==6 {print NR,$0}' employee.txt
+Output:
+3 varun manager sales 50000
+4 amit manager account 47000
+5 tarun peon sales 15000
+6 deepak clerk sales 23000
+</code></pre>
+<h1 id="bash">Bash</h1>
+<p>Bash is a Unix shell and command language. Today, Bash is the default user shell on most Linus installations and allows users to interact with the system through the command line.
+<p>Learn more at: <a href="https://opensource.com/article/19/10/programming-bash-syntax-tools">https://opensource.com/article/19/10/programming-bash-syntax-tools</a>
+<p>Example Code:<pre><code class="language-Bash">$ if VAR=99; then echo 'Assignment done!'; fi
+Assignment done!
+$ echo $VAR
+99
+$
+</code></pre>
+<h1 id="brainfuck">Brainfuck</h1>
+<p>Brainfuck is a language for programming language for programmers looking for a challenge or amusement. It was first released September of 1993. As an esoteric programming language consisting of only eight commands, Brainfuck is meant for its commands to be broken into microscopic steps. Brainfuck is Turing complete.
+<p>Example Code from <a href="https://andrew.hedges.name/experiments/brainf_cker/#">here</a>:<pre><code class="language-Brainfuck">++++++++++
+[
+&gt;+++++++
+&gt;++++++++++
+&gt;+++
+&gt;+
+&lt;&lt;&lt;&lt;-
+]
+&gt;++.
+&gt;+.
++++++++.
+.
++++.
+&gt;++.
+&lt;&lt;+++++++++++++++.
+&gt;.
++++.
+------.
+--------.
+&gt;+.
+&gt;.
+</code></pre>
+<h1 id="c">C</h1>
+<p>C is a general-purpose procedural programming language used to develop software such as operating systems, databases, compilers, and more. C is used widely for developing system applications, such as those that form a major part of Windows, UNIX, and Linux operating systems.
+<p>Learn more at: <a href="https://www.programiz.com/c-programming">https://www.programiz.com/c-programming</a>
+<p>Example Code:<pre><code class="language-C">int number1, number2, sum;
+printf("Enter two integers: ");
+scanf("%d %d", &amp;number1, &amp;number2);
+// calculating sum
+sum = number1 + number2; 
+printf("%d + %d = %d", number1, number2, sum);
+</code></pre>
+<h1 id="csharp">C#</h1>
+<p>C# is a general-purpose object-orientated programming language. C# is widely-used for creating games using the Unity game engine, web application development, and windows applications.
+<p>Learn more at: <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">https://docs.microsoft.com/en-us/dotnet/csharp/</a>
+<p>Example Code:<pre><code class="language-C#">int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+</code></pre>
+<h1 id="cplusplus">C++</h1>
+<p>C++ is a general-purpose programming language created as an extension of the C programming language, and supports different ways of programming like procedural, object-oriented, functional, and so on. C++ has a wide array of applications, such as game development, database software, operating systems, web browsers, and more.
+<p>Learn more at: <a href="https://www.cplusplus.com/">https://www.cplusplus.com/</a>
+<p>Example Code:<pre><code class="language-C++">int firstNumber, secondNumber, sumOfTwoNumbers;
+cout &lt;&lt; "Enter two integers: ";
+cin &gt;&gt; firstNumber &gt;&gt; secondNumber;
+// sum of two numbers in stored in variable sumOfTwoNumbers
+sumOfTwoNumbers = firstNumber + secondNumber;
+</code></pre>
+<h1 id="capl">Capl</h1>
+<p>CAPL is an event-controlled programming language used for stimulating, simulating, testing, and diagnostics. CAPL is used by Vector tools like CANoe and CANalyzer and can be used for automating/semi-automating in a CAN environment.
+<p>Learn more at: <a href="https://www.embeddedc.in/p/n-capl-can-accessprogramming-language-n.html?m=0">https://www.embeddedc.in/p/n-capl-can-accessprogramming-language-n.html?m=0</a>
+<p>Example Code:<pre><code class="language-Capl">on start()
+{
+	write("This will be printed on start-up!");
+}
+</code></pre>
+<h1 id="cobol">Cobol</h1>
+<p>COBOL is a compiled English-like computer programming language designed for business use. COBOL is used in company and government business, finance, and administrative systems.
+<p>Learn more at: <a href="https://www.tutorialspoint.com/cobol/index.htm">https://www.tutorialspoint.com/cobol/index.htm</a>
+<p>Example Code:<pre><code class="language-Cobol">IF WS-NUM3 = WS-NUM4 THEN
+         DISPLAY 'IN LOOP 2 - IF BLOCK'
+     ELSE
+         DISPLAY 'IN LOOP 2 - ELSE BLOCK'
+      END-IF
+</code></pre>
+<h1 id="fsharp">F#</h1>
+<p>F# is a functional programming language for .NET Frameworks developed by Microsoft and first previewed in April of 2019. It is currently used by several companies including but not limited to: Walmart, Microsoft, Jet.com. It can also be easily used alongside or in place of any existing .NET framework applications using C#, Visual Basic, and C++.
+<p>Example Code:<pre><code class="language-F#">let rec fiboRec =
+  function
+  | 0L -&gt; 0L
+  | 1L -&gt; 1L
+  | n -&gt; fiboRec (n-1L) + fiboRec (n-2L)
+</code></pre>
+<h1 id="fortran">Fortran</h1>
+<p>Fortran is a general-purpose programming language developed in the 1950s that is suited for scientific computing and numeric computation. Fortran was initially developed for scientific and engineering applications and is used in high-performance computing in physics.
+<p>Learn more at: <a href="https://fortran-lang.org/">https://fortran-lang.org/</a>
+<p>Example Code:<pre><code class="language-Fortran">program read_value
+  implicit none
+  integer :: age
+  print *, 'Please enter your age: '
+  read(*,*) age
+  print *, 'Your age is: ',age
+end program read_value
+</code></pre>
+<h1 id="haskell">Haskell</h1>
+<p>Haskell is a functional programming language created in July 2010. It is used by many companies including but not limited to: Microsoft, Intel, AT&amp;T, and NVIDIA. It’s main purpose is to promote developing software through the paradigms of functional programming such as pure functions and immutable data.
+<p>Example Code:<pre><code class="language-Haskell">fibonacci 0 = [0]
+fibonacci 1 = [0, 1]
+fibonacci n = next ++ [next!!(length next- 1) + next!!(length next- 2)]  where next = fibonacci(n-1)
+fibonacci 16 -&gt; [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987]
+</code></pre>
+<h1 id="hope">Hope</h1>
+<p>Hope is a functional programming language derived from NPL, and one of the first programming languages with call-by-pattern evaluation and algebraic data types.
+<p>Learn more at: <a href="https://github.com/dmbaturin/hope">https://github.com/dmbaturin/hope</a>
+<p>Example Code:<pre><code class="language-Hope">dec fact : num -&gt; num;
+--- fact 0 &lt;= 1;
+--- fact n &lt;= n*fact(n-1);
+</code></pre>
+<h1 id="java">Java</h1>
+<p>Java is a programming language released by Oracle in May of 1995. It was developed to mimic the syntax of C/C++ with the added mindset of “compile once, run anywhere”. Java is used my numerous companies and products throughout the world. Some notable applications of the language are Minecraft and the main language for developing Android Apps.
+<p>Example Code:<pre><code class="language-Java">public class Fibonacci{
+    public static void main(String []args){
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int result = fibonacci(n, 0, 1);
+        System.out.println(result);
+    }
+    public static int fibonacci(int n, int a, int b) {
+       if (n == 0) {
+           return a;
+       } else {
+           return fibonacci(n-1, b, a + b);
+       }
+    }
+}
+</code></pre>
+<h1 id="javascript">JavaScript</h1>
+<p>JavaScript is a scripting language first released on December 4th, 1995. It’s predominantly used for websites and web applications to create dynamic web pages without having to embed other languages such as Java or Scheme.
+<p>Example Code from <a href="https://pushingpixels.at/experiments/dynamic_shadow/">here</a>:<pre><code class="language-JavaScript">function moveShadow(){
+    lightX          = parseInt(lightbulb.offset().left) + lightCenterX;
+    lightY          = parseInt(lightbulb.offset().top) + lightCenterY;
+    logoX           = parseInt(logo.offset().left) + logoCenterX;
+    logoY           = parseInt(logo.offset().top) + logoCenterY;
+    distanceX       = logoX - lightX;
+    distanceY       = logoY - lightY;
+    distance        = Math.sqrt(Math.pow(distanceX, 2) + Math.pow(distanceY, 2));
+    shadowDistance  = distance * shadowOffset;
+    shadowPosLeft   = (distanceX / distance * shadowDistance + lightX - logoShdwCenterX) + "px";
+    shadowPosTop    = (distanceY / distance * shadowDistance + lightY - logoShdwCenterY) + "px";
+    logoshadow.css({ "left": shadowPosLeft, "top": shadowPosTop, "opacity": setOpacity(shadowDistance) });
+}
+</code></pre>
+<h1 id="kotlin">Kotlin</h1>
+<p>Kotlin is a general-purpose programming language initially designed for the JVM and Android that combines object-oriented and functional programming features. Kotlin is the official language of Android development, but also has a variety of applications, including server-side and client-side web development and data science.
+<p>Learn more at: <a href="https://kotlinlang.org/">https://kotlinlang.org/</a><pre><code class="language-Kotlin">fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+</code></pre>
+<h1 id="lolcode">Lolcode</h1>
+<p>LolCode is an esoteric programming language released in 2007. As an esoteric language it was made as a joke and doesn’t have any real users in the industry. However, it is really hilarious to work with!
+<p>Example Code:<pre><code class="language-Lolcode">HAI 1.2
+CAN HAS STDIO?
+    VISIBLE "HAI, WORLD!!!1!~"
+    VISIBLE "I DUZ YR FIBONACCI!!!1!~"
+    HOW IZ I FIBONACCI YR N AN YR X AN YR Y
+        BOTH SAEM 0 AN N, O RLY?
+            YA RLY
+                FOUND YR X
+            NO WAI
+                N R DIFF OF N AN 1
+                X R SUM OF X AN Y
+                I HAS A RESULT ITZ I IZ FIBONACCI YR N AN YR Y AN YR X MKAY
+                FOUND YR RESULT
+            OIC
+    IF U SAY SO
+    I HAS A index
+    GIMMEH index
+    I HAS A X ITZ 0
+    I HAS A Y ITZ 1
+    I HAS A RESULT ITZ I IZ FIBONACCI YR index AN YR X AN YR Y MKAY
+    VISIBLE RESULT
+KTHXBYE
+HAI, WORLD!!!1!~
+I DUZ YR FIBONACCI!!!1!~
+In -&gt; 8
+21
+</code></pre>
+<h1 id="malbolge">Malbolge</h1>
+<p>Malbolge is a domain specific esoteric programming language. It’s designed to be almost impossible to use and it’s similar to languages like Brainfuck.
+<p>Sample Code:<pre><code class="language-Malbolge">(=&lt;`#9]~6ZY32Vx/4Rs+0No-&amp;Jk)"Fh}|Bcy?`=*z]Kw%oG4UUS0/@-ejc(:'8dc
+Output: Hello World!
+</code></pre>
+<h1 id="matlab">MATLAB</h1>
+<p>MATLAB is a programming language designed specifically for engineers and scientists. With MATLAB you can do things like analyze data, develop algorithms, and to create models and applications.
+<p>Sample Code:<pre><code class="language-MATLAB">Pyy = Y.*conj(Y)/251;
+f = 1000/251*(0:127);
+plot(f,Pyy(1:128))
+title('Power spectral density')
+xlabel('Frequency (Hz)')
+</code></pre>
+<h1 id="modulaii">Modulaii</h1>
+<p>Modulaii is a procedural language developed between 1977 and 1985. It’s seen as the successor to the earlier languages Pascal and Modula. It’s mainly used for real-time embedded systems.
+<p>Example Code:<pre><code class="language-Modula-2">MODULE Hello;
+FROM STextIO IMPORT WriteString;
+BEGIN
+  WriteString("Hello World!");
+END Hello.
+</code></pre>
+<h1 id="perl">Perl</h1>
+<p>Perl is a general-purpose scripting language originally released in 1987. It has a wide variety of uses such as in web development, GUI development, and network programming.
+<p>Example Code:<pre><code class="language-Perl">#!/usr/bin/perl 
+$num = 7;
+$txt = 'it is $num';
+print $txt;
+</code></pre>
+<h1 id="php">PHP</h1>
+<p>PHP is a general-purpose scripting language suited or web development and can be embedded into HTML. PHP is used to create dynamic content and various server-side tasks such as creating, modifying, or deleting files, modifying database information, or encryption.
+<p>Learn more at: <a href="https://www.php.net/manual/en/intro-whatis.php">https://www.php.net/manual/en/intro-whatis.php</a>
+<p>Example Code:<pre><code class="language-PHP">&lt;?php
+echo $_SERVER['HTTP_USER_AGENT'];
+?&gt;
+</code></pre>
+<h1 id="prolog">Prolog</h1>
+<p>Prolog is a logic programing language. Unlike many languages it’s a declarative language and it has an important role in artifical intelligence.
+<p>Example Code:<pre><code class="language-Prolog">1. Here are some simple clauses.
+
+likes(mary,food).
+likes(mary,wine).
+likes(john,wine).
+likes(john,mary).
+</code></pre>
+<h1 id="python">Python</h1>
+<p>Python is an interpreted, high-level, general-purpose scripting language. It has a wide variety of uses such as in Web Development, Game Development, Machine Learning, and artificual intelligence.
+<p>Example Code:<pre><code class="language-Python">
+# Function for nth Fibonacci number 
+  
+def Fibonacci(n): 
+    if n&lt;0: 
+        print("Incorrect input") 
+    # First Fibonacci number is 0 
+    elif n==1: 
+        return 0
+    # Second Fibonacci number is 1 
+    elif n==2: 
+        return 1
+    else: 
+        return Fibonacci(n-1)+Fibonacci(n-2) 
+  
+# Driver Program 
+  
+print(Fibonacci(9)) 
+  
+#This code is contributed by Saket Modi 
+</code></pre>
+<h1 id="r">R</h1>
+<p>R is a programming language and environment developed for statistical computing and graphics. It is used commonly by statisticians,data analysts, and researchers to clean, analyze, and visualize data.
+<p>Learn more at: <a href="https://www.r-project.org/about.html">https://www.r-project.org/about.html</a>
+<p>Example Programs: <a href="https://www.tutorialspoint.com/r/r_basic_syntax.htm">https://www.tutorialspoint.com/r/r_basic_syntax.htm</a>
+<h1 id="ruby">Ruby</h1>
+<p>Ruby is a general purpose scripting language. It’s an interpreted language and it’s also dynamically typed. It’s used commonly in web applications with frameworks like <a href="https://rubyonrails.org/">Ruby on Rails</a> and <a href="https://rubyonrails.org/">Sinatra</a>.
+<p>Example Code:<pre><code class="language-Ruby">def find_missing(sequence)
+  consecutive     = sequence.each_cons(2)
+  differences     = consecutive.map { |a,b| b - a }
+  sequence        = differences.max_by { |n| differences.count(n) }
+  missing_between = consecutive.find { |a,b| (b - a) != sequence }
+  missing_between.first + sequence
+end
+find_missing([2,4,6,10])
+# 8
+</code></pre>
+<h1 id="rust">Rust</h1>
+<p>Rust is a multi-paradigm programming language designed for performance, saftey, and safe concurrency. It’s syntatically similar to C++ but it can guarantee memory saftey by using a borrow checker to validate references. It’s mainly used for systems programming.<pre><code class="language-Rust">fn main() {
+    // Variables can be type annotated.
+    let logical: bool = true;
+
+    let a_float: f64 = 1.0;  // Regular annotation
+    let an_integer   = 5i32; // Suffix annotation
+
+    // Or a default will be used.
+    let default_float   = 3.0; // `f64`
+    let default_integer = 7;   // `i32`
+    
+    // A type can also be inferred from context 
+    let mut inferred_type = 12; // Type i64 is inferred from another line
+    inferred_type = 4294967296i64;
+    
+    // A mutable variable's value can be changed.
+    let mut mutable = 12; // Mutable `i32`
+    mutable = 21;
+    
+    // Error! The type of a variable can't be changed.
+    mutable = true;
+    
+    // Variables can be overwritten with shadowing.
+    let mutable = true;
+}
+</code></pre>
+<h1 id="scheme">Scheme</h1>
+<p>Scheme is a language first published in 1975 as an attempt to understand <a href="https://en.wikipedia.org/wiki/Carl_Hewitt">Carl Hewitt’s</a> <a href="https://en.wikipedia.org/wiki/Actor_model">Actor model</a>. It is a minimalist dialect of the Lisp Programming Language. Nowadays it is used by those wishing to explore language semantics.
+<p>Example code from <a href="https://www.jdoodle.com/execute-scheme-online/">here</a>:<pre><code class="language-Scheme">(define (sum a b)
+(display "x + y = ")
+(display (+ a b)))
+
+(sum 10 25)
+(newline)
+</code></pre>
+<h1 id="sql">SQL</h1>
+<p>SQL is a language to store, manipuldate, and retrieve data out of database. It’s a domain-specific language used for relational database systems.
+<p>Example Code:<pre><code class="language-SQL">CREATE TABLE emp (
+empno INT PRIMARY KEY,
+ename VARCHAR(10),
+job VARCHAR(9),
+mgr INT NULL,
+hiredate DATETIME,
+sal NUMERIC(7,2),
+comm NUMERIC(7,2) NULL,
+dept INT)
+begin
+insert into emp values
+    (1,'JOHNSON','ADMIN',6,'12-17-1990',18000,NULL,4)
+insert into emp values
+    (2,'HARDING','MANAGER',9,'02-02-1998',52000,300,3)
+</code></pre>
+<h1 id="tcltk">Tcl/Tk</h1>
+<p>Tcl is a general purpose dynamic programming language. It supports multiple programming paradigms such as object-oriented, and functional programming. The popular combination of Tcl is with the Tk extension which is refered to as Tcl/Tk which enables building native GUIs in TCL.
+<p>Example Code:<pre><code class="language-Tcl/Tk">frame .launchpad 
+button .launchpad.button1 -text "Data files" -command {exec command.com /c explorer "C:\\data" &amp;}
+pack .launchpad.button1 -side top -fill x
+
+button .launchpad.button2 -text "ToDo List" -command {exec command.com /c notepad.exe "C:\\data\\myToDoList.txt" &amp;}
+pack .launchpad.button2 -side top -fill x
+
+button .launchpad.button3 -text "the third button"
+pack .launchpad.button3 -side top -fill x
+
+pack .launchpad -side top
+console hide
+</code></pre>
+<h1 id="vba">VBA</h1>
+<p>VBA is an implementation of Microsoft’s event-driven programming language Visual Basic 6 which was declared legacy in 2008. Although VB6 was declared legacy it was upgraded for use in Microsoft Office Applications and it’s used for writing macros for those applications.
+<p>Example Code:<pre><code class="language-VB">Sub If_Loop()
+Dim Cell as Range
+ 
+  For Each Cell In Range("A2:A6")
+    If Cell.Value &gt; 0 Then
+      Cell.Offset(0, 1).Value = "Positive"
+    ElseIf Cell.Value &lt; 0 Then
+      Cell.Offset(0, 1).Value = "Negative"
+    Else
+      Cell.Offset(0, 1).Value = "Zero"
+     End If
+  Next Cell
+ 
+End Sub
+</code></pre>
+<h1 id="whitespace">Whitespace</h1>
+<p>Whitespace is an esoteric programming language first released on April Fool’s Day in 2003. The Whitespace intepreter ignores any non-whitespace characters and only spaces, tabs, and linefeeds have meaning.
+<p>Example Code:<pre><code class="language-Whitespace">S S S T	S S T	S S S L
+T	L
+S S S S S T	T	S S T	S T	L
+T	L
+S S S S S T	T	S T	T	S S L
+T	L
+S S S S S T	T	S T	T	S S L
+T	L
+S S S S S T	T	S T	T	T	T	L
+T	L
+S S S S S T	S T	T	S S L
+T	L
+S S S S S T	S S S S S L
+T	L
+S S S S S T	T	T	S T	T	T	L
+T	L
+S S S S S T	T	S T	T	T	T	L
+T	L
+S S S S S T	T	T	S S T	S L
+T	L
+S S S S S T	T	S T	T	S S L
+T	L
+S S S S S T	T	S S T	S S L
+T	L
+S S S S S T	S S S S T	L
+T	L
+S S L
+L
+L
+
+Output: Hello, world!
+</code></pre>
+           <div>
+           </div>
+       </div>
+<script type="text/javascript" src="/assets/js/theme.js"></script>
+<script type="text/javascript" src="/assets/js/barefoot.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-127592939-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+<footer>
+   <div class="icons">
+            <a href="https://www.facebook.com/msoeSSE/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/msoe_sse/"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://msoe-sse.slack.com/"><i class="fab fa-slack"></i></a>
+            <a href="https://github.com/msoe-sse"><i class="fab fa-github"></i></a>
+            <a href="https://teams.microsoft.com/l/channel/19%3a038fecd33eb040aabd4821df0fabf907%40thread.t[…]-c837d6998beb&tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70"><i class="fas fa-user-friends"></i></a>
+            <a href="mailto:admin@msoe-sse.com"><i class="fas fa-envelope"></i></a>
+   </div>
+   <div>
+        <span>Released under the MIT License.</span>
+   </div>
+   <div>
+            <span class="topic">The Destination for Professional Software Engineers
+</span>
+            <span>written by Society of Software Engineers.</span>
+   </div>
+</footer>

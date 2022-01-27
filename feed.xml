@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSE</title>
+    <description>The Destination for Professional Software Engineers
+</description>
+    <link>https://msoe-sse.github.io/</link>
+    <atom:link href="https://msoe-sse.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 27 Jan 2022 13:50:07 -0600</pubDate>
+    <lastBuildDate>Thu, 27 Jan 2022 13:50:07 -0600</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Welcome Back 2021/2022!</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to/welcome back to MSOE for this (hopefully) more normal school year! After a year of video calls and struggling to get connection (internet or person-to-person), we’re excited to meet you all face-to-face. As you all are likely aware, MSOE has its challenges. But never fear, SSE is here! We cannot wait to work with you to prove that while school here can be hard, it can also be so rewarding and informative.&lt;/p&gt;
+
+&lt;p&gt;We’d love to see you at one of our General Meetings! We will have three total General Meetings this quarter during weeks 3, 5, and 8 during free hour on Fridays. Join us for our first meeting to get free food, hear about our sub clubs, find out about our events, and more! We will be meeting this Friday, September 24th, in DH 310. Can’t wait to see you there!&lt;/p&gt;
+
+&lt;p&gt;Following that, our Mock Whiteboard Interviews will be held after the Career Fair in the coming weeks. At this event, you will be able to drop in for a technical interview with actual industry representatives. This event is great to show off your coding skills and build that professional muscle! Some have even gotten internships and jobs from these events. Who knows… that could be you!&lt;/p&gt;
+
+&lt;p&gt;Back from last year, come unwind from the stress of MSOE with our periodic Game Nights! Here you can have fun with others, continue your gaming passion (or obsession), test your trivia knowledge, and more.&lt;/p&gt;
+
+&lt;p&gt;New this year… be on the lookout for our study nights! Meet up with your fellow classmates to get some homework done, take a crack at those ever long labs, or simply get a space to focus.&lt;/p&gt;
+
+&lt;p&gt;Hope you’re excited as much as we are! SSE is here to make it a great year socially, academically, and professionally.&lt;/p&gt;
+
+&lt;p&gt;Want to stay in touch? Join our Slack &lt;a href=&quot;https://msoe-sse.slack.com&quot;&gt;here&lt;/a&gt;, Discord &lt;a href=&quot;https://discord.gg/KxuYazNmuQ&quot;&gt;here&lt;/a&gt;, and MS-Teams team &lt;a href=&quot;https://teams.microsoft.com/l/team/19%3a038fecd33eb040aabd4821df0fabf907%40thread.tacv2/conversations?groupId=841726d7-4db7-4143-8526-c837d6998beb&amp;amp;tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Sep 2021 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/welcome-back-2021-2022</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/welcome-back-2021-2022</guid>
+        
+        <category>announcement</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>SSE Game Jam 2020</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;game-jam-november-2020&quot;&gt;Game Jam November 2020&lt;/h1&gt;
+
+&lt;p&gt;&lt;a class=&quot;imageLink&quot; href=&quot;https://forms.gle/ZfvyJX21KXw5anfy6&quot;&gt;&lt;img src=&quot;/assets/img/GameJamPoster.png&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-this-event&quot;&gt;What is this event?&lt;/h2&gt;
+&lt;p&gt;A game jam is a fast-paced competition. You will compete agains other game designers in order to create the best game, in only 24 hours!&lt;/p&gt;
+
+&lt;h2 id=&quot;theme&quot;&gt;Theme&lt;/h2&gt;
+&lt;p&gt;This year’s theme is Out of Control!&lt;/p&gt;
+
+&lt;h2 id=&quot;where-and-when&quot;&gt;Where and When?&lt;/h2&gt;
+&lt;p&gt;This entire game jam is virtual! After signing up you can get to work. At the end of the event, simply link a git repository so people can test your game.
+The event will run from Friday November 6th, 6:00 pm - Saturday November 7th, 6:00 pm. At this time, people will be given until Sunday to vote for their favorite games, and the winners will be announced on stream on Sunday at noon!&lt;/p&gt;
+
+&lt;h1 id=&quot;prize-categories&quot;&gt;Prize Categories&lt;/h1&gt;
+&lt;p&gt;During this game jam, we are going to give prices based on the following categories&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Best Game&lt;/li&gt;
+  &lt;li&gt;Best Art&lt;/li&gt;
+  &lt;li&gt;Best Sound Design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;streaming&quot;&gt;Streaming&lt;/h2&gt;
+&lt;p&gt;We are trying something new this time around. We are live streaming this years game jam! If you don’t want to make a project this time around, but still want to participate come watch us on &lt;a href=&quot;https://www.twitch.tv/msoe_see&quot;&gt;Twitch&lt;/a&gt;. If you are participating in the game jam you can choose to either opt in or opt out of being featured on stream!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-rules&quot;&gt;What are the rules?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Submit your project
+    &lt;ul&gt;
+      &lt;li&gt;Duh! How are we going to decide that your game is the best if you never turn it in.&lt;/li&gt;
+      &lt;li&gt;We will have you sign up for the event &lt;a href=&quot;https://forms.gle/PuHRsFHUqjFKRxt4A&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;At the end of the game jam, we will have you submit your project details &lt;a href=&quot;https://forms.gle/kwhWgxzgfXVXqDhs8&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Submit your project before 6:00. We are forgiving, but it’s better to be 10 minutes early rather than 10 minutes late.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Only use what you have made
+    &lt;ul&gt;
+      &lt;li&gt;There are many exceptions to this rule. The main idea is that we don’t want you to submit other people’s games.&lt;/li&gt;
+      &lt;li&gt;You can use external libraries and game engines. In fact, we recommend you do this!&lt;/li&gt;
+      &lt;li&gt;You can use external assets. Models, sprites, sound, and music may be used if you don’t own them. Make sure your use is legal and credited.
+        &lt;ul&gt;
+          &lt;li&gt;We do prefer that you make your own assets though! It makes the games so much more fun to play! :)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Follow the theme
+    &lt;ul&gt;
+      &lt;li&gt;The theme is vague. Don’t worry we did this on purpose. As long as you can make an argument that your game follows the theme, we will accept it. However, adherence to the theme is a criterion we take into account when determining a winner.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;who-can-i-contact-if-i-am-interested-or-want-to-know-more&quot;&gt;Who can I contact if I am interested or want to know more?&lt;/h2&gt;
+&lt;p&gt;If you are interested or have any questions, feel free to reach out to Seth Fenske, or join the &lt;a href=&quot;https://msoe-sse.slack.com/archives/C75HLMNAZ&quot;&gt;# gamedesign&lt;/a&gt; channel in the SSE Slack. He can be reached on&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Teams (fenskesd@msoe.edu)&lt;/li&gt;
+  &lt;li&gt;SSE Slack (@Seth Fenske)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;mailto:fenskesd@msoe.edu&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Any time you see him in person!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 27 Oct 2020 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/game-jam-2020</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/game-jam-2020</guid>
+        
+        <category>events</category>
+        
+        <category>info</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mock Whiteboard Interviews 2020</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-mock-whiteboard-interviews&quot;&gt;What are the Mock Whiteboard Interviews?&lt;/h2&gt;
+&lt;p&gt;The Mock Whiteboard Interviews are a yearly event hosted by SSE to help people in Software majors get practice with technical interviews. In the past we’ve had industry representives come out and administer the mock interview where they would give students a coding problem they would give in a technical interview and students has to write their solution to the problem on a whiteboard. The only difference about this year is that the event will be held over Microsoft Teams and instead of a physical whiteboard online whiteboards or other online coding platforms will be used instead. But, it will still be a great way to get practice for upcoming internship or full time job interviews and it’s still a great way to meet industry representatives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; The SSE team on Microsoft Teams which you can join &lt;a href=&quot;/teams&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Date and Time:&lt;/strong&gt; Monday, October 19th from 12 PM to 2 PM&lt;/p&gt;
+
+&lt;h2 id=&quot;other-information&quot;&gt;Other Information&lt;/h2&gt;
+&lt;p&gt;No formal business atire is required for this event. You can dress just as you normally would for class. Also, you don’t need to bring anything to this event but it would be good to have a virtual copy of your Resume ready if one of the industry representatives wants to look at it.&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
+&lt;p&gt;Please direct any questions about the event towards one of the eboard members. You can get the contact information for each of the eboard members &lt;a href=&quot;/about/eboard&quot;&gt;here&lt;/a&gt; and they will get back to you as soon as possible?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2020 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/mock-whiteboard-interviews-2020</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/mock-whiteboard-interviews-2020</guid>
+        
+        <category>events</category>
+        
+        <category>info</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome To The 2020/2021 School Year</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;
+Are you dreading going back to school? Maybe a little more than usual? After all, online classes, remote learning, social distancing and masks have transformed education almost completely in the past few months. Starting to think about how sad, lonely and stressful the upcoming school year will be, and feeling down?&lt;/p&gt;
+
+&lt;p&gt;Well, start looking up! This school year will be far different from normal given these difficult times, but SSE will still be here for you socially, academically and professionally in whatever way we can.&lt;/p&gt;
+
+&lt;p&gt;“Okay, sure,” you say….”But how?”&lt;/p&gt;
+
+&lt;p&gt;We’d love to see you at our first general meeting during Friday Week 2 at 12pm. We’re hoping to hold an in-person outdoor meeting on the old athletic field (pending official approval by MSOE–if not, we have back-up ideas). Attending is a perfect way to meet other SE’s, exchange some mask-smiles (okay, we’ll just call it cheerful eye-squinting) from your peers, and get some sunshine!
+“Okay, sure. A meeting. Big deal,” you say.&lt;/p&gt;
+
+&lt;p&gt;A meeting isn’t all! After our week 2 general meeting we are planning to hold roundtable discussions in weeks 5 and 8 about a certain theme, whether technical, professional or social. These will be perfect if you want to learn more about a topic in software or just have a chance to get to know other SE’s. The format for these interactions is pending, but we’ll be sure to let you know soon!&lt;/p&gt;
+
+&lt;p&gt;“Fine, I get it!” you say. “SSE is a big meeting factory.” Not so fast!&lt;/p&gt;
+
+&lt;p&gt;Our subclubs will be running meetings again this fall. Ever wanted to work on a website, code a video game or become the modern-day Djikstra and solve world-class competitive programming problems? Don’t even know who Djikstra is? Maybe you just want to make some friends. You can do all of these things and more by checking out their pages below and joining a subclub.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/subclubs/website&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/subclubs/gamedev&quot;&gt;Game Development&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/subclubs/competitiveprogramming&quot;&gt;Competitive Programming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And remember–be a part of the community! Join our slack &lt;a href=&quot;https://msoe-sse.slack.com&quot;&gt;here&lt;/a&gt; and MSTeams team &lt;a href=&quot;https://teams.microsoft.com/l/team/19%3a038fecd33eb040aabd4821df0fabf907%40thread.tacv2/conversations?groupId=841726d7-4db7-4143-8526-c837d6998beb&amp;amp;tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70&quot;&gt;here&lt;/a&gt;. Also, you can sign up for our email list &lt;a href=&quot;https://mailchi.mp/b862fad03b69/sse-newsletter&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/welcome-back-2020-2021</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/welcome-back-2020-2021</guid>
+        
+        <category>announcement</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Run for SSE Eboard!</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;It’s that time of the year again–week 6 of winter quarter. Traditionally, this is one of the hardest times of the year. After all, it’s cold outside, we are past the post-winter-break “I can do this” resolutinos, midterms are coming (or worse, we’re getting grades from the midterms we’ve already taken), and we’re all getting tired of the grind. So why pick this time of the year to ask members to think about running for an eBoard position?&lt;/p&gt;
+
+&lt;p&gt;Because this is the time of year when we start thinking that it’s time to make a change. We’re over halfway through the year here at MSOE, and we probably all have critiques (okay, let’s be real, they’re probably mostly complaints) by now.&lt;/p&gt;
+
+&lt;p&gt;If you’re feeling like your software and comp sci classes just aren’t preparing you for the future job you want, then it’s time to join SSE on the eBoard to help push ideas for supplementing the cirriculum. If you feel like software and computer engineers are just not social enough, and you want the opportunity to meet more of your peers and help them meet each other, then this is the time of year to make a change. If you can think of any way to make life easier or better for any of your software-involved peers, then running for the eBoard is for you. It’s time to stop thinking about “I wish…” and time to start thinking “I will.”&lt;/p&gt;
+
+&lt;p&gt;As an eBoard member you’ll have a voice to help make life a little better for your friends and classmates. You’ll have the opportunity to meet company representatives as you plan events, gather funding and meet alumni. Not only will you have the priviledge of interacting with these amazing people, but you’ll also have the priviledge of harnessing their wants and desires and implementing them here at MSOE, making sure that the next generation of software engineers, computer engineers, computer scientists and their friends are more prepared than ever for the rapidly changing industry (not to mention that knowing some of these people can be a &lt;em&gt;wonderful&lt;/em&gt; resource to draw on when you’re looking for a job!).&lt;/p&gt;
+
+&lt;p&gt;So c’mon, then. Go make a change! Check out the list of eboard &lt;a href=&quot;https://docs.google.com/document/d/1I6Dp_j_MUemtdn4tNFSr97WLYEepgRQZpXjQGESEJ2s/edit?usp=sharing&quot;&gt;positions&lt;/a&gt;  to see which one is the best fit for you, and fill out a nomination form &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfJUSC8VcSIqd60WMREZ2iBdwcwgnFJsw3Fvliod9puc3mJig/viewform&quot;&gt;here&lt;/a&gt;. Voting will occur on Friday of Week 8, and we look forward to welcoming you aboard!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jan 2020 00:00:00 -0600</pubDate>
+        <link>https://msoe-sse.github.io/posts/time-to-run</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/time-to-run</guid>
+        
+        <category>announcement</category>
+        
+        <category>info</category>
+        
+        <category>eboard</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>IEEEXtreme Programming Competition</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;
+&lt;img src=&quot;https://ieeextreme.org/wp-content/uploads/2019/05/Xtreme_colour-e1557478323964.png&quot; alt=&quot;IEEEXtreme_logo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-ieeextreme&quot;&gt;What is IEEEXtreme?&lt;/h2&gt;
+
+&lt;p&gt;IEEEXtreme  is an annual programming challenge for college students. The event takes place over a period of 24 hours where teams of IEEE student members compete with each other by solving a series of programming challenges. The competition is being run by the student branch of IEEE at MSOE. To compete in the event you must be a member of IEEE. Registration for IEEEXtreme is currently open. The event starts on October 18th at 7pm and ends on Saturday at 7pm. Where the competition will take place has yet to be determined, but it will be some where in Diercks Hall.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ieee.org/membership/join/index.html&quot;&gt;Join IEEE&lt;/a&gt; ($16 for half year, $32 for a full year)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeextreme.org/&quot;&gt;IEEEXtreme website and competition sign up&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;rules-and-other-information&quot;&gt;Rules and Other Information&lt;/h2&gt;
+
+&lt;p&gt;Teams of up to three student IEEE members receive sets of programming problems over 24 hours, starting at 0:00 UTC (7pm local time) on the competition date. All teams receive the same problems to solve and are expected to solve the problems without direct outside consultation. Teams don’t need to tackle every problem, but the more they solve, the more points they score. Students submit their solutions using an online tool, which has been HackerRank in recent years. Points are awarded based on how the problem was solved, the time it took, and its difficulty.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;preparation-workshop-with-alumni-connor-hibbs&quot;&gt;Preparation Workshop with Alumni Connor Hibbs&lt;/h2&gt;
+
+&lt;p&gt;Connor is the founder of the competitive programming team and a veteran of IEEEXtreme. He has graciously accepted an invitation to help prepare our members for the event on the October 16th, the Wednesday before the competition. The workshop will take place in Diercks Hall Room 310 (DH 310) from 6-8pm. Dominoes pizza will be provided. The workshop will consist of a walk through session and a collaboration session for various problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://forms.gle/nvYNCUMaHifznWsu6&quot;&gt;Sign up for the workshop here!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://csacademy.com/ieeextreme-practice/tasks/&quot;&gt;Past IEEEXtreme problems with an online judge&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pages.cs.wisc.edu/~dieter/ICPC/links.html&quot;&gt;UW Madison competitive programming preparation resources&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Hk-8EJidS4A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 25 Sep 2019 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/ieeextremeprogrammingcompetition</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/ieeextremeprogrammingcompetition</guid>
+        
+        <category>Competitive Programming</category>
+        
+        <category>IEEE</category>
+        
+        <category>Events</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome Back 2019!</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;
+Welcome to another year of school at MSOE!
+Well, maybe not “Welcome.” Maybe we mean “Good luck,” because school here isn’t always easy. Lucky for you, SSE is here to make it easier!&lt;/p&gt;
+
+&lt;p&gt;We’d love to see you all at our next general meeting, September 20th at noon in DH110! This will be a perfect way to get to know some other SE’s and maybe snag some advice from older students.&lt;/p&gt;
+
+&lt;p&gt;Following that, our resume blitz will be just around the corner, on September 23rd at noon and September 25th at 5PM. This event is an awesome way to have an industry professional evaluate your resume and give you valuable feedback. This is especially important because the career fair will be next week Friday!&lt;/p&gt;
+
+&lt;p&gt;After the career fair, we’ll have mock whiteboard interviews, where students will be able to sign up for a technical interview with an engineer from one of our industry partners and get some experience showing off their coding skills (and some networking, too!).&lt;/p&gt;
+
+&lt;p&gt;Are you excited yet? You should be! SSE is here to make it a great year–socially, academically and professionally–for everyone.&lt;/p&gt;
+
+&lt;p&gt;Want to stay in touch? Join our slack &lt;a href=&quot;https://msoe-sse.slack.com&quot;&gt;here&lt;/a&gt; or sign up for our email list &lt;a href=&quot;https://mailchi.mp/b862fad03b69/sse-newsletter&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Sep 2019 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/welcome-back</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/welcome-back</guid>
+        
+        <category>announcement</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hack N Tell Summer 2019</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;
+&lt;img src=&quot;/assets/img/Hack_N_Tell_Summer_2019.jpg&quot; alt=&quot;Hack N Tell Summer 2019.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello, it’s Andy Wojciechowski (SSE Member) and Seth Fenske (Game Dev Officer) and we’re going to tell you what we worked on during Rokkin Cat’s summer 2019 Hack N Tell.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-a-hack-n-tell&quot;&gt;What is a Hack N Tell&lt;/h1&gt;
+&lt;p&gt;For those of you who don’t know what a Hack N Tell is, it’s a 8 hour event in &lt;a href=&quot;https://www.ward4mke.com/&quot;&gt;Ward 4&lt;/a&gt; where a lot people sit in the same room and they just work on something during that time frame. Lunch is provided for Hack N Tells and at the end you have the opportunity to present what you worked on during the event for the chance to win prizes.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-andy-worked-on&quot;&gt;What Andy Worked On&lt;/h1&gt;
+&lt;p&gt;During the Hack N Tell I worked on adding features to an application I’ve been working on all summer, a post editor for the SSE website, which I’m using currently to write this post. On the SSE website currently we have very few posts currently and I’m hoping the editor will help increase the number of posts on the website by allowing people to directly write and submit posts for the website instead of having website developers only writing posts. The main feature I worked on is allowing a user to edit existing posts on the website. Over the course of the Hack N Tell I worked on refactoring existing code in the backend and making a new list page which will allow a user to either edit an existing post or allow them to create a new post. At the end of the event I ended up with an initial list page shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Initial_Post_List_View.png&quot; alt=&quot;Initial Post List View.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The page does look kind of basic at the moment, along with the initial edit view but I’m hoping to get some help from some of the other SSE website developers in order to make the post editor look better.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-seth-worked-on&quot;&gt;What Seth Worked On&lt;/h1&gt;
+&lt;p&gt;What’s up y’all? It’s ya boi, the Game Dev Chairman! I hear you want to know what I did during the Hack’n’Tell? Well, I’ll tell you. But first, a backstory:&lt;/p&gt;
+
+&lt;p&gt;You sit down on a warm Saturday afternoon. You are sweaty from moving about 30 pounds of equipment from a parking lot a quarter mile away into Ward 4, and decide to boot up your Unity project to work on everyone’s favorite in-progress title Euclid’s Dreamland. However, you notice that things have gone horribly wrong. You never updated your code, but everything is broken. Why? Is it your bad code? Random constants? Stupid dependencies? No, it’s your game engine that’s the problem.&lt;/p&gt;
+
+&lt;p&gt;That’s when I decided to switch projects. I didn’t feel like debugging a broken -project- game engine ;p. So, after talking to Andy for a bit, I decided to familiarize myself with the Godot Engine. I felt guilty at first, like I was cheating on Unity with a newer, sleeker, open source project. I only hope Unity can forgive my infidelity; however, I have fallen in love with Godot, and I don’t think I can go back.&lt;/p&gt;
+
+&lt;p&gt;With Unity, minutes dragged on into hours; but with Godot, things were different. Godot made the time fly. I felt like I was making video games for the first time all over again. I was able to create a wonderful, beautiful asset. A breakable bundle of bricks.&lt;/p&gt;
+
+&lt;p&gt;These bricks are supposed to break when the player hits them from underneath, kind of like in Super Mario Brothers (Don’t Sue Me @Nintendo). While it took me a little while to get used to the different ways that Godot did things, I was able to speed through this creation relatively quickly.&lt;/p&gt;
+
+&lt;p&gt;Perhaps this new flashy engine is just a small spark which will fade away with time. Perhaps I will come crawling back to Unity. Perhaps not… Until then I will cherish the times I had at the Hack’n’Tell working with the Gadot Engine.&lt;/p&gt;
+
+&lt;p&gt;My final result with the brick asset is shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Godot_Bricks.jpg&quot; alt=&quot;Godot_Bricks.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Jul 2019 00:00:00 -0500</pubDate>
+        <link>https://msoe-sse.github.io/posts/hackntellsummer2019</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/hackntellsummer2019</guid>
+        
+        <category>events</category>
+        
+        <category>hackntell</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>SSE Eboard Positions Available</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+&lt;h1 id=&quot;its-that-time-of-year-again&quot;&gt;It’s that time of year again!&lt;/h1&gt;
+&lt;p&gt;SSE Elections are coming up on Friday, February 8th from 12-1 at our Week 9 General Meeting in CC03. If you like SSE and want to be a driving force as we continue thriving and serving the software engineers at MSOE, consider running for one of the 8 positions outlined &lt;a href=&quot;https://drive.google.com/open?id=1y8KjkZhdTx65zxQ3nKAFkXkuno39c-I1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;so-im-interested-now-what&quot;&gt;So I’m interested. Now what?&lt;/h1&gt;
+&lt;p&gt;We’re excited to take on a new chapter with a new eboard, and we hope that you’ll consider nominating yourself &lt;a href=&quot;https://goo.gl/forms/V6td4909MrfYZNix1&quot;&gt;here&lt;/a&gt; if this is something you see yourself doing. We look forward to seeing your nomination!&lt;/p&gt;
+
+&lt;p&gt;As always, if you have any questions, feel free to reach out to any eboard member over Slack or at our &lt;a href=&quot;contact@msoe-sse.com&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Jan 2019 00:00:00 -0600</pubDate>
+        <link>https://msoe-sse.github.io/posts/eboard-positions-available</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/eboard-positions-available</guid>
+        
+        <category>announcement</category>
+        
+        <category>info</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to the New SSE Website</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;I’m glad you’re here! We have some amazing stuff going on!&lt;/p&gt;
+&lt;p&gt;&amp;lt;!–-break-–&amp;gt;
+Originally, the offical SSE website was going to be created using &lt;a href=&quot;https://angular.io/&quot;&gt;Angular&lt;/a&gt;. As time went on, it was clear that the open source blogging platform &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; might be a better choice for SSE: Jekyll is eaiser for members to learn, has a faster setup time and is run freely through github.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other terms, Jekyll is a blogging platform that can be levereged to accomplish many different site goals - and it is open source! This means that SSE can use the platform to build and engaging, informative, and custom website that can be easily updated by the students of SSE.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-in-it-for-me&quot;&gt;What is in it for me?&lt;/h1&gt;
+
+&lt;p&gt;As an SSE member, this website will be your hub for all things SSE. From this site you will soon be able to see calendar events, posts on current events, pictures of past ones and reference our official guidelines–the SSE constitution.&lt;/p&gt;
+
+&lt;h1 id=&quot;can-i-help&quot;&gt;Can I help?&lt;/h1&gt;
+
+&lt;p&gt;Of course! The other purpose of this website is to allow students to grow and learn in their programming skills. While some knowledge of &lt;a href=&quot;https://www.w3.org/html/&quot;&gt;HTML&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;, and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot;&gt;JavaScript&lt;/a&gt; can come in handy, no prior knowledge is required - we would love to teach you! All SSE website source code and content is available on our &lt;a href=&quot;https://github.com/msoe-sse/&quot;&gt;Github&lt;/a&gt; repository, and our meetings are currently held at 6PM in the SDL on Monday nights.&lt;/p&gt;
+
+&lt;p&gt;Photo Credit: &lt;a href=&quot;https://unsplash.com/@finnhackshaw&quot;&gt;Finn Hackshaw&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Nov 2018 00:00:00 -0600</pubDate>
+        <link>https://msoe-sse.github.io/posts/welcome-to-the-new-sse-website</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/welcome-to-the-new-sse-website</guid>
+        
+        <category>announcement</category>
+        
+        <category>info</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

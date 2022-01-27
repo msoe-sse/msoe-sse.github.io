@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>IEEEXtreme Programming Competition &#9642; SSE</title>
+<!--
+<meta name="description" content="
+">
+-->
+<meta name="description" content="The Destination for Professional Software Engineers
+">
+<meta name="keywords" content="Competitive Programming, IEEE, Events">
+<link rel="canonical" href="https://msoe-sse.github.io/posts/ieeextremeprogrammingcompetition">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="IEEEXtreme Programming Competition" />
+<meta name="twitter:description" content="The Destination for Professional Software Engineers
+" />
+<meta name="twitter:image" content="https://msoe-sse.github.io" />
+<meta name="author" content="">
+<link rel="author" href="">
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IEEEXtreme Programming Competition">
+<meta property="og:description" content="The Destination for Professional Software Engineers
+">
+<meta property="og:url" content="https://msoe-sse.github.io/posts/ieeextremeprogrammingcompetition">
+<meta property="og:site_name" content="SSE">
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" type="image/png" href="/assets/img/msoe-sse.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,400italic,700,700italic">
+<style>
+    html {
+      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="/assets/css/bf.css">
+   <body>
+       <div class="wrapper" id="blep">
+          <header>
+   <div class="site-navigation">
+      <!--Site Title and SVG Logo-->
+     <div class="logo">
+        <a class="logotext" href="/">SSE</a>
+        <img class="logosvg" src="/assets/img/dactl.svg"/>
+     </div>
+      <!--Menu Bar and drop downs -->
+     <div class="navigation-bar">
+       <div class="main-menu">
+          <span id="mobile-menu-button" class="menu-button" onclick="toggleNav()">menu</span>
+       </div>
+         <div id="menu-items" class="main-menu-items">
+                  <a class="navigation-bar_link" href="/">Home</a>
+               <div class="dropdown-wrapper">
+                    <a class="navigation-bar_link" href="/about">About</a>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/about/eboard">eBoard</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/constitution">Constitution</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/feedback">Feedback</a>
+                      <a class="navigation-bar_link_dropdown" href="/about/industryreachout">Industry Reachout</a>
+                 </div>
+               </div>
+               <div class="dropdown-wrapper">
+                    <a class="navigation-bar_link" href="/events">Events</a>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/events/points">Points</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/gamejam">Game Jam</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/lightningtalks">Lightning Talks</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/webmeetings">Website Past Meetings</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/generalmeetings">Past General Meetings</a>
+                      <a class="navigation-bar_link_dropdown" href="/events/programminglanguages">Programming Languages</a>
+                 </div>
+               </div>
+               <div class="dropdown-wrapper">
+                    <span class="navigation-bar_link">Subclubs</span>
+                 <div class="dropdown-menu-content">
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/website">Website</a>
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/competitiveprogramming">Competitive Programming</a>
+                      <a class="navigation-bar_link_dropdown" href="/subclubs/gamedev">Game Dev</a>
+                 </div>
+               </div>
+         </div>
+     </div>
+   </div>
+    <br/>
+   <div class="utility-bar">
+        <span><div id="search-container">
+    <input type="text" id="search-input" placeholder="Search" class="site-search">
+   <ul id="results-container" class="site-search-results"></ul>
+</div>
+<script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script>
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+    SimpleJekyllSearch({
+      searchInput,
+      resultsContainer,
+      json: '/search.json'
+    });
+</script></span>
+   </div>
+   <div>
+      <a href="#" onclick="switchTheme()" title="Switch theme?" class="smaller social-bar_link switch-theme-icon">
+        <span class="icon-invert_colors" id="theme-switcher"></span>
+      </a>
+   </div>
+        <script type="text/javascript" src="/assets/js/nav.js"></script>
+</header>
+<article class="post">
+<style>
+  .ieeextremeprogrammingcompetition {
+    margin-bottom: 2em;
+  }
+  .ieeextremeprogrammingcompetition::before {
+    background-image: url('https://source.unsplash.com/collection/145103/');
+    background-size: cover;
+    -webkit-filter: grayscale(1) brightness(0.5) contrast(0.5);
+    content:'';
+    position:absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    border-radius: 0.25rem;
+  }
+  .ieeextremeprogrammingcompetition::after {
+    content:'';
+    position:absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,0,100,0.8);
+    /*mix-blend-mode: darken;
+    mix-blend-mode: color-burn;
+    mix-blend-mode: hard-light;*/
+    mix-blend-mode: overlay;
+    z-index: -1;
+  }
+  .ieeextremeprogrammingcompetition-container,
+  .ieeextremeprogrammingcompetition-container::before,
+  .ieeextremeprogrammingcompetition-container::after {
+    height: 25rem;
+  }
+  .ieeextremeprogrammingcompetition-bleed-container,
+  .ieeextremeprogrammingcompetition-bleed-container::before,
+  .ieeextremeprogrammingcompetition-bleed-container::after {
+    height: 35rem;
+  }
+    @media (max-width: 48rem) {
+        .ieeextremeprogrammingcompetition-container,
+        .ieeextremeprogrammingcompetition-container::before,
+        .ieeextremeprogrammingcompetition-container::after{
+            height: 20rem;
+            margin-bottom: 3rem;
+        }
+    }
+</style>
+ <div class="post-title-container
+  ieeextremeprogrammingcompetition ieeextremeprogrammingcompetition-bleed-container bleed-hero-container
+    ">
+    <!--Post hero image source-->
+   <div class="heading-container hero-heading hero-heading-post">
+     <h1>
+          IEEEXtreme Programming Competition
+     </h1>
+     <div class="post-meta">
+        <span>09/25/2019</span>
+        <span>
+              <a href="/tag/Competitive Programming">#Competitive Programming</a>
+              <a href="/tag/IEEE">#IEEE</a>
+              <a href="/tag/Events">#Events</a>
+        </span>
+     </div>
+   </div>
+ </div>
+   <p class="lead">
+<img src="https://ieeextreme.org/wp-content/uploads/2019/05/Xtreme_colour-e1557478323964.png" alt="IEEEXtreme_logo.jpg" />
+<h2 id="what-is-ieeextreme">What is IEEEXtreme?</h2>
+<p>IEEEXtreme  is an annual programming challenge for college students. The event takes place over a period of 24 hours where teams of IEEE student members compete with each other by solving a series of programming challenges. The competition is being run by the student branch of IEEE at MSOE. To compete in the event you must be a member of IEEE. Registration for IEEEXtreme is currently open. The event starts on October 18th at 7pm and ends on Saturday at 7pm. Where the competition will take place has yet to be determined, but it will be some where in Diercks Hall.
+<p><a href="https://www.ieee.org/membership/join/index.html">Join IEEE</a> ($16 for half year, $32 for a full year)
+<p><a href="https://ieeextreme.org/">IEEEXtreme website and competition sign up</a>
+<p> 
+<h2 id="rules-and-other-information">Rules and Other Information</h2>
+<p>Teams of up to three student IEEE members receive sets of programming problems over 24 hours, starting at 0:00 UTC (7pm local time) on the competition date. All teams receive the same problems to solve and are expected to solve the problems without direct outside consultation. Teams don’t need to tackle every problem, but the more they solve, the more points they score. Students submit their solutions using an online tool, which has been HackerRank in recent years. Points are awarded based on how the problem was solved, the time it took, and its difficulty.
+<p> 
+<h2 id="preparation-workshop-with-alumni-connor-hibbs">Preparation Workshop with Alumni Connor Hibbs</h2>
+<p>Connor is the founder of the competitive programming team and a veteran of IEEEXtreme. He has graciously accepted an invitation to help prepare our members for the event on the October 16th, the Wednesday before the competition. The workshop will take place in Diercks Hall Room 310 (DH 310) from 6-8pm. Dominoes pizza will be provided. The workshop will consist of a walk through session and a collaboration session for various problems.
+<p><a href="https://forms.gle/nvYNCUMaHifznWsu6">Sign up for the workshop here!</a>
+<p> 
+<h2 id="resources">Resources</h2>
+<p><a href="https://csacademy.com/ieeextreme-practice/tasks/">Past IEEEXtreme problems with an online judge</a>
+<p><a href="http://pages.cs.wisc.edu/~dieter/ICPC/links.html">UW Madison competitive programming preparation resources</a>
+<p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hk-8EJidS4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</article>
+<span style="margin:0;padding:0"><span style="font-weight:bold;">Post by</span>: Kiel Dowdle</span>
+<aside class="related">
+<h2>Related posts</h2>
+<ul class="related-posts">
+</aside>
+           <div>
+           </div>
+       </div>
+<script type="text/javascript" src="/assets/js/theme.js"></script>
+<script type="text/javascript" src="/assets/js/barefoot.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-127592939-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+<footer>
+   <div class="icons">
+            <a href="https://www.facebook.com/msoeSSE/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/msoe_sse/"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://msoe-sse.slack.com/"><i class="fab fa-slack"></i></a>
+            <a href="https://github.com/msoe-sse"><i class="fab fa-github"></i></a>
+            <a href="https://teams.microsoft.com/l/channel/19%3a038fecd33eb040aabd4821df0fabf907%40thread.t[…]-c837d6998beb&tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70"><i class="fas fa-user-friends"></i></a>
+            <a href="mailto:admin@msoe-sse.com"><i class="fas fa-envelope"></i></a>
+   </div>
+   <div>
+        <span>Released under the MIT License.</span>
+   </div>
+   <div>
+            <span class="topic">The Destination for Professional Software Engineers
+</span>
+            <span>written by Society of Software Engineers.</span>
+   </div>
+</footer>
