@@ -1,38 +1,40 @@
-- name: home
+- name: Home
   link: /
   submenus: []
 
-- name: about
+- name: About
   link: /about
   submenus:
-    - name: eboard
+    - name: eBoard
       link: /about/eboard
-    - name: constitution
+    - name: Constitution
       link: /about/constitution
-    - name: feedback
+    - name: Feedback
       link: /about/feedback
+    - name: Industry Reachout
+      link: /about/industryreachout
 
-- name: events
+- name: Events
   link: /events
   submenus:
-    - name: points
+    - name: Points
       link: /events/points
-    - name: game jam
+    - name: Game Jam
       link: /events/gamejam
-    - name: lightning talks
+    - name: Lightning Talks
       link: /events/lightningtalks
-    - name: website past meetings
+    - name: Website Past Meetings
       link: /events/webmeetings
-    - name: past general meetings
+    - name: Past General Meetings
       link: /events/generalmeetings
-    - name: programming languages
+    - name: Programming Languages
       link: /events/programminglanguages
   
-- name: subclubs
+- name: Subclubs
   submenus:
-    - name: website
+    - name: Website
       link: /subclubs/website
-    - name: competitive programming
+    - name: Competitive Programming
       link: /subclubs/competitiveprogramming
-    - name: game dev
+    - name: Game Dev
       link: /subclubs/gamedev
