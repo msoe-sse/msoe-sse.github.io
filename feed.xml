@@ -6,9 +6,42 @@
 </description>
     <link>https://msoe-sse.github.io/</link>
     <atom:link href="https://msoe-sse.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2022 15:18:51 -0500</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2022 15:18:51 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Jan 2023 15:53:44 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Jan 2023 15:53:44 -0600</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>Winter Welcome 2022/2023</title>
+        <description>&lt;p class=&quot;lead&quot;&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to the Winter Quarter of 2022/2023! There’s so much that we’re looking forward to this term. We cannot wait to work with you to prove that while school here can be hard, it can also be so rewarding and informative. Moreover, the experience is even better with SSE.&lt;/p&gt;
+
+&lt;p&gt;We’d love to see you at one of our General Meetings! We will have three total General Meetings this quarter during weeks 2, 5, and 8 during free hour on Fridays. Join us for our first meeting to get free food, hear about our sub clubs, discuss various CS topics, find out about our events, and more! We will be meeting this Friday, December 9th, in DH 310. Can’t wait to see you there!&lt;/p&gt;
+
+&lt;p&gt;Want to celebrate before break with friends? Consider popping into our “0 Binary Tree” Holiday Social on Thursday, December 15th, 7pm-9pm in DH 129. Hot cocoa, Christmas cookies, crafts, movie viewing (audience pick), and more will be there!&lt;/p&gt;
+
+&lt;p&gt;Following the break, a Resume workshop with NVIDIA prior to the MSOE Career Fair on Thursday, January 5th, 2023 from 5pm-6pm online. At this event, you will be able to gain knowledge on how to best format your resume for success this new year. Not only is this event great for advice, it’s good for networking as well. Many have even gotten internships and jobs from SSE events.&lt;/p&gt;
+
+&lt;p&gt;Check out our Book Club! Starting on Monday, January 23rd from 6:30pm-8:30pm in DH 310, we will going through Gayle McDowell’s “Cracking the Coding Coding Interview” problems. Prepare for your next coding interview with us!&lt;/p&gt;
+
+&lt;p&gt;Look forward to our various “Justice In the Galaxy” nights. Together we will craft Star Wars items while discussing how the themes of Star Wars relate to JEDI (Justice, Equity, Diversity, Inclusion). Other JEDI events will include a “Women of EECS Spa Night with SWE”, on Thursday, January 19th from 6pm-8pm in DH 310.&lt;/p&gt;
+
+&lt;p&gt;Want to start a club but don’t know how to get started? Feel that you need resources? Consider starting a SSE sub club! Contact us at admin@msoe-sse.com&lt;/p&gt;
+
+&lt;p&gt;Furthermore, do you want to expand your resume? Gain leadership experience? Love planning events or managing things? Consider running for the 2023-2024 SSE Board. Nominations will be Week 5 and elections Week 8 of THIS QUARTER!&lt;/p&gt;
+
+&lt;p&gt;Hope you’re excited as much as we are! SSE is here to make it a great year socially, academically, and professionally.&lt;/p&gt;
+
+&lt;p&gt;Want to stay in touch? Follow us on Instagram &lt;a href=&quot;https://www.instagram.com/msoe_sse/&quot;&gt;here&lt;/a&gt; or LinkedIn &lt;a href=&quot;https://www.linkedin.com/company/society-of-software-engineers-sse/&quot;&gt;here&lt;/a&gt;! Join our Slack  &lt;a href=&quot;https://msoe-sse.slack.com/&quot;&gt;here&lt;/a&gt;, Discord  &lt;a href=&quot;https://discord.gg/KxuYazNmuQ&quot;&gt;here&lt;/a&gt;, and MS-Teams team  &lt;a href=&quot;https://teams.microsoft.com/l/team/19%3a038fecd33eb040aabd4821df0fabf907%40thread.tacv2/conversations?groupId=841726d7-4db7-4143-8526-c837d6998beb&amp;amp;tenantId=4046ceac-fdd3-46c9-ac80-b7c4a49bab70&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Nov 2022 00:00:00 -0600</pubDate>
+        <link>https://msoe-sse.github.io/posts/winter-welcome</link>
+        <guid isPermaLink="true">https://msoe-sse.github.io/posts/winter-welcome</guid>
+        
+        <category>announcement</category>
+        
+        
+      </item>
     
       <item>
         <title>Welcome Back 2021/2022!</title>
@@ -340,41 +373,6 @@ Well, maybe not “Welcome.” Maybe we mean “Good luck,” because school her
         <pubDate>Fri, 18 Jan 2019 00:00:00 -0600</pubDate>
         <link>https://msoe-sse.github.io/posts/eboard-positions-available</link>
         <guid isPermaLink="true">https://msoe-sse.github.io/posts/eboard-positions-available</guid>
-        
-        <category>announcement</category>
-        
-        <category>info</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Welcome to the New SSE Website</title>
-        <description>&lt;p class=&quot;lead&quot;&gt;I’m glad you’re here! We have some amazing stuff going on!&lt;/p&gt;
-&lt;p&gt;&amp;lt;!–-break-–&amp;gt;
-Originally, the offical SSE website was going to be created using &lt;a href=&quot;https://angular.io/&quot;&gt;Angular&lt;/a&gt;. As time went on, it was clear that the open source blogging platform &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; might be a better choice for SSE: Jekyll is eaiser for members to learn, has a faster setup time and is run freely through github.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other terms, Jekyll is a blogging platform that can be levereged to accomplish many different site goals - and it is open source! This means that SSE can use the platform to build and engaging, informative, and custom website that can be easily updated by the students of SSE.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-in-it-for-me&quot;&gt;What is in it for me?&lt;/h1&gt;
-
-&lt;p&gt;As an SSE member, this website will be your hub for all things SSE. From this site you will soon be able to see calendar events, posts on current events, pictures of past ones and reference our official guidelines–the SSE constitution.&lt;/p&gt;
-
-&lt;h1 id=&quot;can-i-help&quot;&gt;Can I help?&lt;/h1&gt;
-
-&lt;p&gt;Of course! The other purpose of this website is to allow students to grow and learn in their programming skills. While some knowledge of &lt;a href=&quot;https://www.w3.org/html/&quot;&gt;HTML&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;, and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot;&gt;JavaScript&lt;/a&gt; can come in handy, no prior knowledge is required - we would love to teach you! All SSE website source code and content is available on our &lt;a href=&quot;https://github.com/msoe-sse/&quot;&gt;Github&lt;/a&gt; repository, and our meetings are currently held at 6PM in the SDL on Monday nights.&lt;/p&gt;
-
-&lt;p&gt;Photo Credit: &lt;a href=&quot;https://unsplash.com/@finnhackshaw&quot;&gt;Finn Hackshaw&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 26 Nov 2018 00:00:00 -0600</pubDate>
-        <link>https://msoe-sse.github.io/posts/welcome-to-the-new-sse-website</link>
-        <guid isPermaLink="true">https://msoe-sse.github.io/posts/welcome-to-the-new-sse-website</guid>
         
         <category>announcement</category>
         
