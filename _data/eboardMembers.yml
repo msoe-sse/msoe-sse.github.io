@@ -1,69 +1,60 @@
 - position: President
-  name: Teresa Toohill
-  bio: >-
-    Hi there! My name is Teresa Toohill and I am the President for SSE. I grew up right here in the Milwaukee area. Because of that, I feel in love with downtown Milwaukee and MSOE. Currently I am a Senior Software Engineering student with an interest in web development, finance, database systems, full stack development, and animation. In my free time I enjoy watching YouTube, Netflix, baking, reading, cooking, and biking. I also dedicate a lot of my time to my sorority, Alpha Omega Epsilon, which works towards diversity in STEM. Feel free to stop me for a chat if you ever want to-- I promise, I don't bite! 
-  contact:
-    fullname: Teresa Toohill
-    email: toohillt@msoe.edu
-    linkedin: linkedin.com/in/teresatoohill/
-
-- position: Vice President
-  name: Abigail Draper
-  bio: >-
-    Hey! My name is Abigail Draper, and I'm a Computer Science major. When I happen to have free time, I love playing video games and talking about my cat. I'm looking forward to helping SSE grow! Feel free to reach out to me with any suggestions!
-  contact: 
-    fullname: Abigail Draper
-    email: drapera@msoe.edu
-    phone: (815) 303-8198
-    linkedin: linkedin.com/in/abigail-draper-074a44203/
-
-- position: Communications Coordinator
-  name: Malcolm Johnson
-  bio: >-
-    G'Day, I'm Malcolm Johnson; I'm the Communications Coordinator for SSE. I'm a 4th-year student pursuing Software Engineering. I'm a big Java nerd, so I love to tutor students in and outside of school in their Java classes. I also love to dance, sing and show people respect by holding the door open for them around campus.
-  contact:
-    fullname: Malcolm Johnson
-    email: johnsonmr@msoe.edu
-    phone: (262) 457-9664
-    linkedin: linkedin.com/in/m-johnson-sdev
-
-
-- position: Events Coordinator
   name: John Paul Bunn
   bio: >-
-    Hello! I'm John Paul, I'm a CE+CS major, and I'll be a SWE intern with Google over the Summer. I'm the Event Coordinator for SSE, as well as the President for the Google Developer Student Clubs at MSOE! I love working on Software and Embedded projects, and I'm currently working on a recommender system for Foley and Lardner's legal matters and modding for the Feed The Beast team. I'm a tabletop RPG fanatic, young writer, gamer, tech enthusiast, and career mentor! Feel free to reach out to me if you have any questions, want recommendations, or whatever.
+    Hello! I’m John Paul, I’m a CE+CS major, and I’ll be a SWE intern with Google over the Summer. I’m the Event Coordinator for SSE, as well as the President for the Google Developer Student Clubs at MSOE! I love working on Software and Embedded projects, and I’m currently working on a recommender system for Foley and Lardner’s legal matters and modding for the Feed The Beast team. I’m a tabletop RPG fanatic, young writer, gamer, tech enthusiast, and career mentor! Feel free to reach out to me if you have any questions, want recommendations, or whatever. 
   contact:
     fullname: John Paul Bunn
-    email: bunnj@msoe.edu
-    phone: (715) 303-9118
-    linkedin: linkedin.com/in/john-paul-bunn-07b0a6196/
+    email: BunnJ@msoe.edu
 
-
-- position: Programming Competition Team Capt.
-  name: Samuel Keyser
+- position: Vice President
+  name: Kalki Sarangan
   bio: >-
-    Hello! I'm Sam Keyser. I'm a 2nd year Computer Science major who is currently chair of the Competitive Programming club, and a member of the CinCity competitive programming team. I enjoy solving problems and really delving into the theory of how we can make computers do what we want, and do it well. Outside of SSE I enjoy reading science fiction, solving comprog problems, and going for long walks on the beach.
+    Hello, I'm Kalki a junior standing computer science student. I work on campus at IT, I'm a part of 6 clubs currently, and I love to program and hang out with my friends during my free time.
   contact:
-    fullname: Samuel Keyser
+    fullname: Kalki Sarangan
+    email: surangank@msoe.edu
+
+- position: Communication Coordinator
+  name: Adrianne Schellinger
+  bio: >-
+    I'm Adrianne Schellinger (She/Her/Hers). I am a Software Engineer with a current interest in Game Development, and Security. When I'm not coding, I'm grinding out Smash Ultimate, painting, or taking a break outside.
+  contact:
+    fullname: Adrianne Schellinger
+
+- position: Events Coordinator 
+  name: Nathan Berglund
+  bio: >-
+    Hi! I enjoy reading, gaming, (very occasionally nowadays) watching anime/TV. Preferred languages are typically higher-level ones. I am also currently on the executive boards of MAGE and Fencing.
+  contact:
+    fullname: Nathan Berglund
+    email: berglundn@msoe.edu
+    linkedin: https://www.linkedin.com/in/nathanjberglund/
+
+- position: Programming Competition Team Capt. 
+  name: Sam Keyser
+  bio: >-
+    Hi! My name is Sam Keyser and I'm a Computer Science major graduating in 2024. I'm a huge programming nerd and I love learning about data structures, algorithms, and obscure programming languages. I also really enjoy low-level programming. In my free time I watch a lot of anime and read manga & web novels. 
+  contact:
+    fullname: Sam Keyser
     email: keysers@msoe.edu
+    linkedin: https://www.linkedin.com/in/samuel-keyser/
 
 - position: Webmaster
-  name: Jonathan Paulick
+  name: David Litton
   bio: >-
-    Hi all, I'm Jonathan Paulick, a senior Computer Science student. Currently, I am the Webmaster for SSE. During my free time, I enjoy playing music, reading, and spending time with friends. Are you bored, lonely, confused, or offering an internship? Feel free to contact me. 
+    Hello! My name is David Litton, the current web Master for at least the next eboard term. I am studying software engineering here at msoe. Outside of my studies i race cross country mountain biking, snowboard, play too much stardew valley, and build/mess around with computer. You may also see me around campus working at EECS tech support.
   contact:
-    fullname: Jonathan Paulick
-    email: paulickj@msoe.edu
-    phone: (414) 916-2998
-    linkedin: linkedin.com/in/jonathan-paulick/
+    fullname: David Litton
+    email: littond@msoe.edu
+    linkedin: https://www.linkedin.com/in/david-litton/
+    phone: 4144052975
 
-- position: Game Dev Club Master
-  name: Asher Ryan Sprigler
+- position: Embedded Systems Chair
+  name: Matt Korfhage
   bio: >-
-    Hi, I make games, run clubs, and study Computer Engineering (apparently).
+    I am passionate about aviation, and am working towards my Pilot's License! I am also a Triangle Fraternity Brother.
   contact:
-    fullname: Asher Ryan Sprigler
-    email: spriglera@msoe.edu
-    phone: (630) 777-4661
-    linkedin: linkedin.com/in/asher-sprigler
-
+    fullname: Matt Korfhage
+    email: korfhagem@msoe.edu
+    linkedin: https://www.linkedin.com/in/matthew-korfhage-39b25b243
+    phone: 4147313658
