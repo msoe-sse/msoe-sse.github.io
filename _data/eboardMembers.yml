@@ -1,10 +1,11 @@
 - position: President
   name: John Paul Bunn
   bio: >-
-    Hello! I’m John Paul, I’m a CE+CS major, and I’ll be a SWE intern with Google over the Summer. I’m the Event Coordinator for SSE, as well as the President for the Google Developer Student Clubs at MSOE! I love working on Software and Embedded projects, and I’m currently working on a recommender system for Foley and Lardner’s legal matters and modding for the Feed The Beast team. I’m a tabletop RPG fanatic, young writer, gamer, tech enthusiast, and career mentor! Feel free to reach out to me if you have any questions, want recommendations, or whatever. 
+    Hello! I"m JP, I'm a CECS major and currently a Data Science & Software intern with Chemdirect. As the president of SSE, it is my responsibility to ensure all students benefit from all aspects of the club, as well as enjoying themselves and preparing for a fruitful future. I love working on Software and Embedded projects, tabletop games, writing, and career guidance. Feel free to reach out to me with any questions, want recommendations, or more!
   contact:
     fullname: John Paul Bunn
     email: BunnJ@msoe.edu
+    linkedin: https://www.linkedin.com/in/jpbunn/
 
 - position: Vice President
   name: Kalki Sarangan
@@ -19,12 +20,11 @@
   bio: >-
     I'm Adrianne Schellinger (She/Her/Hers). I am a Software Engineer with a current interest in Game Development, and Security. When I'm not coding, I'm grinding out Smash Ultimate, painting, or taking a break outside.
   contact:
-    fullname: Adrianne Schellinger
 
 - position: Events Coordinator 
   name: Nathan Berglund
   bio: >-
-    Hi! I enjoy reading, gaming, (very occasionally nowadays) watching anime/TV. Preferred languages are typically higher-level ones. I am also currently on the executive boards of MAGE and Fencing.
+    Hi! I enjoy reading, gaming, and (very occasionally nowadays) watching anime/TV. Preferred languages are typically higher-level ones. I am also currently on the executive boards of MAGE and Fencing.
   contact:
     fullname: Nathan Berglund
     email: berglundn@msoe.edu
@@ -46,8 +46,7 @@
   contact:
     fullname: David Litton
     email: littond@msoe.edu
-    linkedin: https://www.linkedin.com/in/david-litton/
-    phone: 4144052975
+    linkedin: https://www.linkedin.com/in/david-litton/S
 
 - position: Embedded Systems Chair
   name: Matt Korfhage
