@@ -5,7 +5,7 @@
   contact:
     fullname: John Paul Bunn
     email: BunnJ@msoe.edu
-    linkedin: https://www.linkedin.com/in/jpbunn/
+    linkedin: www.linkedin.com/in/jpbunn/
 
 - position: Vice President
   name: Kalki Sarangan
@@ -14,6 +14,7 @@
   contact:
     fullname: Kalki Sarangan
     email: surangank@msoe.edu
+    linkedin: www.linkedin.com/in/kalki-sarangan-b56623194/
 
 - position: Communication Coordinator
   name: Adrianne Schellinger
@@ -28,7 +29,7 @@
   contact:
     fullname: Nathan Berglund
     email: berglundn@msoe.edu
-    linkedin: https://www.linkedin.com/in/nathanjberglund/
+    linkedin: www.linkedin.com/in/nathanjberglund/
 
 - position: Programming Competition Team Capt. 
   name: Sam Keyser
@@ -37,16 +38,16 @@
   contact:
     fullname: Sam Keyser
     email: keysers@msoe.edu
-    linkedin: https://www.linkedin.com/in/samuel-keyser/
+    linkedin: www.linkedin.com/in/samuel-keyser/
 
 - position: Webmaster
   name: David Litton
   bio: >-
-    Hello! My name is David Litton, the current web Master for at least the next eboard term. I am studying software engineering here at msoe. Outside of my studies i race cross country mountain biking, snowboard, play too much stardew valley, and build/mess around with computer. You may also see me around campus working at EECS tech support.
+    Hello! My name is David Litton, the current webmaster for at least the next eboard term. I am studying software engineering here at msoe. Outside of my studies I race cross country mountain biking, snowboard, play too much stardew valley, and build/mess around with computer. You may also see me around campus working at EECS tech support.
   contact:
     fullname: David Litton
     email: littond@msoe.edu
-    linkedin: https://www.linkedin.com/in/david-litton/
+    linkedin: www.linkedin.com/in/david-litton/
 
 - position: Embedded Systems Chair
   name: Matt Korfhage
@@ -55,5 +56,5 @@
   contact:
     fullname: Matt Korfhage
     email: korfhagem@msoe.edu
-    linkedin: https://www.linkedin.com/in/matthew-korfhage-39b25b243
+    linkedin: www.linkedin.com/in/matthew-korfhage-39b25b243
     phone: 4147313658
