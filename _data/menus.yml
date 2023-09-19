@@ -36,6 +36,8 @@
       link: /subclubs/website
     - name: Competitive Programming
       link: /subclubs/competitiveprogramming
+    - name: Embedded
+      link: /subclubs/embedded
 
 - name: Sponsors
   link: /sponsors
