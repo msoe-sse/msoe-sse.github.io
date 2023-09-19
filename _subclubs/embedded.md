@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embedded
+title: Embedded Systems Club
 permaLink: /subclubs/embedded
 repo: true
 ---
@@ -16,7 +16,8 @@ Joining ESC can prepare students wanting to work in the physical software field 
 
 Yes! All the time! Most of the work in ESC is meant to be completed in collaboration with other student groups who struggle in the field of research and development of physical systems. ESC encourages all orgs to reach out for any ideas or assistance needed in simplifying their custom engineering projects.
 
-## Contact Info
-
-- Teams / Email: korfhagem@msoe.edu
-- Github: matt-korfhage
+## Who can I contact if I am interested or want to know more?
+If you are interested or have any questions, feel free to reach out to Matt Korfhage, or join the [# embedded-systems](https://discord.com/invite/qr6Mm6d47N) channel in the SSE Discord. He can be reached on
+- Teams (korfhagem@msoe.edu)
+- [Email](mailto:korfhagem@msoe.edu)
+- [Github](https://github.com/matt-korfhage)
