@@ -19,7 +19,7 @@ If you're looking to excel in this, you can strive to be in or replace MSOE's cu
 However, if you're looking for something more laid back, many people choose to just go to the weekly meetings to pick up new skills or learn about problem solving. There are also many lower profile competitions through the year that you can go to without any pressure, just trying to solve some problems in a fun manner.
 
 ## Who can I contact if I am interested or want to know more?
-If you are interested or have any questions, feel free to reach out to Sam Keyser, or join the [# compprogteam](https://discord.gg/qr6Mm6d47N) channel in the SSE Discord. He can be reached on
+If you are interested or have any questions, feel free to reach out to Sam Keyser, or join the [# competitive-programming](https://discord.gg/qr6Mm6d47N) channel in the SSE Discord. He can be reached on
 - Teams (keysers@msoe.edu)
 - SSE Slack (@Sam K)
 - [Email](mailto:keysers@msoe.edu)
