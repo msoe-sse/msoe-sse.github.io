@@ -1,60 +1,55 @@
 - position: President
-  name: John Paul Bunn
+  name: Matthew Schulz
   bio: >-
-    Hello! I"m JP, I'm a CECS major and currently a Data Science & Software intern with Chemdirect. As the president of SSE, it is my responsibility to ensure all students benefit from all aspects of the club, as well as enjoying themselves and preparing for a fruitful future. I love working on Software and Embedded projects, tabletop games, writing, and career guidance. Feel free to reach out to me with any questions, want recommendations, or more!
+    
   contact:
-    fullname: John Paul Bunn
-    email: BunnJ@msoe.edu
-    linkedin: www.linkedin.com/in/jpbunn/
+    fullname: 
+    email: 
+    linkedin:
+    phone: 
 
 - position: Vice President
-  name: Kalki Sarangan
+  name: Kiersten Prahl
   bio: >-
-    Hello, I'm Kalki a junior standing computer science student. I work on campus at IT, I'm a part of 6 clubs currently, and I love to program and hang out with my friends during my free time.
+    I am a SE major at MSOE currently working at Miller Electric as a Software Engineering Intern. I am also the FY26 President of SWE and hope to use my leadership in both orgs to help with professional development opportunities and building community in SSE. When I'm not at school or work, I enjoy crocheting, embroidery, and botany.
   contact:
-    fullname: Kalki Sarangan
-    email: sarangank@msoe.edu
-    linkedin: www.linkedin.com/in/kalki-sarangan-b56623194/
+    fullname:  Kiersten Prahl
+    email: prahlk@msoe.edu
+    linkedin: https://www.linkedin.com/in/kiersten-prahl/ 
 
-- position: Communication Coordinator
-  name: Adrianne Schellinger
+- position: Events Coordinator
+  name: Cass
   bio: >-
-    I'm Adrianne Schellinger (She/Her/Hers). I am a Software Engineer with a current interest in Game Development, and Security. When I'm not coding, I'm grinding out Smash Ultimate, painting, or taking a break outside.
+    Hi, my name is Cass and I am a sophomore Software Engineering major with a minor in User Experience Design! I am the event coordinator for SSE and the Fundraising Coordinator for SWE. My favorite hobbies would be to hangout with my cat (Binx) and my girlfriend (Nova) as well as coding (building games while learning new languages), running, working out, and playing video games!
   contact:
+    fullname: Cassidy Earleywine
+    email: earleywinec@msoe.edu
+    linkedin: https://www.linkedin.com/in/cass-earlse/
 
-- position: Events Coordinator 
-  name: Nathan Berglund
+- position: Administrative Coordinator
+  name: Madison Betz
   bio: >-
-    Hi! I enjoy reading, gaming, and (very occasionally nowadays) watching anime/TV. Preferred languages are typically higher-level ones. I am also currently on the executive boards of MAGE and Fencing.
+    Hi! My name is Madison Betz, and I’m a sophomore majoring in Software Engineering. I am active member of SSE, InterVarsity, and SWE. Beyond academics and campus organizations, I love spending time outdoors, staying active, reading, and listening to music. I am excited to take on a leadership role within SSE as the Administrative Coordinator to help it grow and create more opportunities for students at MSOE.
   contact:
-    fullname: Nathan Berglund
-    email: berglundn@msoe.edu
-    linkedin: www.linkedin.com/in/nathanjberglund/
+    fullname: Madison Betz
+    email: betzm@msoe.edu
+    linkedin: www.linkedin.com/in/madison-betz
+    phone: 920-572-6006
 
-- position: Programming Competition Team Capt. 
-  name: Sam Keyser
+- position: Communication Coordinator 
+  name: Sydney Madden
   bio: >-
-    Hi! My name is Sam Keyser and I'm a Computer Science major graduating in 2024. I'm a huge programming nerd and I love learning about data structures, algorithms, and obscure programming languages. I also really enjoy low-level programming. In my free time I watch a lot of anime and read manga & web novels. 
+    I am a software engineering student at the Milwaukee School of Engineering (MSOE) and I currently serve as the Communications Coordinator for the Society of Software Engineers. Passionate about technology, collaboration, and innovation, I focus on fostering clear communication and engagement within the software engineering community at MSOE.
   contact:
-    fullname: Sam Keyser
-    email: keysers@msoe.edu
-    linkedin: www.linkedin.com/in/samuel-keyser/
+    fullname: Sydney Madden
+    email: maddens@msoe.edu
+    linkedin: https://www.linkedin.com/in/sydneymadden/
 
 - position: Webmaster
   name: David Litton
   bio: >-
-    Hello! My name is David Litton, the current webmaster for at least the next eboard term. I am studying software engineering here at msoe. Outside of my studies I race cross country mountain biking, snowboard, play too much stardew valley, and build/mess around with computer. You may also see me around campus working at EECS tech support.
+    (╯°□°)╯︵ ┻━┻
   contact:
     fullname: David Litton
     email: littond@msoe.edu
-    linkedin: www.linkedin.com/in/david-litton/
-
-- position: Embedded Systems Chair
-  name: Matt Korfhage
-  bio: >-
-    I am passionate about aviation, and am working towards my Pilot's License! I am also a Triangle Fraternity Brother.
-  contact:
-    fullname: Matt Korfhage
-    email: korfhagem@msoe.edu
-    linkedin: www.linkedin.com/in/matthew-korfhage-39b25b243
-    phone: 4147313658
+    linkedin: https://www.linkedin.com/in/david-litton/
