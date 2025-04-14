@@ -1,12 +1,11 @@
 - position: President
   name: Matthew Schulz
   bio: >-
-    
+    Hey all, my name is Matthew Schulz and I'm an SE major here at MSOE. Outside of SSE, I am a member of the MSOE Honors Program and SWE. I currently work at Barnes and Noble and enjoy all things book related. My other hobbies include legos, frolicking, and coffee. Ask me about <em>the</em> Roscoe Raider Dating Simulator.
   contact:
-    fullname: 
-    email: 
-    linkedin:
-    phone: 
+    fullname: Matthew Schulz 
+    email: schulzma@msoe.edu
+    linkedin: https://www.linkedin.com/in/matthew-schulzse
 
 - position: Vice President
   name: Kiersten Prahl
@@ -48,7 +47,7 @@
 - position: Webmaster
   name: David Litton
   bio: >-
-    (╯°□°)╯︵ ┻━┻
+    Hello! My name is David Litton, a former and once again current webmaster for SSE. I am currently in my 4th year here at MSOE studying software engineering. Outside of my studies I currently intern at Artisan Partners working on AWS microservices. Outside of coding, I race cross-country mountain biking for Colectivo Coffee and snowboard in the off-season. I am also an avid fan of Stardew Valley and mechanical keyboards. 
   contact:
     fullname: David Litton
     email: littond@msoe.edu
